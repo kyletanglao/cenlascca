@@ -12,20 +12,11 @@ module.exports = {
   subHeading: 'Central Louisiana Region for Sports Car Club of America',
   // social
   socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
+
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.facebook.com/groups/cenlascca/',
     },
     {
       icon: 'fa-envelope-o',
@@ -33,6 +24,5 @@ module.exports = {
       url: 'mailto:anubhav.srivastava00@gmail.com',
     },
   ],
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+
 };

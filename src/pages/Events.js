@@ -37,7 +37,7 @@ const IndexPage = () => (
                   <li>Slowest two events will be dropped</li>
                 </ul>
                 <ul className="actions">
-                <li><span class="button disabled">Jan</span></li>
+                <li><span class="button fit disabled">Jan</span></li>
                 <li><span class="button disabled">Feb</span></li>
                 <li><span class="button disabled">Mar</span></li>
                 <li><span class="button disabled">Apr</span></li>
@@ -45,7 +45,7 @@ const IndexPage = () => (
                 <li><span class="button disabled">Sep</span></li>
                 <li><span class="button disabled">Oct</span></li>
                 <li><span class="button disabled">Nov</span></li>
-                <li><span class="button disabled">Dec</span></li>
+                <li><span class="button fit disabled">Dec</span></li>
               </ul>
               </div>
             </div>
