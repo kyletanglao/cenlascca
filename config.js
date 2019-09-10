@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'CENLA SCCA',
-  subHeading: 'compete with your car for as little as $30',
+  subHeading: 'Central Louisiana Region for Sports Car Club of America',
   // social
   socialLinks: [
     {

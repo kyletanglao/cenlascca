@@ -21,7 +21,13 @@ const IndexPage = () => (
         <div className="bannerText">
           <h2>{config.heading}</h2>
           <p>{config.subHeading}</p>
-          <a href="/#" class="button fit">Get started with autocross</a>
+					<ul className="actions">
+									<li><a href="/#" className="button primary">Get started with autocross</a></li>
+									<li><a href="/#" className="button">Live timing</a></li>
+                  <li><a href="/#" className="button">Results</a></li>
+                  <li><a href="/#" className="button">Events</a></li>
+								</ul>
+
         </div>
       </div>
     </section>
@@ -37,8 +43,8 @@ const IndexPage = () => (
             <p>
             “Solo®” is the brand name for SCCA® Autocrossing and on paper it seems very simple – use traffic cones to make a mini-roadcourse in a large parking lot or unused airport tarmac and see who can drive it the quickest without hitting any cones or going off course.
             </p>
-            <a href="/#" className="special">
-              Learn more
+            <a href="https://www.scca.com/pages/what-is-autocross" className="special">
+              SCCA Official Introduction
             </a>
           </div>
         </div>
@@ -71,13 +77,9 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">A motorsport has never been so affordable</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. 
             </p>
             <a href="/#" className="special">
               Learn more
@@ -88,7 +90,7 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Vita e phasellus</h2>
           <p>
             Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
             Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
