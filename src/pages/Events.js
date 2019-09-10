@@ -22,8 +22,8 @@ const IndexPage = () => (
               <ul className="actions">
                 <li><a href="http://msreg.com/september2019" className="button fit">Sep 22</a></li>
                 <li><a href="http://msreg.com/october2019" className="button fit">Oct 27</a></li>
-                <li><a href="" className="button fit">Nov 02</a></li>
-                <li><a href="" className="button fit">Dec 15</a></li>
+                <li><a href="_blank" className="button fit">Nov 02</a></li>
+                <li><a href="_blank" className="button fit">Dec 15</a></li>
               </ul>
             </div>
           </div>
