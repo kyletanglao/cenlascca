@@ -22,11 +22,11 @@ const IndexPage = () => (
           <h2>{config.heading}</h2>
           <p>{config.subHeading}</p>
 					<ul className="actions">
-									<li><a href="/#" className="button primary">Get started with autocross</a></li>
-									<li><a href="/#" className="button">Live timing</a></li>
-                  <li><a href="/#" className="button">Results</a></li>
-                  <li><a href="/#" className="button">Events</a></li>
-								</ul>
+            <li><a href="/#" className="button primary">Get started with autocross</a></li>
+            <li><a href="/#" className="button">Live timing</a></li>
+            <li><a href="/Results" className="button">Results</a></li>
+            <li><a href="/Events" className="button">Events</a></li>
+					</ul>
 
         </div>
       </div>

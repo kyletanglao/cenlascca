@@ -6,6 +6,7 @@ import pic5 from '../assets/images/pic05.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
+    
     <section id="wrapper">
       <header>
         <div className="inner">
@@ -13,42 +14,32 @@ const IndexPage = () => (
           <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
         </div>
       </header>
-
+      <section id="wrapper">
+        <section id="one" className="wrapper spotlight style1">
+          <div className="inner">
+            <div className="content">
+              <h2 className="major">2019 Fall Season</h2>
+              <ul className="actions">
+                <li><a href="http://msreg.com/september2019" className="button fit">Sep 22</a></li>
+                <li><a href="http://msreg.com/october2019" className="button fit">Oct 27</a></li>
+                <li><a href="" className="button fit">Nov 02</a></li>
+                <li><a href="" className="button fit">Dec 15</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+          <section id="two" className="wrapper alt spotlight style2">
+            <div className="inner">
+              <div className="content">
+                <h2 className="major">2020 Season</h2>
+                <p>This season will span the calendar year, excluding our typical summer break of June, July and August. Dates pending.</p>
+              </div>
+            </div>
+          </section>
+      </section>
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">Lorem ipsum dolor</h3>
-          <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo
-            donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
-          </p>
-
-          <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id
-            quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
-          </p>
-
-          <h3 className="major">Vitae phasellus</h3>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
-
+          <h2 className="major">Season Results Archive</h2>
           <section className="features">
             <article>
               <a href="/#" className="image">
@@ -80,6 +71,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+    
   </Layout>
 );
 
