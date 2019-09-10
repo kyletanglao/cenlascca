@@ -18,8 +18,11 @@ const IndexPage = () => (
         <div className="logo">
           <span className="icon fa-diamond"></span>
         </div>
-        <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <div className="bannerText">
+          <h2>{config.heading}</h2>
+          <p>{config.subHeading}</p>
+          <a href="/#" class="button fit">Get started with autocross</a>
+        </div>
       </div>
     </section>
 
@@ -30,13 +33,9 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Compete with your car in a safe environment</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+            “Solo®” is the brand name for SCCA® Autocrossing and on paper it seems very simple – use traffic cones to make a mini-roadcourse in a large parking lot or unused airport tarmac and see who can drive it the quickest without hitting any cones or going off course.
             </p>
             <a href="/#" className="special">
               Learn more
@@ -51,7 +50,7 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">Compete with your car</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
