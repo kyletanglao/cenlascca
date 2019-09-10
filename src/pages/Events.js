@@ -11,7 +11,6 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Events</h2>
-          <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
         </div>
       </header>
       <section id="wrapper">
@@ -32,7 +31,22 @@ const IndexPage = () => (
             <div className="inner">
               <div className="content">
                 <h2 className="major">2020 Season</h2>
-                <p>This season will span the calendar year, excluding our typical summer break of June, July and August. Dates pending.</p>
+                <h4>2020 Season Rules</h4>
+                <ul className="Alt">
+                  <li>Drivers must complete 5 out of 9 events to qualify for a trophy</li>
+                  <li>Slowest two events will be dropped</li>
+                </ul>
+                <ul className="actions">
+                <li><span class="button disabled">Jan</span></li>
+                <li><span class="button disabled">Feb</span></li>
+                <li><span class="button disabled">Mar</span></li>
+                <li><span class="button disabled">Apr</span></li>
+                <li><span class="button disabled">May</span></li>
+                <li><span class="button disabled">Sep</span></li>
+                <li><span class="button disabled">Oct</span></li>
+                <li><span class="button disabled">Nov</span></li>
+                <li><span class="button disabled">Dec</span></li>
+              </ul>
               </div>
             </div>
           </section>
@@ -45,7 +59,7 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">2018-2019 Season</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
@@ -58,7 +72,7 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic5} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">2018 Spring Season</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
@@ -67,6 +81,19 @@ const IndexPage = () => (
                 Learn more
               </a>
             </article>
+            <article>
+              <a href="/#" className="image">
+                <img src={pic5} alt="" />
+              </a>
+              <h3 className="major">2018 Fall Season</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
+                nulla dignissim dapibus ultrices.
+              </p>
+              <a href="/#" className="special">
+                Learn more
+              </a>
+            </article>            
           </section>
         </div>
       </div>

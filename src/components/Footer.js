@@ -22,6 +22,16 @@ export default function Footer() {
               <input type="email" name="email" id="email" />
             </div>
             <div className="field">
+              <label htmlFor="demo-category">Category</label>
+              <select name="demo-category" id="demo-category">
+                <option value="">-</option>
+                <option value="1">First Timer</option>
+                <option value="1">Event Critique</option>
+                <option value="1">Suggestions</option>
+                <option value="1">Comment</option>                    
+              </select>
+            </div>            
+          <div className="field">
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
