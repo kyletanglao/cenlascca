@@ -19,9 +19,9 @@ const IndexPage = () => (
           <p>{config.subHeading}</p>
 					<ul className="actions">
             <li><a href="/#" className="button primary">Get started with autocross</a></li>
-            <li><a href="/#" className="button">Live timing</a></li>
-            <li><a href="/Results" className="button">Results</a></li>
-            <li><a href="/Events" className="button">Events</a></li>
+            <li><a href="/#" className="button button-light">Live timing</a></li>
+            <li><a href="/Results" className="button button-light">Results</a></li>
+            <li><a href="/Events" className="button button-light">Events</a></li>
 					</ul>
 
         </div>
@@ -56,7 +56,7 @@ const IndexPage = () => (
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
+              urna. Mauris id hi arcu. Nunc vehicula id nulla dignissim
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
@@ -73,7 +73,7 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">A motorsport has never been so affordable</h2>
+            <h2 className="major">Motorsport has never been so affordable</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. 
             </p>

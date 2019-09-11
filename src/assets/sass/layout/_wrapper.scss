@@ -39,10 +39,11 @@
     }
 
     h2 {
-      border-bottom: solid 2px _palette(border);
+      border-bottom: solid 2px _palette(border-light);
       font-size: 2em;
       margin-bottom: _size(element-margin) * 0.4;
       padding-bottom: _size(element-margin) * 0.2;
+      color: _palette(fg-bold-light) !important;
     }
 
     p {
@@ -52,6 +53,7 @@
       letter-spacing: _font(kern-heading);
       line-height: 2;
       text-transform: uppercase;
+      color: _palette(fg-bold-light) !important;      
     }
   }
 
