@@ -52,16 +52,15 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Compete with your car</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id hi arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
+            <h2 className="major">Motorsport has never been so affordable</h2>
+            <ul class="alt">
+              <li>Member Event: $30</li>
+              <li>Member Event Double Runs: $60*</li>
+              <li>Non-member Event Price: $40</li>
+              <li>Penatly for On-Site Registration: $10</li>
+            </ul>
             <a href="/#" className="special">
-              Learn more
+              Find the next event
             </a>
           </div>
         </div>
