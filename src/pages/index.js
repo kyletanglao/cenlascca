@@ -18,7 +18,7 @@ const IndexPage = () => (
           <h2>{config.heading}</h2>
           <p>{config.subHeading}</p>
 					<ul className="actions">
-            <li><a href="/#" className="button primary">Get started with autocross</a></li>
+            <li><a href="/Getstarted" className="button primary">Get started with autocross</a></li>
             <li><a href="/#" className="button button-light">Live timing</a></li>
             <li><a href="/Results" className="button button-light">Results</a></li>
             <li><a href="/Events" className="button button-light">Events</a></li>

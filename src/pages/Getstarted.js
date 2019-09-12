@@ -5,56 +5,84 @@ import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 
 const IndexPage = () => (
-  <Layout fullMenu>
+  <Layout fullMenu>    
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Get Started</h2>
-          <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+          <h2>Get Started with autocross</h2>
+          <p>The competition begins before the course walk</p>
         </div>
       </header>
-
+      <section id="wrapper">
+        <section id="one" className="wrapper spotlight style1">
+          <div className="inner">
+            <div className="content">
+              <h2 className="major">Things to bring</h2>
+                <div class="grid">
+                  <div className="checkItem required">
+                    <div class="checkIcon"><i class="fas fa-id-badge"></i></div>
+                    <div class="checkText">Driver's License</div>
+                  </div>
+                  <div className="checkItem required">
+                    <div class="checkIcon"><i class="fa fa-id-badge"></i></div>
+                    <div class="checkText">Entry Fee Payment</div>
+                  </div>        
+                  <div className="checkItem required">
+                    <div class="checkIcon"><i class="fa fa-id-badge"></i></div>
+                    <div class="checkText">Closed Toe Shoes</div>
+                  </div>                     
+                  <div className="checkItem">
+                    <div class="checkIcon"><i class="fa fa-id-badge"></i></div>
+                    <div class="checkText">Helmet</div>
+                  </div>
+                  <div className="checkItem">
+                    <div class="checkIcon"><i class="fa fa-stopwatch"></i></div>
+                    <div class="checkText">Tire Gauge</div>
+                  </div>
+                  <div className="checkItem">
+                    <div class="checkIcon"><i class="fa fa-tape"></i></div>
+                    <div class="checkText">Numbers/Tape</div>
+                  </div>      
+                  <div className="checkItem">
+                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
+                    <div class="checkText">Sunscreen</div>
+                  </div>          
+                  <div className="checkItem">
+                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
+                    <div class="checkText">Lunch Plans</div>
+                  </div>        
+                  <div className="checkItem">
+                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
+                    <div class="checkText">Air Compressor</div>
+                  </div>                 
+                </div>                                            
+            </div>
+          </div>
+        </section>
+          <section id="two" className="wrapper alt spotlight style2">
+            <div className="inner">
+              <div className="content">
+                <h2 className="major">Preparing your car</h2>
+                  <ul class="alt">
+                    <li>
+                      <h4>Driver's License</h4>
+                      <p>Unless you’re entering one of the Karting classes, you will need a current driver's license to enter an SCCA Solo event. Bring it with you to show the people working registration you’re good to go.</p></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+              </div>
+            </div>
+          </section>
+      </section>
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">Lorem ipsum dolor</h3>
-          <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo
-            donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
-          </p>
-
-          <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id
-            quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
-          </p>
-
-          <h3 className="major">Vitae phasellus</h3>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
-
+          <h2 className="major">Season Results Archive</h2>
           <section className="features">
             <article>
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">2018-2019 Season</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
@@ -67,7 +95,7 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic5} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">2018 Spring Series</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
@@ -76,10 +104,24 @@ const IndexPage = () => (
                 Learn more
               </a>
             </article>
+            <article>
+              <a href="/#" className="image">
+                <img src={pic5} alt="" />
+              </a>
+              <h3 className="major">2017 Rotolos Fall Series</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
+                nulla dignissim dapibus ultrices.
+              </p>
+              <a href="/#" className="special">
+                Learn more
+              </a>
+            </article>            
           </section>
         </div>
       </div>
     </section>
+    
   </Layout>
 );
 

@@ -25,6 +25,11 @@
   }
 }
 
+.grid{
+  @include html-grid;
+  justify-content: center;
+}
+
 #wrapper {
   > header {
     @include padding(

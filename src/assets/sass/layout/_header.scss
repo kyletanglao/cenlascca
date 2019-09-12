@@ -63,6 +63,7 @@
 					box-shadow: inset 0 0 0 2px _palette(border-light);
 					padding: 0 1.35em;
 					color: _palette(fg-bold-light);
+					background-color: _palette(bg);
 					&:before {
 						content: '\f0c9';
 					}

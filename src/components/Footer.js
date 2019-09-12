@@ -1,5 +1,5 @@
 import React from 'react';
-import config from '../../config';
+// import config from '../../config';
 import SCCALogo from '../assets/img/SCCAlogotype_Negative.png';
 
 
@@ -48,7 +48,7 @@ export default function Footer() {
 
 
         <ul className="copyright">
-          <li><a href="https://scca.org"><img class="footerLogo" src={SCCALogo}></img></a></li>
+          <li><a href="https://scca.org"><img class="footerLogo" src={SCCALogo} alt=""></img></a></li>
           <li>&copy; CENLA SCCA. All rights reserved.</li>
         </ul>
       </div>

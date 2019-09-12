@@ -1,0 +1,40 @@
+///
+/// Solid State by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Contact */
+
+div.checkItem{
+    display: flex;
+    box-shadow: #c9c9c978 5px 5px 10px;
+    border: 1px solid #c9c9c9;    
+    padding: 10px;    
+    border-radius: 5px;    
+    align-items: center;    
+    min-width: 250px;
+    background: #f1f1f1;
+    margin: 5px;
+    &.required .checkIcon{
+        background: #FF5370 !important;
+    }
+}
+
+div.checkText{
+    font-weight: bold;
+    color: dimgray;
+}
+
+div.checkIcon{
+    color: white;
+    background: #a7a7ea;    
+    width: 50px;    
+    height: 50px;    
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    
+    font-size: 30px;    
+    border-radius: 5px;    
+    margin-right: 10px;    
+}
