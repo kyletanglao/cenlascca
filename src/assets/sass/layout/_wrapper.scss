@@ -30,6 +30,11 @@
   justify-content: center;
 }
 
+.iteneraryGrid{
+  justify-content: flex-start !important;
+  margin-left: 14px;  
+}
+
 #wrapper {
   > header {
     @include padding(

@@ -72,12 +72,12 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Motorsport has never been so affordable</h2>
+            <h2 className="major">Find your glory</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. 
+            SCCA autocross events can be found all over the country. Many of our drivers go beyond the local level and challenge other regions or even compete at the national SCCA events.
             </p>
             <a href="/#" className="special">
-              Learn more
+              See the calendar
             </a>
           </div>
         </div>
