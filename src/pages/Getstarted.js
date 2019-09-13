@@ -2,6 +2,9 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import cones from '../assets/img/cones.png';
+import dnf from '../assets/img/DNF.png';
+import signals from '../assets/img/signals.png';
+
 
 const IndexPage = () => (
   <Layout fullMenu>    
@@ -141,13 +144,18 @@ const IndexPage = () => (
               <div className="content">
                 <h2 className="major">Driving the course</h2>
                 <div class="table-wrapper">
-                  <h4>Pointer Cones</h4>      
-                  <p>The cones that are lying down are directional cones or, "pointers." They act as arrows to tell you which side of the cone to go on. If you happen to go on the wrong side of these pointer cones the penalty applied is considered a "Did Not Finish" (DNF).</p>            
-                  <h4>Hitting a cone</h4>
-                  <p>Each cone position is marked with a chalk outline known as a "box.". If your car causes a cone to fall over or get knocked completely out of its box, it’s a 2-second penalty. If a driver runs over or bumps a cone and it stands back up or doesn't fall over no penalty is applied as long as some part of the cone is still touching the box.</p>
+                  <h3>Pointer Cones</h3>      
+                  <p>The cones that are lying down are directional cones or, "pointers." They act as arrows to tell you which side of the cone to go on. If you happen to go on the wrong side of these pointer cones the penalty applied is considered a "Did Not Finish" (DNF). Your time will still display but does not count for the competition.</p>            
+                  <span class="image fit kindaBig center">
+                    <img src={dnf} alt="" class=""></img>
+                  </span>
+                  <h3>Hitting a cone</h3>
+                  <p>Each cone position is marked with a chalk outline known as a "box.". If your car causes a cone to fall over or get knocked completely out of its box, it’s a 2-second penalty. If a driver runs over or bumps a cone and it stands back up or doesn't fall over no penalty is applied as long as some part of the cone is still touching the box. Hitting pointer cones do not count as penalties.</p>
                   <span class="image fit kindaBig">
                     <img src={cones} alt="" class=""></img>
                   </span>
+                  <h3>Spinning Out or Getting Lost</h3>  
+                    <p>If you spin out or get lost on course, do not forget to drive through the finish timers. This prevents timing errors and ensures the event continues smoothly.</p>
                   </div>             
               </div>
             </div>
@@ -157,25 +165,75 @@ const IndexPage = () => (
               <div className="content">
                 <h2 className="major left">Worker stations</h2>
                 <div class="table-wrapper">
-                  <table class="left">
+                  <table class="left lessBottom">
                     <thead>
                       <tr><th>Role</th><th>Description</th><th>Radio</th><th># Needed</th></tr>
                     </thead>
                     <tbody>
-                      <tr><td>Corner Captain</td><td>Relay penalty information to timing. Controls red flag and oversees corner workers.</td><td>Yes</td><td>4-5</td></tr>
-                      <tr><td>Corner Worker*</td><td>Runs to reset cones and report penalties to captain.</td><td>No</td><td>12-15</td></tr>
-                      <tr><td>Start</td><td> Lines up cars at starting line for release.</td><td>Yes</td><td>1</td></tr>
-                      <tr><td>Grid</td><td>Sends cars to start.</td><td>Yes</td><td>1-2</td></tr>
-                      <tr><td>Safety Steward</td><td>Oversees safety of event.</td><td>Optional</td><td>1</td></tr>
-                      <tr><td>Timing</td><td>Oversees timing software and assigns penalties.</td><td>Yes</td><td>1-2</td></tr> 
-                      <tr><td>Announcer</td><td>Announces times over loudspeaker.</td><td>No</td><td>1</td></tr>                                           
+                      <tr><td><b>Corner Captain</b></td><td>Relay penalty information to timing. Controls red flag and oversees corner workers.</td><td>Yes</td><td>4-5</td></tr>
+                      <tr><td><b>Corner Worker*</b></td><td>Runs to reset cones and report penalties to captain.</td><td>No</td><td>12-15</td></tr>
+                      <tr><td><b>Start</b></td><td> Lines up cars at starting line for release.</td><td>Yes</td><td>1</td></tr>
+                      <tr><td><b>Grid</b></td><td>Sends cars to start.</td><td>Yes</td><td>1-2</td></tr>
+                      <tr><td><b>Safety Steward</b></td><td>Oversees safety of event.</td><td>Optional</td><td>1</td></tr>
+                      <tr><td><b>Timing</b></td><td>Oversees timing software and assigns penalties.</td><td>Yes</td><td>1-2</td></tr> 
+                      <tr><td><b>Announcer</b></td><td>Announces times over loudspeaker.</td><td>No</td><td>1</td></tr>                                           
+                      <tr><td><b>Photographer</b></td><td>Takes photos. Requires a spotter if shooting on course.</td><td>No</td><td>1</td></tr>                                           
+                      <tr><td><b>Driving Coach</b></td><td>Fastest driver from previous event rides with drivers requesting coaching</td><td>No</td><td>1</td></tr>                    
                       </tbody>
                   </table>
                   *Novices will be assigned as corner workers for their first few events
                   </div>             
               </div>
             </div>
-          </section>             
+          </section>           
+          <section id="six" className="wrapper spotlight alt style6">
+            <div className="inner">
+              <div className="content">
+                <h2 className="major left">Working the course</h2>
+                <div class="table-wrapper">
+                <span class="image fit kindaBig">
+                    <img src={signals} alt="" class=""></img>
+                  </span>                      
+                  <h3>Corner Worker</h3>              
+                  <ul>
+                    <li>Make sure your back is not facing oncoming cars</li>
+                    <li>When resetting a cone, always be aware of oncoming traffic</li>
+                    <li>Make sure to take turns running after cones</li>
+                    <li>If a cone has moved but is safe, make the "safe" gesture from baseball</li>
+                    <li>If a car has DNF'ed, make an X with your arms to communicate to your captain</li>
+                    <li>You must be standing while course is hot</li>
+                    <li>Hitting pointer cones do not count as penalties</li>
+                  </ul>
+                  <h3>Corner Captain</h3>
+                  <ul>
+                    <li>Before course is hot, inform workers what areas your station is covering</li>
+                    <li>Only call in penalties for your section</li>
+                    <li>Making a radio call should go like: "[Car Number], [Car Class], plus X cone(s)" or "[Car Number], [Car Class], DNF"</li>
+                    <li>Spread workers out to cover common penalty occurences</li>
+                    <li>Always be aware of radio calls, make sure volume is at maxed out</li>
+                    <li>Do not roll up the red flag</li>
+                    <li>Offer water to workers</li>
+                    <li>If you see another captain waving a red flag, you need to wave yours</li>
+                  </ul> 
+                  <h3>Start</h3>
+                  <ul>
+                    <li>If there will be two cars on course, agree on a release point for the second car with a safety steward</li>                    
+                    <li>Be aware of radio calls, Start will often be called to 'hold start' or cease the release of cars</li>
+                    <li>Make sure timing is aware of what car number/classes are lined up</li>
+                    <li>Make sure cars are lined up consistently to ensure fair play</li>
+                    <li>Confirm that a driver is ready before release</li>
+                  </ul> 
+                  <h3>Grid</h3>
+                  <ul>
+                    <li>Make sure double driver cars are lined up towards the front of the grid</li>
+                    <li>If double drivers are present, pick a halfway point in the grid to send out second drivers</li>
+                    <li>Ensure that there are at least 3 cars at start</li>
+                    <li>Make sure upcoming drivers are in their cars</li>
+                  </ul>                                                      
+                </div>             
+              </div>
+            </div>
+          </section>              
       </section>
       
     </section>

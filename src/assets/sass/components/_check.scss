@@ -6,7 +6,15 @@
 
 /* Contact */
 
-.wrapper.spotlight .image.kindaBig{
+.wrapper.spotlight span.image.kindaBig{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.kindaBig > img{
     width: 75% !important;
 }
 
@@ -54,6 +62,10 @@ div.checkIcon{
     div.checkItem{
         width: 250px;
     }
+    div.checkText{
+        font-size: 14px;
+        line-height: 14px;
+    }    
 
 }
 @include breakpoint('<=medium') {
