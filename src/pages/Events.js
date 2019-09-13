@@ -51,10 +51,10 @@ const IndexPage = () => (
             </div>
           </section>
       </section>
-      <div className="wrapper">
-        <div className="inner">
+          <section id="three" className="wrapper spotlight style3">
+          <div className="inner">
           <h2 className="major">Season Results Archive</h2>
-          <section className="features">
+
             <article>
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
@@ -93,10 +93,9 @@ const IndexPage = () => (
               <a href="/#" className="special">
                 Learn more
               </a>
-            </article>            
+            </article>     
+            </div>       
           </section>
-        </div>
-      </div>
     </section>
     
   </Layout>

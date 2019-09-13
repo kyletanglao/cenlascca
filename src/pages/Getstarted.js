@@ -12,7 +12,6 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Get Started with autocross</h2>
-          <p>The competition begins before the course walk</p>
           <ul className="actions grid navGrid">
             <li><a href="#one" className="button button-light">What to bring</a></li>
             <li><a href="#two" className="button button-light">Preparing your car</a></li>
@@ -25,10 +24,17 @@ const IndexPage = () => (
         </div>
       </header>
       <section id="wrapper">
-        <section id="one" className="wrapper spotlight style1">
+        <section className="wrapper spotlight style1">
           <div className="inner">
             <div className="content">
-              <h2 className="major left">What to bring</h2>
+              <h2 className="major left">Introduction</h2>
+              <div class="textLeft">
+                <p>“Solo®” is the brand name for SCCA® Autocrossing and on paper it seems very simple – use traffic cones to make a mini-roadcourse in a large parking lot or unused airport tarmac and see who can drive it the quickest without hitting any cones or going off course.</p>
+                <p>Despite the generally low speeds attained during competition, it’s one of the fastest paced, rapid-fire forms of motorsports you can find, with barriers to entry so low that many people are able to compete and be competitive at it.</p>
+                <p>Competitors range from the casual participant who may use the same daily driver that they car-pool with to the hard-core driver who has a special car, special tires and uses lots of vacation days to squeak out every last fraction of a second. In between the extremes, there are levels and classes for different degrees of car modification. There are even classes for&nbsp;ladies and&nbsp;also a Junior Driver program for&nbsp;kids in age appropriate karts.</p>
+                <p>If you have never autocrossed before or don’t know the specific details, check out the <a href="https://www.scca.com/pages/i-want-to-autocross"><b>"I want to Autocross"</b></a> SCCA Official page. It will give you the basics of participating in an event. Don’t worry – it’s pretty easy and there are people to help along the way.</p>
+              </div>
+              <h2 className="major left" id="one" >What to bring</h2>
                 <div class="grid">
                   <div className="checkItem required">
                     <div class="checkIcon"><i class="fas fa-id-badge"></i></div>
@@ -143,7 +149,7 @@ const IndexPage = () => (
                   <li><span class="time">TBA</span> 1 hour lunch break</li>                  
                   <li><span class="time">TBA</span> Group A Drives | Group B Works</li>
                   <li><span class="time">TBA</span> Group B Drives | Group A Works</li>
-                  <li><span class="time">~3:00 PM</span> Results Posted</li>
+                  <li><span class="time">~3:30 PM</span> Results Posted</li>
                 </ul>
               </div>
             </div>
@@ -165,6 +171,9 @@ const IndexPage = () => (
                     <img src={cones} alt="" class=""></img>
                   </span>
                   <br></br><br></br>
+                  <h3>Red Flag</h3>
+                  <p>If you are driving and you see a red flag being waved (anywhere), quickly bring your car to a safe stop. When a course worker clears you, you may proceed to drive through the finish timers and return to grid. If the red flag was not your fault, your run will not count and you will get a rerun.</p>
+                                    
                   <h3>Spinning Out or Getting Lost</h3>  
                     <p>If you spin out or get lost on course, do not forget to drive through the finish timers. This prevents timing errors and ensures the event continues smoothly.</p>
                   </div>             
@@ -223,7 +232,8 @@ const IndexPage = () => (
                     <li>Always be aware of radio calls, make sure volume is at maxed out</li>
                     <li>Do not roll up the red flag</li>
                     <li>Offer water to workers</li>
-                    <li>If you see another captain waving a red flag, you need to wave yours</li>
+                    <li>If there is any danger on course such as a disabled or spun out vehicle, wave the red flag</li>
+                    <li>If you see another captain waving a red flag, you need to wave yours making sure all cars are stopped</li>
                   </ul> 
                   <h3>Start</h3>
                   <ul>

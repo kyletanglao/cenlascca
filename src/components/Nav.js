@@ -26,7 +26,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
             >
               Get Started
             </Link>
-          </li>
+          </li>        
           <li>
             <Link
               onClick={e => {
@@ -52,7 +52,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Elements"
+              to="/Calendar"
             >
               Calendar
             </Link>
