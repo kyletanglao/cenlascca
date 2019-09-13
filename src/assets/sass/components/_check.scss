@@ -63,7 +63,15 @@ div.checkIcon{
 }
 
 @include breakpoint('<=small') {
+    div.grid{
+        margin: 0px !important;
+    }
+
     div.checkItem{
         margin: 5px;
+        width: 100%
     }
+    div.checkText{     
+        max-width: none;
+    }    
 }

@@ -17,7 +17,7 @@ const IndexPage = () => (
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
             <div className="content">
-              <h2 className="major">Things to bring</h2>
+              <h2 className="major left">Things to bring</h2>
                 <div class="grid">
                   <div className="checkItem required">
                     <div class="checkIcon"><i class="fas fa-id-badge"></i></div>
@@ -119,189 +119,49 @@ const IndexPage = () => (
           <section id="three" className="wrapper spotlight style3">
             <div className="inner">
               <div className="content">
-                <h2 className="major">Event Itinerary</h2>
-                <div class="grid iteneraryGrid">
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event">Map Posted</div>
-                      <div class="time">4 days prior</div>                    
-                    </div>
-                  </div>      
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event">Online <span class="smallText">Registration</span> Closes</div>
-                      <div class="time">1 day prior</div>                    
-                    </div>
-                  </div>                                    
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event">Set Up Site</div>
-                      <div class="time">6:45 AM</div>                    
-                    </div>
-                  </div>  
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event">Check-In Opens</div>
-                      <div class="time">8:00 AM</div>                    
-                    </div>
-                  </div>            
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event">Check-In Closes</div>
-                      <div class="time">9:15 AM</div>                    
-                    </div>
-                  </div>        
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event">Novice Walk</div>
-                      <div class="time">9:20 AM</div>                    
-                    </div>
-                  </div>     
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event"><div class="underline">Group A Drives</div> Group B Works</div>
-                      <div class="time">10:15 AM</div>                    
-                    </div>
-                  </div>      
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event"><div class="underline">Group B Drives</div> Group A Works</div>
-                      <div class="time">TBA</div>                    
-                    </div>
-                  </div> 
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event">Lunch Break</div>
-                      <div class="time">1 Hour</div>                    
-                    </div>
-                  </div>    
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event"><div class="underline">Group A Drives</div> Group B Works</div>
-                      <div class="time">TBA</div>                    
-                    </div>
-                  </div>   
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event"><div class="underline">Group B Drives</div> Group A Works</div>
-                      <div class="time">TBA</div>                    
-                    </div>
-                  </div>           
-                  <div className="iteneraryItem">
-                    <div class="iteneraryIcon"></div>
-                    <div class="iteneraryText">
-                      <div class="event">Results</div>
-                      <div class="time">~3:00PM</div>                    
-                    </div>
-                  </div>                                                                                                                           
-                </div>
+                <h2 className="major left">Event Itinerary</h2>
+                <ul class="alt flexend">
+                  <li><span class="time">4 days prior</span> Map posted</li>
+                  <li><span class="time">1 day prior</span> Online registration closes</li>
+                  <li><span class="time">6:45 AM</span> Set up site</li>
+                  <li><span class="time">8:00 AM</span> Check-in & Tech Opens</li>
+                  <li><span class="time">9:15 AM</span> Check-in & Tech Closes</li>
+                  <li><span class="time">9:20 AM</span> Novice Walk</li>
+                  <li><span class="time">10:15AM</span> Group A Drives | Group B Works</li>
+                  <li><span class="time">TBA</span> Group B Drives | Group A Works</li>
+                  <li><span class="time">TBA</span> 1 hour lunch break</li>                  
+                  <li><span class="time">TBA</span> Group A Drives | Group B Works</li>
+                  <li><span class="time">TBA</span> Group B Drives | Group A Works</li>
+                  <li><span class="time">~3:00 PM</span> Results Posted</li>
+                </ul>
               </div>
             </div>
           </section>          
+          <section id="four" className="wrapper spotlight alt style4">
+            <div className="inner">
+              <div className="content">
+                <h2 className="major">Worker stations</h2>
+                <div class="table-wrapper">
+                  <table>
+                    <thead>
+                      <tr><th>Role</th><th>Description</th><th>Radio</th><th># Needed</th></tr>
+                    </thead>
+                    <tbody>
+                      <tr><td>Corner Captain</td><td>Relay penalty information to timing. Controls red flag and oversees corner workers.</td><td>Yes</td><td>4-5</td></tr>
+                      <tr><td>Corner Worker</td><td>Runs to reset cones and report penalties to captain.</td><td>No</td><td>12-15</td></tr>
+                      <tr><td>Start</td><td> Morbi faucibus arcu accumsan lorem.</td><td>Yes</td><td>1</td></tr>
+                      <tr><td>Grid</td><td>Vitae integer tempus condimentum.</td><td>Yes</td><td>1-2</td></tr>
+                      <tr><td>Safety Steward</td><td>Oversees safety of event.</td><td>Optional</td><td>1</td></tr>
+                      <tr><td>Timing</td><td>Ante turpis integer aliquet porttitor.</td><td>Yes</td><td>1-2</td></tr> 
+                      <tr><td>Announcer</td><td>Announces times over loudspeaker</td><td>No</td><td>1</td></tr>                                           
+                      </tbody>
+                  </table>
+                  </div>             
+              </div>
+            </div>
+          </section>   
       </section>
-      <div className="wrapper">
-        <div className="inner">
-          <h2 className="major">Season Results Archive</h2>
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">2018-2019 Season</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">2018 Spring Series</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">2017 Rotolos Fall Series</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>            
-          </section>
-        </div>
-      </div>
- <div className="wrapper">
-        <div className="inner">
-          <h2 className="major">Season Results Archive</h2>
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">2018-2019 Season</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">2018 Spring Series</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">2017 Rotolos Fall Series</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>            
-          </section>
-        </div>
-      </div>      
+      
     </section>
     
   </Layout>
