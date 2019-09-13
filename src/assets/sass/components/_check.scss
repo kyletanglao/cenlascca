@@ -6,6 +6,10 @@
 
 /* Contact */
 
+.wrapper.spotlight .image.kindaBig{
+    width: 75% !important;
+}
+
 span.smallText{
     font-size: 0.7em;
     letter-spacing: 0px;
@@ -15,10 +19,11 @@ div.checkItem{
     display: flex;
     box-shadow: #c9c9c978 5px 5px 10px;
     border: 1px solid #c9c9c9;    
+    width: 320px;
+    font-size: 18px;
     padding: 10px;    
     border-radius: 5px;    
     align-items: center;    
-    min-width: 250px;
     background: #f1f1f1;
     margin: 10px;
     &.required .checkIcon{
@@ -29,7 +34,6 @@ div.checkItem{
 div.checkText{
     font-weight: bold;
     color: dimgray;
-    max-width: 160px;
     line-height: 20px;
     text-align: left;
 }
@@ -46,10 +50,15 @@ div.checkIcon{
     border-radius: 5px;    
     margin-right: 10px;    
 }
+@include breakpoint('<=xlarge') {
+    div.checkItem{
+        width: 250px;
+    }
 
+}
 @include breakpoint('<=medium') {
     div.checkItem{
-      min-width: 210px;
+      width: 210px;
     }
     div.checkText{
         font-size: 0.8em;

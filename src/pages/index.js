@@ -57,7 +57,7 @@ const IndexPage = () => (
               <li>Member Event: $30</li>
               <li>Member Event Double Runs: $60*</li>
               <li>Non-member Event Price: $40</li>
-              <li>Penatly for On-Site Registration: $10</li>
+              <li>Penalty for On-Site Registration: $10</li>
             </ul>
             <a href="/#" className="special">
               Find the next event

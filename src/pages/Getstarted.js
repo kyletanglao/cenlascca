@@ -1,8 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
+import cones from '../assets/img/cones.png';
 
 const IndexPage = () => (
   <Layout fullMenu>    
@@ -94,7 +93,7 @@ const IndexPage = () => (
                   </div>                                 
                   <div className="checkItem required">
                     <div class="checkIcon"><i class="fa fa-tape"></i></div>
-                    <div class="checkText">All wheel lugs present and tightend</div>
+                    <div class="checkText">All wheel lugs present and tightened</div>
                   </div>      
                   <div className="checkItem required">
                     <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
@@ -140,26 +139,43 @@ const IndexPage = () => (
           <section id="four" className="wrapper spotlight alt style4">
             <div className="inner">
               <div className="content">
-                <h2 className="major">Worker stations</h2>
+                <h2 className="major">Driving the course</h2>
                 <div class="table-wrapper">
-                  <table>
+                  <h4>Pointer Cones</h4>      
+                  <p>The cones that are lying down are directional cones or, "pointers." They act as arrows to tell you which side of the cone to go on. If you happen to go on the wrong side of these pointer cones the penalty applied is considered a "Did Not Finish" (DNF).</p>            
+                  <h4>Hitting a cone</h4>
+                  <p>Each cone position is marked with a chalk outline known as a "box.". If your car causes a cone to fall over or get knocked completely out of its box, it’s a 2-second penalty. If a driver runs over or bumps a cone and it stands back up or doesn't fall over no penalty is applied as long as some part of the cone is still touching the box.</p>
+                  <span class="image fit kindaBig">
+                    <img src={cones} alt="" class=""></img>
+                  </span>
+                  </div>             
+              </div>
+            </div>
+          </section>   
+          <section id="five" className="wrapper spotlight style5">
+            <div className="inner">
+              <div className="content">
+                <h2 className="major left">Worker stations</h2>
+                <div class="table-wrapper">
+                  <table class="left">
                     <thead>
                       <tr><th>Role</th><th>Description</th><th>Radio</th><th># Needed</th></tr>
                     </thead>
                     <tbody>
                       <tr><td>Corner Captain</td><td>Relay penalty information to timing. Controls red flag and oversees corner workers.</td><td>Yes</td><td>4-5</td></tr>
-                      <tr><td>Corner Worker</td><td>Runs to reset cones and report penalties to captain.</td><td>No</td><td>12-15</td></tr>
-                      <tr><td>Start</td><td> Morbi faucibus arcu accumsan lorem.</td><td>Yes</td><td>1</td></tr>
-                      <tr><td>Grid</td><td>Vitae integer tempus condimentum.</td><td>Yes</td><td>1-2</td></tr>
+                      <tr><td>Corner Worker*</td><td>Runs to reset cones and report penalties to captain.</td><td>No</td><td>12-15</td></tr>
+                      <tr><td>Start</td><td> Lines up cars at starting line for release.</td><td>Yes</td><td>1</td></tr>
+                      <tr><td>Grid</td><td>Sends cars to start.</td><td>Yes</td><td>1-2</td></tr>
                       <tr><td>Safety Steward</td><td>Oversees safety of event.</td><td>Optional</td><td>1</td></tr>
-                      <tr><td>Timing</td><td>Ante turpis integer aliquet porttitor.</td><td>Yes</td><td>1-2</td></tr> 
-                      <tr><td>Announcer</td><td>Announces times over loudspeaker</td><td>No</td><td>1</td></tr>                                           
+                      <tr><td>Timing</td><td>Oversees timing software and assigns penalties.</td><td>Yes</td><td>1-2</td></tr> 
+                      <tr><td>Announcer</td><td>Announces times over loudspeaker.</td><td>No</td><td>1</td></tr>                                           
                       </tbody>
                   </table>
+                  *Novices will be assigned as corner workers for their first few events
                   </div>             
               </div>
             </div>
-          </section>   
+          </section>             
       </section>
       
     </section>
