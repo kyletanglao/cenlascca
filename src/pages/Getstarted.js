@@ -13,13 +13,22 @@ const IndexPage = () => (
         <div className="inner">
           <h2>Get Started with autocross</h2>
           <p>The competition begins before the course walk</p>
+          <ul className="actions grid navGrid">
+            <li><a href="#one" className="button button-light">What to bring</a></li>
+            <li><a href="#two" className="button button-light">Preparing your car</a></li>
+            <li><a href="#three" className="button button-light">Itinerary</a></li>
+            <li><a href="#four" className="button button-light">Driving</a></li>
+            <li><a href="#five" className="button button-light">Worker Stations</a></li>
+            <li><a href="#six" className="button button-light">Working</a></li>
+            <li><a href="#seven" className="button button-light">Reference</a></li>            
+					</ul>
         </div>
       </header>
       <section id="wrapper">
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
             <div className="content">
-              <h2 className="major left">Things to bring</h2>
+              <h2 className="major left">What to bring</h2>
                 <div class="grid">
                   <div className="checkItem required">
                     <div class="checkIcon"><i class="fas fa-id-badge"></i></div>
@@ -57,7 +66,7 @@ const IndexPage = () => (
                     <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
                     <div class="checkText">Air Compressor</div>
                   </div>                 
-                </div>                                            
+                </div>                  
             </div>
           </div>
         </section>
@@ -151,9 +160,11 @@ const IndexPage = () => (
                   </span>
                   <h3>Hitting a cone</h3>
                   <p>Each cone position is marked with a chalk outline known as a "box.". If your car causes a cone to fall over or get knocked completely out of its box, it’s a 2-second penalty. If a driver runs over or bumps a cone and it stands back up or doesn't fall over no penalty is applied as long as some part of the cone is still touching the box. Hitting pointer cones do not count as penalties.</p>
+                  <br></br><br></br>
                   <span class="image fit kindaBig">
                     <img src={cones} alt="" class=""></img>
                   </span>
+                  <br></br><br></br>
                   <h3>Spinning Out or Getting Lost</h3>  
                     <p>If you spin out or get lost on course, do not forget to drive through the finish timers. This prevents timing errors and ensures the event continues smoothly.</p>
                   </div>             
@@ -198,7 +209,6 @@ const IndexPage = () => (
                   <ul>
                     <li>Make sure your back is not facing oncoming cars</li>
                     <li>When resetting a cone, always be aware of oncoming traffic</li>
-                    <li>Make sure to take turns running after cones</li>
                     <li>If a cone has moved but is safe, make the "safe" gesture from baseball</li>
                     <li>If a car has DNF'ed, make an X with your arms to communicate to your captain</li>
                     <li>You must be standing while course is hot</li>
@@ -233,7 +243,20 @@ const IndexPage = () => (
                 </div>             
               </div>
             </div>
-          </section>              
+          </section>      
+          <section id="seven" className="wrapper spotlight style5">
+            <div className="inner">
+            <div className="content">
+                <h2 className="major left">Reference</h2>
+                <ul class="alt flexend">
+                  <li><span class="time">SCCA Official</span><a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download">2019 Helmet Certification Label Chart</a></li>
+                  <li><span class="time">SCCA Official</span><a href="https://www.scca.com/pages/solo-cars-and-rules">SCCA Solo Rulebook</a></li>
+                  <li><span class="time">SCCA Official</span><a href="https://www.scca.com/pages/what-is-autocross">What is Autocross?</a></li>
+                </ul>
+                <br></br><br></br>
+              </div>
+            </div>
+          </section>                    
       </section>
       
     </section>

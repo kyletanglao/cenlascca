@@ -6,6 +6,13 @@
 
 /* Contact */
 
+.actions.grid.navGrid {
+    justify-content: flex-start !important;
+    li{
+        margin-bottom: 15px;
+    }
+}
+
 h2.center{
     text-align: center;
 }
@@ -45,4 +52,13 @@ ul.flexend{
         font-size: 14px;
     }
 
+}
+
+
+@include breakpoint('<=xsmall'){
+    .actions.grid.navGrid {
+        li{
+            margin-bottom: 0px;
+        }
+    }
 }

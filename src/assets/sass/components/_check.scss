@@ -6,6 +6,10 @@
 
 /* Contact */
 
+h2.major{
+    margin-top: 30px;
+}
+
 .wrapper.spotlight span.image.kindaBig{
     width: 100%;
     text-align: center;
@@ -95,4 +99,18 @@ div.checkIcon{
     div.checkText{     
         max-width: none;
     }    
+    .wrapper.spotlight span.image.kindaBig{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        max-width: none !important;
+    }
+    
+    .kindaBig > img{
+        width: 100% !important;
+    }
+    
+
 }

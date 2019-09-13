@@ -108,7 +108,7 @@
     }
   }
 
-  @include breakpoint('<=small') {
+  @include breakpoint('<=xsmall') {
     > header {
       @include padding(
         3.75em,
