@@ -1,8 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
+import May19 from '../assets/maps/May2019_Map.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -13,72 +12,109 @@ const IndexPage = () => (
           <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
         </div>
       </header>
+      <section id="wrapper">
+      <section id="one" className="wrapper spotlight style1">
 
-      <div className="wrapper">
         <div className="inner">
-          <h3 className="major">Lorem ipsum dolor</h3>
-          <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo
-            donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
-          </p>
+          <div className="content">
+              <h2 className="major left">2018-2019 Season</h2>
+              <div class="grid">
+              <div class="grid-item">
+                <div class="map">
+                  <img src={May19} alt=""></img>
+                </div>
+                <div class="results">
+                  <div class="date">May 26, 2019</div>
+                  <div class="winners">
+                  <div class="table-wrapper">
+                    <table class="eventWinners">
+                      <tbody>
+                        <tr>
+                          <td class="category"><b>Raw</b></td>
+                          <td class="best">40.842</td>
+                          <td class="car">187 FP</td>
+                          <td class="driver">K. Coughlin</td>
+                        </tr>
+                        <tr>
+                          <td class="category"><b>Pax</b></td>
+                          <td class="best">34.081</td>
+                          <td class="car">9 GS</td>
+                          <td class="driver">M. Bales</td>
+                        </tr>
+                        <tr>
+                          <td class="category"><b>Street</b></td>
+                          <td class="best">34.081</td>
+                          <td class="car">9 GS</td>
+                          <td class="driver">M. Bales</td>
+                        </tr>        
+                        <tr>
+                          <td class="category"><b>Touring</b></td>
+                          <td class="best">42.630</td>
+                          <td class="car">181 STR</td>
+                          <td class="driver">K. Tanglao</td>
+                        </tr>     
+                        <tr>
+                          <td class="category"><b>Street Prepared</b></td>
+                          <td class="best">45.325</td>
+                          <td class="car">44 FSP</td>
+                          <td class="driver">J. Jumonville</td>
+                        </tr>   
+                        <tr>
+                          <td class="category"><b>Classic American</b></td>
+                          <td class="best">44.555</td>
+                          <td class="car">2 CAMC</td>
+                          <td class="driver">J. King</td>
+                        </tr>        
+                        <tr>
+                          <td class="category"><b>Prepared</b></td>
+                          <td class="best">40.842</td>
+                          <td class="car">187 FP</td>
+                          <td class="driver">K. Coughlin</td>
+                        </tr>       
+                        <tr>
+                          <td class="category"><b>Street Modified</b></td>
+                          <td class="best">41.537</td>
+                          <td class="car">3 SM</td>
+                          <td class="driver">H. Bell</td>
+                        </tr>         
+                        <tr>
+                          <td class="category"><b>Modified</b></td>
+                          <td class="best">47.233</td>
+                          <td class="car">247 DM</td>
+                          <td class="driver">D. Yoes</td>
+                        </tr>                                                                                                                                                    
+                        </tbody>
+                    </table>
+                  </div>
+                  </div>
+                  <div class="categories">
+                    <div class="speedo">
+                      <div class="circle"></div>
+                      <div class="text">Final</div>
+                    </div>
+                    <div class="speedo">
+                      <div class="circle"></div>
+                      <div class="text">Raw</div>
+                    </div>               
+                    <div class="speedo">
+                      <div class="circle"></div>
+                      <div class="text">Pax</div>
+                    </div>    
+                    <div class="speedo">
+                      <div class="circle"></div>
+                      <div class="text">Class</div>
+                    </div>                                               
+                  </div>
+                </div>
+              </div>
 
-          <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id
-            quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
-          </p>
 
-          <h3 className="major">Vitae phasellus</h3>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
-
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">Sed feugiat lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-          </section>
+              </div>
+          </div>
         </div>
-      </div>
+
+      </section>
+      </section>
     </section>
   </Layout>
 );

@@ -1,0 +1,85 @@
+/* Results */
+.winners {
+    .table-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+  
+  .results {
+    box-shadow: #77777778 0px -15px 80px;
+  }
+  .map {
+    display: flex;
+  }
+  
+  .category {
+    text-align: right;
+    padding-right: 1.4em !important;
+  }
+  
+  .best {
+    padding-right: 0.5em !important;
+  }
+  
+  .car {
+    padding-right: 0.5em !important;
+  }
+  
+  .best,
+  .driver,
+  .car {
+    text-align: left;
+    color: #808080;
+  }
+  
+  .grid-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #c9c9c978 5px 5px 10px;
+    width: 440px;
+    padding: 0px !important;
+    border: 1px solid #c9c9c978;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+    .categories{
+        display: flex;
+        padding: 20px;
+    }
+  }
+  
+  div.map img {
+    width: 100%;
+  }
+  
+  .eventWinners {
+    width: 100%;
+    margin-bottom: 5px;    
+    tr {
+      border: 0px;
+      background-color: transparent !important;
+      line-height: 1.2em;
+    }
+    td {
+      padding: 0px;
+    }
+  }
+  
+  .date {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 20px;
+    border-bottom: 1px solid #dcdcdc;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #8c8c8c;
+  }
+  
+  @include breakpoint("<=xsmall") {
+  }
+  

@@ -32,7 +32,7 @@ const IndexPage = () => (
               <div class="textLeft">
                 <p>“Solo®” is the brand name for SCCA® Autocrossing and on paper it seems very simple – use traffic cones to make a mini-roadcourse in a large parking lot or unused airport tarmac and see who can drive it the quickest without hitting any cones or going off course.</p>
                 <p>Despite the generally low speeds attained during competition, it’s one of the fastest paced, rapid-fire forms of motorsports you can find, with barriers to entry so low that many people are able to compete and be competitive at it.</p>
-                <p>Competitors range from the casual participant who may use the same daily driver that they car-pool with to the hard-core driver who has a special car, special tires and uses lots of vacation days to squeak out every last fraction of a second. In between the extremes, there are levels and classes for different degrees of car modification. There are even classes for&nbsp;ladies and&nbsp;also a Junior Driver program for&nbsp;kids in age appropriate karts.</p>
+                <p>Competitors range from the casual participant who may use the same daily driver that they car-pool with to the hard-core driver who has a special car, special tires and uses lots of vacation days to squeak out every last fraction of a second. In between the extremes, there are levels and classes for different degrees of car modification.</p>
                 <p>If you have never autocrossed before or don’t know the specific details, check out the <a href="https://www.scca.com/pages/i-want-to-autocross"><b>"I want to Autocross"</b></a> SCCA Official page. It will give you the basics of participating in an event. Don’t worry – it’s pretty easy and there are people to help along the way.</p>
               </div>
             </div>
@@ -295,7 +295,7 @@ const IndexPage = () => (
                       <tr><td><b>FS</b></td><td>2011 BMW M3 Competition Package</td><td>0.803</td></tr>                                           
                       <tr><td><b>GS</b></td><td>Honda Civic Si (17-19), Volkswagen GTI</td><td>0.788</td></tr>                                           
                       <tr><td><b>HS</b></td><td>Ford Fiesta ST, Honda Civic Si (06-08)</td><td>0.780</td></tr>                      
-                      <tr><td><b>SSR</b></td><td>Chevrolet Corvette GS/Z06</td><td>0.780</td></tr>                                         
+                      <tr><td><b>SSR</b></td><td>Chevrolet Corvette GS/Z06</td><td>0.843</td></tr>                                         
                       <h4 class="category">Street Touring</h4>
                       <tr><td><b>STU</b></td><td>BMW M3, Subaru WRX STI, Mitsubishi Evo IX, Nissan 350Z/370Z</td><td>0.828</td></tr>                    
                       <tr><td><b>STR</b></td><td>Mazda Miata ND1/ND2</td><td>0.827</td></tr>                    
