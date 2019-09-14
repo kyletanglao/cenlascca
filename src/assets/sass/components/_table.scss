@@ -101,8 +101,8 @@ color: #888;
 	}
 
 	
-	@include breakpoint('<=small') {
-		.table-wrapper{
-			// font-size: 0.8em;
+	@include breakpoint('<=xsmall') {
+		table{
+			font-size: 0.8em;
 		}
 	}

@@ -11,16 +11,16 @@ const IndexPage = () => (
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Get Started with autocross</h2>
+          <h2>Autocross Guide</h2>
           <ul className="actions grid navGrid">
-            <li><a href="#one" className="button button-light">What to bring</a></li>
-            <li><a href="#two" className="button button-light">Preparing your car</a></li>
-            <li><a href="#three" className="button button-light">Itinerary</a></li>
-            <li><a href="#four" className="button button-light">Driving</a></li>
-            <li><a href="#five" className="button button-light">Worker Stations</a></li>
-            <li><a href="#six" className="button button-light">Working</a></li>
-            <li><a href="#seven" className="button button-light">Car Classes</a></li>
-            <li><a href="#eight" className="button button-light">Reference</a></li>            
+            <li><a href="#two" className="button button-light">What to bring</a></li>
+            <li><a href="#three" className="button button-light">Preparing your car</a></li>
+            <li><a href="#four" className="button button-light">Itinerary</a></li>
+            <li><a href="#five" className="button button-light">Driving</a></li>
+            <li><a href="#six" className="button button-light">Worker Stations</a></li>
+            <li><a href="#seven" className="button button-light">Working</a></li>
+            <li><a href="#eight" className="button button-light">Car Classes</a></li>
+            <li><a href="#nine" className="button button-light">Reference</a></li>            
 					</ul>
         </div>
       </header>
@@ -86,7 +86,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>        
-          <section id="two" className="wrapper spotlight style3">
+          <section id="three" className="wrapper spotlight style3">
             <div className="inner">
               <div className="content">
                 <h2 className="major left">Preparing your car</h2>
@@ -146,7 +146,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>
-          <section id="three" className="wrapper alt spotlight style4">
+          <section id="four" className="wrapper alt spotlight style4">
             <div className="inner">
               <div className="content">
                 <h2 className="major left">Event Itinerary</h2>
@@ -167,7 +167,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>          
-          <section id="four" className="wrapper spotlight style5">
+          <section id="five" className="wrapper spotlight style5">
             <div className="inner">
               <div className="content">
                 <h2 className="major left">Driving the course</h2>
@@ -193,7 +193,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>   
-          <section id="five" className="wrapper spotlight alt style6">
+          <section id="six" className="wrapper spotlight alt style6">
             <div className="inner">
               <div className="content">
                 <h2 className="major left">Worker stations</h2>
@@ -219,7 +219,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>           
-          <section id="six" className="wrapper spotlight style5">
+          <section id="seven" className="wrapper spotlight style5">
             <div className="inner">
               <div className="content">
                 <h2 className="major left">Working the course</h2>
@@ -267,7 +267,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>      
-          <section id="seven" className="wrapper spotlight alt style4">
+          <section id="eight" className="wrapper spotlight alt style4">
             <div className="inner">
             <div className="content textLeft">
                 <h2 className="major left">Car Classes</h2>
@@ -332,7 +332,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>             
-          <section id="eight" className="wrapper spotlight style5">
+          <section id="nine" className="wrapper spotlight style5">
             <div className="inner">
             <div className="content">
                 <h2 className="major left">Reference</h2>

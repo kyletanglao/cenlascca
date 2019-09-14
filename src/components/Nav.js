@@ -22,11 +22,21 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Getstarted"
+              to="/Guide"
             >
-              Get Started
+              Autocross Guide
             </Link>
           </li>        
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="#"
+            >
+              Live Timing
+            </Link>
+          </li>             
           <li>
             <Link
               onClick={e => {
@@ -56,17 +66,17 @@ export default function Nav({ onMenuToggle = () => {} }) {
             >
               Calendar
             </Link>
-          </li>                
+          </li>   
           <li>
             <Link
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Elements"
+              to="/Contact"
             >
-              Elements
+              Contact Us
             </Link>
-          </li>
+          </li>                       
         </ul>
         <a
           className="close"

@@ -30,18 +30,19 @@ const IndexPage = () => (
                       <tr><td><b>09/29/19</b></td><td>MSS</td><td>Grenada Airport</td><td><a href="http://msreg.com/GrenadaSeptAutox" class="breakme">http://msreg.com/GrenadaSeptAutox</a></td></tr>
                       <tr><td><b>10/5/19</b></td><td>HOUSTON</td><td>Houston Police Academy (Rookie School)</td><td><a href="https://www.dlbracing.com/Event/7059" class="breakme">https://www.dlbracing.com/Event/7059</a></td></tr>
                       <tr><td><b>10/6/19</b></td><td>HOUSTON</td><td>Houston Police Academy</td><td><a href="https://www.dlbracing.com/Event/7055" class="breakme">https://www.dlbracing.com/Event/7055</a></td></tr>
-
+                      <tr><td><b>10/6/19</b></td><td>RED RIVER</td><td>Ike Hamilton Expo Center</td><td>TBA</td></tr>
                       <tr><td><b>10/12/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td><a href="https://www.dlbracing.com/Event/7068" class="breakme">https://www.dlbracing.com/Event/7068</a></td></tr>
                       <tr><td><b>10/13/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td><a href="https://www.dlbracing.com/Event/7068" class="breakme">https://www.dlbracing.com/Event/7068</a></td></tr>
-                      <tr><td><b>10/22/19</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="http://msreg.com/october2019" class="breakme">http://msreg.com/october2019</a></td></tr>
-                      
+                      <tr><td><b>10/20/19</b></td><td>RED RIVER</td><td>Ike Hamilton Expo Center</td><td>TBA</td></tr>                      
+                      <tr><td><b>10/22/19</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="http://msreg.com/october2019" class="breakme">http://msreg.com/october2019</a></td></tr>                      
                       <tr><td><b>11/19</b></td><td>CENLA</td><td>TBA</td><td>TBA</td></tr>
-                      <tr><td><b>11/02/19</b></td><td>Houston</td><td>Houston Police Academy</td><td><a href="https://www.dlbracing.com/Event/7056">https://www.dlbracing.com/Event/7056</a></td></tr>
-                      <tr><td><b>11/03/19</b></td><td>Houston</td><td>Houston Police Academy</td><td><a href="https://www.dlbracing.com/Event/7057">https://www.dlbracing.com/Event/7057</a></td></tr>
+                      <tr><td><b>11/02/19</b></td><td>HOUSTON</td><td>Houston Police Academy</td><td><a href="https://www.dlbracing.com/Event/7056">https://www.dlbracing.com/Event/7056</a></td></tr>
+                      <tr><td><b>11/03/19</b></td><td>HOUSTON</td><td>Houston Police Academy</td><td><a href="https://www.dlbracing.com/Event/7057">https://www.dlbracing.com/Event/7057</a></td></tr>
                       <tr><td><b>11/10/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td>TBA</td></tr>
+                      <tr><td><b>11/16/19</b></td><td>RED RIVER</td><td>Ike Hamilton Expo Center</td><td>TBA</td></tr>
+                      <tr><td><b>11/17/19</b></td><td>RED RIVER</td><td>Ike Hamilton Expo Center</td><td>TBA</td></tr>                      
                       <tr><td><b>12/01/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td>TBA</td></tr>
-                      <tr><td><b>12/08/19</b></td><td>Houston</td><td>Grandsport Speedway,</td><td>TBA</td></tr>
-                      
+                      <tr><td><b>12/08/19</b></td><td>HOUSTON</td><td>Grandsport Speedway,</td><td>TBA</td></tr>                      
                       <tr><td><b>12/15/19</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td>TBA</td></tr>
                      </tbody>
                   </table>

@@ -51,7 +51,6 @@ export default function Footer() {
           <li><a href="https://scca.org"><img class="footerLogo" src={SCCALogo} alt=""></img></a></li>
           <li>&copy; CENLA SCCA. All rights reserved.</li>
           <li><a href="/Contact">Contact Us</a></li>
-
         </ul>
       </div>
     </section>
