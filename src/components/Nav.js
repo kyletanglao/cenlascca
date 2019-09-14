@@ -28,14 +28,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
             </Link>
           </li>        
           <li>
-            <Link
-              onClick={e => {
-                onMenuToggle();
-              }}
-              to="http://cenla-scca.org/live/results_live.htm"
-            >
+            <a href="http://cenla-scca.org/live/results_live.htm">
               Live Timing
-            </Link>
+            </a>
           </li>             
           <li>
             <Link

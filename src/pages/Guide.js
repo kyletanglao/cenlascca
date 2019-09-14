@@ -176,12 +176,13 @@ const IndexPage = () => (
                   <p>The cones that are lying down are directional cones or, "pointers." They act as arrows to tell you which side of the cone to go on. If you happen to go on the wrong side of these pointer cones the penalty applied is considered a "Did Not Finish" (DNF). Your time will still display but does not count for the competition.</p>            
 
                     <img src={dnf} alt="" class="imagefit"></img>
+                    <br></br><br></br><br></br><br></br>
 
                   <h3>Hitting a cone</h3>
                   <p>Each cone position is marked with a chalk outline known as a "box.". If your car causes a cone to fall over or get knocked completely out of its box, it’s a 2-second penalty. If a driver runs over or bumps a cone and it stands back up or doesn't fall over no penalty is applied as long as some part of the cone is still touching the box. Hitting pointer cones do not count as penalties.</p>
                   <br></br><br></br>
                     <img src={cones} alt="" class="imagefit"></img>
-                  <br></br><br></br>
+                  <br></br><br></br> <br></br><br></br>
                   <h3>Red Flag</h3>
                   <p>If you are driving and you see a red flag being waved (anywhere), quickly bring your car to a safe stop. When a course worker clears you, you may proceed to drive through the finish timers and return to grid. If the red flag was not your fault, your run will not count and you will get a rerun.</p>
                                     
@@ -269,11 +270,11 @@ const IndexPage = () => (
                 <h2 className="major left">Car Classes</h2>
                 <h3>Finding a class for your lightly modified vehicle</h3>      
                 <p class="lessBottom">For stock or lightly modified cars, your car will likely fall into Street or Street Touring class. Car classes are listed on page 184 of the 2019 Solo National Solo Rules.</p>
-                <a href="https://www.scca.com/downloads/47209-2019-09-02-solo-rules-book-1-complete-reduced/download" class="button fit">2019 SCCA® National Solo® Rules</a>        
+                <a href="https://www.scca.com/downloads/47209-2019-09-02-solo-rules-book-1-complete-reduced/download" class="button fit linkfit">2019 SCCA® National Solo® Rules</a>        
                 <br></br><br></br><br></br>
                 <h3>Finding a class for your modified vehicle</h3>      
                 <p class="lessBottom">For modified cars, you will fall into a certain class based on the magnitude of the changes. Check the cheat sheet below for an approximate classing. Refer to the official rules above for specifics.</p>                
-                <a href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download" class="button fit">2019 Category Allowances "Cheat Sheet" </a>&nbsp;&nbsp;        
+                <a href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download" class="button fit linkfit">2019 Category Allowances "Cheat Sheet" </a>&nbsp;&nbsp;        
                 <br></br><br></br>
                 <h3>Understanding PAX values</h3>
                 <p>PAX is an index system designed to equalize participants running cars from different SCCA Solo classes in the same local regional class. The PAX value is a multiplier used on the entrant's time, and then compared directly with other class competitors and their PAX multiplied time. PAX values are updated yearly taking data from 500+ national SCCA Solo events.</p>
@@ -332,12 +333,12 @@ const IndexPage = () => (
             <div className="inner">
             <div className="content">
                 <h2 className="major left">Reference</h2>
-                <ul class="alt flexend left">
-                  <li><span class="time">SCCA Official</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/autocross-faq">Autocross FAQ</a></li>
-                  <li><span class="time">SCCA Official</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/what-is-autocross">What is Autocross?</a></li>
-                  <li><span class="time">SCCA Official</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download">2019 Helmet Certification Label Chart</a></li>
-                  <li><span class="time">SCCA Official</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/solo-cars-and-rules">2019 SCCA® National Solo® Rules</a></li>
-                  <li><span class="time">SCCA Official</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download">2019 Category Allowances "Cheat Sheet" </a></li>
+                <ul class="alt flexend left reference">
+                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/autocross-faq">Autocross FAQ</a></li>
+                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/what-is-autocross">What is Autocross?</a></li>
+                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download">2019 Helmet Certification Label Chart</a></li>
+                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/solo-cars-and-rules">2019 SCCA® National Solo® Rules</a></li>
+                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download">2019 Category Allowances "Cheat Sheet" </a></li>
                 </ul>
                 <br></br><br></br>
               </div>
