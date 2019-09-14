@@ -14,7 +14,7 @@ const IndexPage = () => (
           <img src={logoRed} alt=""></img>
         </div>
         <div className="bannerText">
-          <h2 class="headliner">Your car wasn't meant for coffee meets. It's time to drive it.</h2>
+          <h2 class="headliner">Your car was meant for more than just coffee meets. It's time to drive it.</h2>
           {/* <p>{config.subHeading}</p> */} <br></br>
           <a href="/Guide" className="calltoaction button primary fit">Register for our Sept 22 Event</a>
 					<ul className="actions grid navGrid">
