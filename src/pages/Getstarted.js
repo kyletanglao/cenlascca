@@ -35,106 +35,118 @@ const IndexPage = () => (
                 <p>Competitors range from the casual participant who may use the same daily driver that they car-pool with to the hard-core driver who has a special car, special tires and uses lots of vacation days to squeak out every last fraction of a second. In between the extremes, there are levels and classes for different degrees of car modification. There are even classes for&nbsp;ladies and&nbsp;also a Junior Driver program for&nbsp;kids in age appropriate karts.</p>
                 <p>If you have never autocrossed before or don’t know the specific details, check out the <a href="https://www.scca.com/pages/i-want-to-autocross"><b>"I want to Autocross"</b></a> SCCA Official page. It will give you the basics of participating in an event. Don’t worry – it’s pretty easy and there are people to help along the way.</p>
               </div>
-              <h2 className="major left" id="one" >What to bring</h2>
-                <div class="grid">
-                  <div className="checkItem required">
-                    <div class="checkIcon"><i class="fas fa-id-badge"></i></div>
-                    <div class="checkText">Driver's License</div>
-                  </div>
-                  <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-id-badge"></i></div>
-                    <div class="checkText">Payment</div>
-                  </div>        
-                  <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-id-badge"></i></div>
-                    <div class="checkText">Closed Toe Shoes</div>
-                  </div>                     
-                  <div className="checkItem">
-                    <div class="checkIcon"><i class="fa fa-id-badge"></i></div>
-                    <div class="checkText">Helmet</div>
-                  </div>
-                  <div className="checkItem">
-                    <div class="checkIcon"><i class="fa fa-stopwatch"></i></div>
-                    <div class="checkText">Tire Gauge</div>
-                  </div>
-                  <div className="checkItem">
-                    <div class="checkIcon"><i class="fa fa-tape"></i></div>
-                    <div class="checkText">Numbers/Tape</div>
-                  </div>      
-                  <div className="checkItem">
-                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
-                    <div class="checkText">Sunscreen</div>
-                  </div>          
-                  <div className="checkItem">
-                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
-                    <div class="checkText">Lunch Plans</div>
-                  </div>        
-                  <div className="checkItem">
-                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
-                    <div class="checkText">Air Compressor</div>
-                  </div>                 
-                </div>                  
             </div>
           </div>
         </section>
-          <section id="two" className="wrapper alt spotlight style2">
+        <section id="two" className="wrapper alt spotlight style2">
             <div className="inner">
               <div className="content">
-                <h2 className="major">Preparing your car</h2>
+                <h2 className="major">What to bring</h2>
+                <div class="left grid"><i class="left width100">R = Required, O = Optional</i></div>
+              <br></br>
                 <div class="grid">
                   <div className="checkItem required">
-                    <div class="checkIcon"><i class="fas fa-id-badge"></i></div>
+                    <div class="checkIcon">R</div>
+                    <div class="checkText">Driver's License</div>
+                  </div>
+                  <div className="checkItem required">
+                    <div class="checkIcon">R</div>
+                    <div class="checkText">Payment</div>
+                  </div>        
+                  <div className="checkItem required">
+                    <div class="checkIcon">R</div>
+                    <div class="checkText">Closed Toe Shoes</div>
+                  </div>                     
+                  <div className="checkItem">
+                    <div class="checkIcon">O</div>
+                    <div class="checkText">Helmet*</div>
+                  </div>
+                  <div className="checkItem">
+                    <div class="checkIcon">O</div>
+                    <div class="checkText">Tire Gauge</div>
+                  </div>
+                  <div className="checkItem">
+                    <div class="checkIcon">O</div>
+                    <div class="checkText">Numbers/Tape</div>
+                  </div>      
+                  <div className="checkItem">
+                    <div class="checkIcon">O</div>
+                    <div class="checkText">Sunscreen</div>
+                  </div>          
+                  <div className="checkItem">
+                    <div class="checkIcon">O</div>
+                    <div class="checkText">Lunch Plans</div>
+                  </div>        
+                  <div className="checkItem">
+                    <div class="checkIcon">O</div>
+                    <div class="checkText">Air Compressor</div>
+                  </div>                 
+                </div>    
+                <br></br><p>*Please see <a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download" class=""><b>2019 Helmet Certification Label Chart</b></a> for qualifying helmets              </p>
+              </div>
+            </div>
+          </section>        
+          <section id="two" className="wrapper spotlight style3">
+            <div className="inner">
+              <div className="content">
+                <h2 className="major left">Preparing your car</h2>
+                <div class="left grid"><i class="left width100">R = Required, O = Optional</i></div>
+                <br></br>                
+                <div class="grid">
+                  <div className="checkItem required">
+                    <div class="checkIcon">R</div>
                     <div class="checkText">No loose items</div>
                   </div>
                   <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-id-badge"></i></div>
+                    <div class="checkIcon">R</div>
                     <div class="checkText">Sufficient fuel</div>
                   </div>        
                   <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-id-badge"></i></div>
+                    <div class="checkIcon">R</div>
                     <div class="checkText">Undamaged tires</div>
                   </div>                     
                   <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-id-badge"></i></div>
+                    <div class="checkIcon">R</div>
                     <div class="checkText">Battery secured</div>
                   </div>
                   <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-stopwatch"></i></div>
+                    <div class="checkIcon">R</div>
                     <div class="checkText">Functional seatbelts</div>
                   </div>
                   <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-stopwatch"></i></div>
+                    <div class="checkIcon">R</div>
                     <div class="checkText">Functional brakes</div>
                   </div>        
                   <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-stopwatch"></i></div>
+                    <div class="checkIcon">R</div>
                     <div class="checkText">Functional steering and suspension</div>
                   </div>                                 
                   <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-tape"></i></div>
+                    <div class="checkIcon">R</div>
                     <div class="checkText">All wheel lugs present and tightened</div>
                   </div>      
                   <div className="checkItem required">
-                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
+                    <div class="checkIcon">R</div>
                     <div class="checkText">No fluid leaks</div>
                   </div>          
                   <div className="checkItem">
-                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
+                    <div class="checkIcon">O</div>
                     <div class="checkText">40+ PSI in tires</div>
                   </div>        
                   <div className="checkItem">
-                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
+                    <div class="checkIcon">O</div>
                     <div class="checkText">Securely mounted action camera</div>
                   </div>         
                   <div className="checkItem">
-                    <div class="checkIcon"><i class="fa fa-spray-can"></i></div>
+                    <div class="checkIcon">O</div>
                     <div class="checkText">Clean windshield</div>
                   </div>                            
                 </div> 
+                <br></br>
               </div>
             </div>
           </section>
-          <section id="three" className="wrapper spotlight style3">
+          <section id="three" className="wrapper alt spotlight style4">
             <div className="inner">
               <div className="content">
                 <h2 className="major left">Event Itinerary</h2>
@@ -155,11 +167,11 @@ const IndexPage = () => (
               </div>
             </div>
           </section>          
-          <section id="four" className="wrapper spotlight alt style4">
+          <section id="four" className="wrapper spotlight style5">
             <div className="inner">
               <div className="content">
-                <h2 className="major">Driving the course</h2>
-                <div class="table-wrapper">
+                <h2 className="major left">Driving the course</h2>
+                <div class="left">
                   <h3>Pointer Cones</h3>      
                   <p>The cones that are lying down are directional cones or, "pointers." They act as arrows to tell you which side of the cone to go on. If you happen to go on the wrong side of these pointer cones the penalty applied is considered a "Did Not Finish" (DNF). Your time will still display but does not count for the competition.</p>            
                   <span class="image fit kindaBig center">
@@ -181,7 +193,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>   
-          <section id="five" className="wrapper spotlight style5">
+          <section id="five" className="wrapper spotlight alt style6">
             <div className="inner">
               <div className="content">
                 <h2 className="major left">Worker stations</h2>
@@ -207,11 +219,11 @@ const IndexPage = () => (
               </div>
             </div>
           </section>           
-          <section id="six" className="wrapper spotlight alt style6">
+          <section id="six" className="wrapper spotlight style5">
             <div className="inner">
               <div className="content">
                 <h2 className="major left">Working the course</h2>
-                <div class="table-wrapper">
+                <div class="left">
                 <span class="image fit kindaBig">
                     <img src={signals} alt="" class=""></img>
                   </span>                      
@@ -255,7 +267,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>      
-          <section id="seven" className="wrapper spotlight style5">
+          <section id="seven" className="wrapper spotlight alt style6">
             <div className="inner">
             <div className="content textLeft">
                 <h2 className="major left">Car Classes</h2>
@@ -268,7 +280,7 @@ const IndexPage = () => (
                 <a href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download" class="button fit">2019 Category Allowances "Cheat Sheet" </a>&nbsp;&nbsp;        
                 <br></br><br></br>
                 <h3>Understanding PAX values</h3>
-                <p>PAX is a index system designed to equalize participants running cars from different SCCA Solo classes in the same local regional class. The PAX value is a multiplier used on the entrant's time, and then compared directly with other class competitors and their PAX multiplied time. PAX values are updated yearly taking data from 500+ national SCCA Solo events.</p>
+                <p>PAX is an index system designed to equalize participants running cars from different SCCA Solo classes in the same local regional class. The PAX value is a multiplier used on the entrant's time, and then compared directly with other class competitors and their PAX multiplied time. PAX values are updated yearly taking data from 500+ national SCCA Solo events.</p>
             
                 <div class="table-wrapper">
                   <table class="left lessBottom">
@@ -291,8 +303,8 @@ const IndexPage = () => (
                       <tr><td><b>STU</b></td><td>BMW M3, Subaru WRX STI, Mitsubishi Evo IX, Nissan 350Z/370Z</td><td>0.828</td></tr>                    
                       <tr><td><b>STR</b></td><td>Mazda Miata ND1/ND2</td><td>0.827</td></tr>                    
                       <tr><td><b>STX</b></td><td>Subaru BRZ, Scion FR-S, Mazda RX-8 </td><td>0.815</td></tr>                    
-                      <tr><td><b>STS</b></td><td>Mazda Miata (NA 1.6), Honda CRX, Honda CRX Si</td><td>0.811</td></tr>                    
-                      <tr><td><b>STH</b></td><td>Subaru WRX (14-16), Audi TT, Mazda Mazdaspeed 3, Volkswagen Golf R</td><td>0.813</td></tr>                    
+                      <tr><td><b>STS</b></td><td>Mazda Miata (NA 1.6), Honda CRX/CRX Si</td><td>0.811</td></tr>                    
+                      <tr><td><b>STH</b></td><td>Subaru Impreza WRX (14-16), Audi TT, Mazda Mazdaspeed 3, Volkswagen Golf R</td><td>0.813</td></tr>                    
                       <h4 class="category">Street Prepared</h4>
                       <tr><td><b>SSP</b></td><td>Covette Z06 (C6), Porsche GT3, Lamborghini Huracan, McLaren 720S</td><td>0.853</td></tr>                    
                       <tr><td><b>ASP</b></td><td>Mitsubishi Evo IX/VIII, BMW 1M, Mazda RX7 (FD)</td><td>0.850</td></tr>                    
@@ -302,7 +314,7 @@ const IndexPage = () => (
                       <tr><td><b>ESP</b></td><td>Chevrolet Camaro, Ford Mustang, Infiniti G35</td><td>0.836</td></tr>                    
                       <tr><td><b>FSP</b></td><td>Volkswagen Rabbit, Toyota Corolla GTS ('86), Honda CRX, BMW 318TI</td><td>0.824</td></tr>                    
                       <h4 class="category">Street Modified</h4>
-                      <tr><td><b>SSM</b></td><td>Covette Z06 (C6), Porsche GT3, Lamborghini Huracan, McLaren 720S</td><td>0.875</td></tr>                    
+                      <tr><td><b>SSM</b></td><td>Honda S2000, Mazda Miata (NA), Lotus Elise, Toyota MR2</td><td>0.875</td></tr>                    
                       <tr><td><b>SM</b></td><td>Mitsubishi Evolution IX, Subaru Impreza WRX</td><td>0.855</td></tr>                    
                       <tr><td><b>SMF</b></td><td>Honda Civic, Honda CRX</td><td>0.841</td></tr>                    
                       <h4 class="category">Prepared</h4>
@@ -315,11 +327,12 @@ const IndexPage = () => (
                       </tbody>
                   </table>
                   *Based on 2019 and 2018 SCCA National Solo Finale Entrants
+                  <br></br><br></br>
                   </div>                  
               </div>
             </div>
           </section>             
-          <section id="eight" className="wrapper alt spotlight style6">
+          <section id="eight" className="wrapper spotlight style5">
             <div className="inner">
             <div className="content">
                 <h2 className="major left">Reference</h2>
