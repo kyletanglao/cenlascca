@@ -19,7 +19,8 @@ const IndexPage = () => (
             <li><a href="#four" className="button button-light">Driving</a></li>
             <li><a href="#five" className="button button-light">Worker Stations</a></li>
             <li><a href="#six" className="button button-light">Working</a></li>
-            <li><a href="#seven" className="button button-light">Reference</a></li>            
+            <li><a href="#seven" className="button button-light">Car Classes</a></li>
+            <li><a href="#eight" className="button button-light">Reference</a></li>            
 					</ul>
         </div>
       </header>
@@ -256,12 +257,77 @@ const IndexPage = () => (
           </section>      
           <section id="seven" className="wrapper spotlight style5">
             <div className="inner">
+            <div className="content textLeft">
+                <h2 className="major left">Car Classes</h2>
+                <h3>Finding a class for your lightly modified vehicle</h3>      
+                <p class="lessBottom">For stock or lightly modified cars, your car will likely fall into Street or Street Touring class. Car classes are listed on page 184 of the 2019 Solo National Solo Rules.</p>
+                <a href="https://www.scca.com/downloads/47209-2019-09-02-solo-rules-book-1-complete-reduced/download" class="button fit">2019 SCCA® National Solo® Rules</a>        
+                <br></br><br></br><br></br>
+                <h3>Finding a class for your modified vehicle</h3>      
+                <p class="lessBottom">For modified cars, you will fall into a certain class based on the magnitude of the changes. Check the cheat sheet below for an approximate classing. Refer to the official rules above for specifics.</p>                
+                <a href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download" class="button fit">2019 Category Allowances "Cheat Sheet" </a>&nbsp;&nbsp;        
+                <br></br><br></br>
+                <h3>Understanding PAX values</h3>
+                <p>PAX is a index system designed to equalize participants running cars from different SCCA Solo classes in the same local regional class. The PAX value is a multiplier used on the entrant's time, and then compared directly with other class competitors and their PAX multiplied time. PAX values are updated yearly taking data from 500+ national SCCA Solo events.</p>
+            
+                <div class="table-wrapper">
+                  <table class="left lessBottom">
+                    <thead>
+                      <tr><th>Class</th><th>Popular Cars*</th><th>Pax Index</th></tr>
+                    </thead>
+                    <tbody>
+                      <h4 class="category">Street</h4>
+                      <tr><td><b>SS</b></td><td>Porsche GT4/GT3/Cayman GT4, Acura NSX, Chevrolet Corvette Z06 (C7)</td><td>0.821</td></tr>
+                      <tr><td><b>AS</b></td><td>Chevrolet Corvette Z06 (C6), Porsche Cayman</td><td>0.817</td></tr>
+                      <tr><td><b>BS</b></td><td>Tesla Model 3, Lotus Evora, BMW M2/M3/M4, Porsche Cayman S (06-08)</td><td>0.810</td></tr>
+                      <tr><td><b>CS</b></td><td>Mazda Miata ND1/ND2, Honda S2000</td><td>0.809</td></tr>
+                      <tr><td><b>DS</b></td><td>Honda Civic Type R, Ford Focus RS, Audi TTS</td><td>0.800</td></tr>
+                      <tr><td><b>ES</b></td><td>Mazda Miata (NB), Toyota MR2 Spyder</td><td>0.789</td></tr> 
+                      <tr><td><b>FS</b></td><td>2011 BMW M3 Competition Package</td><td>0.803</td></tr>                                           
+                      <tr><td><b>GS</b></td><td>Honda Civic Si (17-19), Volkswagen GTI</td><td>0.788</td></tr>                                           
+                      <tr><td><b>HS</b></td><td>Ford Fiesta ST, Honda Civic Si (06-08)</td><td>0.780</td></tr>                      
+                      <tr><td><b>SSR</b></td><td>Chevrolet Corvette GS/Z06</td><td>0.780</td></tr>                                         
+                      <h4 class="category">Street Touring</h4>
+                      <tr><td><b>STU</b></td><td>BMW M3, Subaru WRX STI, Mitsubishi Evo IX, Nissan 350Z/370Z</td><td>0.828</td></tr>                    
+                      <tr><td><b>STR</b></td><td>Mazda Miata ND1/ND2</td><td>0.827</td></tr>                    
+                      <tr><td><b>STX</b></td><td>Subaru BRZ, Scion FR-S, Mazda RX-8 </td><td>0.815</td></tr>                    
+                      <tr><td><b>STS</b></td><td>Mazda Miata (NA 1.6), Honda CRX, Honda CRX Si</td><td>0.811</td></tr>                    
+                      <tr><td><b>STH</b></td><td>Subaru WRX (14-16), Audi TT, Mazda Mazdaspeed 3, Volkswagen Golf R</td><td>0.813</td></tr>                    
+                      <h4 class="category">Street Prepared</h4>
+                      <tr><td><b>SSP</b></td><td>Covette Z06 (C6), Porsche GT3, Lamborghini Huracan, McLaren 720S</td><td>0.853</td></tr>                    
+                      <tr><td><b>ASP</b></td><td>Mitsubishi Evo IX/VIII, BMW 1M, Mazda RX7 (FD)</td><td>0.850</td></tr>                    
+                      <tr><td><b>BSP</b></td><td>Mazda Miata (ND), Honda S2000, Nissan 370Z</td><td>0.851</td></tr> 
+                      <tr><td><b>CSP</b></td><td>Mazda Miata (NA/NB)</td><td>0.857</td></tr>                    
+                      <tr><td><b>DSP</b></td><td>Mazda RX-8, BMW 330Ci/325is/323i</td><td>0.840</td></tr>                    
+                      <tr><td><b>ESP</b></td><td>Chevrolet Camaro, Ford Mustang, Infiniti G35</td><td>0.836</td></tr>                    
+                      <tr><td><b>FSP</b></td><td>Volkswagen Rabbit, Toyota Corolla GTS ('86), Honda CRX, BMW 318TI</td><td>0.824</td></tr>                    
+                      <h4 class="category">Street Modified</h4>
+                      <tr><td><b>SSM</b></td><td>Covette Z06 (C6), Porsche GT3, Lamborghini Huracan, McLaren 720S</td><td>0.875</td></tr>                    
+                      <tr><td><b>SM</b></td><td>Mitsubishi Evolution IX, Subaru Impreza WRX</td><td>0.855</td></tr>                    
+                      <tr><td><b>SMF</b></td><td>Honda Civic, Honda CRX</td><td>0.841</td></tr>                    
+                      <h4 class="category">Prepared</h4>
+                      <tr><td><b>XP</b></td><td>Mazda RX-7 (FD)</td><td>0.885</td></tr>                    
+                      <tr><td><b>CP</b></td><td>Ford Mustang (65-11), Chevrolet Camaro (79-97)</td><td>0.848</td></tr>                    
+                      <tr><td><b>DP</b></td><td>Mazda Miata (NA)</td><td>0.858</td></tr>                    
+                      <tr><td><b>EP</b></td><td>Honda Civic (86-90), Honda CRX</td><td>0.849</td></tr>                    
+                      <tr><td><b>FP</b></td><td>Honda S2000, Mazda Miata (NB), Datsun 240/280Z</td><td>0.863</td></tr>                    
+                      
+                      </tbody>
+                  </table>
+                  *Based on 2019 and 2018 SCCA National Solo Finale Entrants
+                  </div>                  
+              </div>
+            </div>
+          </section>             
+          <section id="eight" className="wrapper alt spotlight style6">
+            <div className="inner">
             <div className="content">
                 <h2 className="major left">Reference</h2>
                 <ul class="alt flexend">
-                  <li><span class="time">SCCA Official</span><a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download">2019 Helmet Certification Label Chart</a></li>
-                  <li><span class="time">SCCA Official</span><a href="https://www.scca.com/pages/solo-cars-and-rules">SCCA Solo Rulebook</a></li>
                   <li><span class="time">SCCA Official</span><a href="https://www.scca.com/pages/what-is-autocross">What is Autocross?</a></li>
+                  <li><span class="time">SCCA Official</span><a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download">2019 Helmet Certification Label Chart</a></li>
+                  <li><span class="time">SCCA Official</span><a href="https://www.scca.com/pages/solo-cars-and-rules">2019 SCCA® National Solo® Rules</a></li>
+                  <li><span class="time">SCCA Official</span><a href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download">2019 Category Allowances "Cheat Sheet" </a></li>
                 </ul>
                 <br></br><br></br>
               </div>

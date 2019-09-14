@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -23,9 +22,7 @@ const IndexPage = () => (
             <li><a href="/Results" className="button button-light">Results</a></li>
             <li><a href="/Events" className="button button-light">Events</a></li>
             <li><a href="/Calendar" className="button button-light">Calendar</a></li>
-
 					</ul>
-
         </div>
       </div>
     </section>
