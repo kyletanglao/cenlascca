@@ -341,6 +341,7 @@ const IndexPage = () => (
                   <li><span class="time">SCCA Official</span><a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download">2019 Helmet Certification Label Chart</a></li>
                   <li><span class="time">SCCA Official</span><a href="https://www.scca.com/pages/solo-cars-and-rules">2019 SCCA® National Solo® Rules</a></li>
                   <li><span class="time">SCCA Official</span><a href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download">2019 Category Allowances "Cheat Sheet" </a></li>
+                  <li><span class="time">SCCA Official</span><a href="https://www.scca.com/pages/autocross-faq">Autocross FAQ</a></li>
                 </ul>
                 <br></br><br></br>
               </div>
@@ -352,5 +353,4 @@ const IndexPage = () => (
     
   </Layout>
 );
-
 export default IndexPage;

@@ -6,20 +6,17 @@ import Zcar from '../assets/images/240.jpg';
 import glory from '../assets/images/glory.jpg';
 import logoRed from '../assets/img/logoRed.png';
 
-
-import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner logoTop">
         <div className="logo">
-          <img src={logoRed}></img>
+          <img src={logoRed} alt=""></img>
         </div>
         <div className="bannerText">
-          <h2 class="headliner">Your car wasn't meant for coffee meets. It's time to  really drive it.</h2>
+          <h2 class="headliner">Your car wasn't meant for coffee meets. It's time to drive it.</h2>
           {/* <p>{config.subHeading}</p> */} <br></br>
           <a href="/Guide" className="calltoaction button primary fit">Register for our Sept 22 Event</a>
-
 					<ul className="actions grid navGrid">
             <li><a href="/Guide" className="button button-light">Autocross Guide</a></li>
             <li><a href="/#" className="button button-light">Live timing</a></li>
