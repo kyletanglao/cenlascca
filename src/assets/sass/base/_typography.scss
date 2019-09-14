@@ -39,9 +39,9 @@
 		color: _palette(fg-bold);
 		text-decoration: none;
 
-		&:hover {
+		&:hover :not(ul.links){
 			border-bottom-color: transparent;
-			color: _palette(fg-bold) !important;
+			color: _palette(fg-bold-light) !important;
 		}
 
 		&.special:not(.button) {

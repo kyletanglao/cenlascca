@@ -82,7 +82,7 @@ const IndexPage = () => (
                     <div class="checkText">Air Compressor</div>
                   </div>                 
                 </div>    
-                <br></br><p>*Please see <a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download" class=""><b>2019 Helmet Certification Label Chart</b></a> for qualifying helmets              </p>
+                <br></br><div class="tooltip">*Please see <a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download" class=""><b>2019 Helmet Certification Label Chart</b></a> for qualifying helmets. Helmets are required; if you do not bring a qualifying helmet, we provide loaner helmets.</div>
               </div>
             </div>
           </section>        
@@ -174,15 +174,13 @@ const IndexPage = () => (
                 <div class="left">
                   <h3>Pointer Cones</h3>      
                   <p>The cones that are lying down are directional cones or, "pointers." They act as arrows to tell you which side of the cone to go on. If you happen to go on the wrong side of these pointer cones the penalty applied is considered a "Did Not Finish" (DNF). Your time will still display but does not count for the competition.</p>            
-                  <span class="image fit kindaBig center">
-                    <img src={dnf} alt="" class=""></img>
-                  </span>
+
+                    <img src={dnf} alt="" class="imagefit"></img>
+
                   <h3>Hitting a cone</h3>
                   <p>Each cone position is marked with a chalk outline known as a "box.". If your car causes a cone to fall over or get knocked completely out of its box, it’s a 2-second penalty. If a driver runs over or bumps a cone and it stands back up or doesn't fall over no penalty is applied as long as some part of the cone is still touching the box. Hitting pointer cones do not count as penalties.</p>
                   <br></br><br></br>
-                  <span class="image fit kindaBig">
-                    <img src={cones} alt="" class=""></img>
-                  </span>
+                    <img src={cones} alt="" class="imagefit"></img>
                   <br></br><br></br>
                   <h3>Red Flag</h3>
                   <p>If you are driving and you see a red flag being waved (anywhere), quickly bring your car to a safe stop. When a course worker clears you, you may proceed to drive through the finish timers and return to grid. If the red flag was not your fault, your run will not count and you will get a rerun.</p>
@@ -224,9 +222,7 @@ const IndexPage = () => (
               <div className="content">
                 <h2 className="major left">Working the course</h2>
                 <div class="left">
-                <span class="image fit kindaBig">
-                    <img src={signals} alt="" class=""></img>
-                  </span>                      
+                    <img src={signals} alt="" class="imagefit"></img>               
                   <h3>Corner Worker</h3>              
                   <ul>
                     <li>Make sure your back is not facing oncoming cars</li>

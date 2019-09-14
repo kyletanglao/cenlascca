@@ -5,6 +5,16 @@
 ///
 
 /* Contact */
+.imagefit{
+    width: 100%
+}
+.tooltip {
+    max-width: 460px;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    border-left: 2px solid #c9c9c9;
+}
 
 div.textLeft{
     text-align: left;
@@ -15,7 +25,7 @@ h2.major{
 }
 
 .wrapper.spotlight span.image.kindaBig{
-    width: 100%;
+    width: 100% !important;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -24,7 +34,8 @@ h2.major{
 }
 
 .kindaBig > img{
-    width: 75% !important;
+    // width: 75% !important;
+    // height: auto;
 }
 
 span.smallText{
@@ -104,18 +115,18 @@ div.checkIcon{
     div.checkText{     
         max-width: none;
     }    
-    .wrapper.spotlight span.image.kindaBig{
-        width: 100%;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        max-width: none !important;
-    }
+    // .wrapper.spotlight span.image.kindaBig{
+    //     width: 100%;
+    //     text-align: center;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-content: center;
+    //     max-width: none !important;
+    // }
     
-    .kindaBig > img{
-        width: 100% !important;
-    }
+    // .kindaBig > img{
+    //     width: 100%; 
+    // }
     
 
 }

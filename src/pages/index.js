@@ -16,14 +16,14 @@ const IndexPage = () => (
         <div className="bannerText">
           <h2 class="headliner">Your car was meant for more than just coffee meets. It's time to drive it.</h2>
           {/* <p>{config.subHeading}</p> */} <br></br>
-          <a href="/Guide" className="calltoaction button primary fit">Register for our Sept 22 Event</a>
+          <a href="http://msreg.com/september2019" target="_blank" rel="noopener noreferrer" className="calltoaction button primary fit">Register for our Sept 22 Event</a>
 					<ul className="actions grid navGrid">
-            <li><a href="/Guide" className="button button-light">Autocross Guide</a></li>
-            <li><a href="/#" className="button button-light">Live timing</a></li>
-            <li><a href="/Results" className="button button-light">Results</a></li>
-            <li><a href="/Events" className="button button-light">Events</a></li>
-            <li><a href="/Calendar" className="button button-light">Calendar</a></li>
-            <li><a href="/Contact" className="button button-light">Contact Us</a></li>
+            <li><a href="/draft/Guide" className="button button-light">Autocross Guide</a></li>
+            <li><a href="http://cenla-scca.org/live/results_live.htm" className="button button-light">Live timing</a></li>
+            <li><a href="/draft/Results" className="button button-light">Results</a></li>
+            <li><a href="/draft/Events" className="button button-light">Events</a></li>
+            <li><a href="/draft/Calendar" className="button button-light">Calendar</a></li>
+            <li><a href="/draft/Contact" className="button button-light">Contact Us</a></li>
       		</ul>
         </div>
       </div>
@@ -40,7 +40,7 @@ const IndexPage = () => (
             <p>
             “Solo®” is the brand name for SCCA® Autocrossing and on paper it seems very simple – use traffic cones to make a mini-roadcourse in a large parking lot or unused airport tarmac and see who can drive it the quickest without hitting any cones or going off course.
             </p>
-            <a href="/Guide" className="special">
+            <a href="/draft//Guide" className="special">
               Read our autocross guide
             </a>            
           </div>
@@ -60,7 +60,7 @@ const IndexPage = () => (
               <li>Non-member Event Price: $40</li>
               <li>Penalty for On-Site Registration: $10</li>
             </ul>
-            <a href="/Events" className="special">
+            <a href="/draft//Events" className="special">
               Find the next event
             </a>
           </div>
@@ -77,7 +77,7 @@ const IndexPage = () => (
             <p>
             SCCA autocross events can be found all over the country. Many of our drivers go beyond the local level and challenge other regions or even compete at the national SCCA events.
             </p>
-            <a href="/Calendar" className="special">
+            <a href="/draft/Calendar" className="special">
               See the calendar
             </a>
           </div>

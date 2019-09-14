@@ -32,7 +32,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="#"
+              to="http://cenla-scca.org/live/results_live.htm"
             >
               Live Timing
             </Link>
