@@ -200,7 +200,7 @@ const IndexPage = () => (
                 <div class="table-wrapper">
                   <table class="left lessBottom">
                     <thead>
-                      <tr><th>Role</th><th>Description</th><th>Radio</th><th># Needed</th></tr>
+                      <tr><th>Role</th><th>Description</th><th>Radio</th><th>#</th></tr>
                     </thead>
                     <tbody>
                       <tr><td><b>Corner Captain</b></td><td>Relay penalty information to timing. Controls red flag and oversees corner workers.</td><td>Yes</td><td>4-5</td></tr>
@@ -210,7 +210,7 @@ const IndexPage = () => (
                       <tr><td><b>Safety Steward</b></td><td>Oversees safety of event.</td><td>Optional</td><td>1</td></tr>
                       <tr><td><b>Timing</b></td><td>Oversees timing software and assigns penalties.</td><td>Yes</td><td>1-2</td></tr> 
                       <tr><td><b>Announcer</b></td><td>Announces times over loudspeaker.</td><td>No</td><td>1</td></tr>                                           
-                      <tr><td><b>Photographer</b></td><td>Takes photos. Requires a spotter if shooting on course.</td><td>No</td><td>1</td></tr>                                           
+                      <tr><td><b class="breakme">Photographer</b></td><td>Takes photos. Requires a spotter if shooting on course.</td><td>No</td><td>1</td></tr>                                           
                       <tr><td><b>Driving Coach</b></td><td>Fastest driver from previous event rides with drivers requesting coaching</td><td>No</td><td>1</td></tr>                    
                       </tbody>
                   </table>
@@ -267,7 +267,7 @@ const IndexPage = () => (
               </div>
             </div>
           </section>      
-          <section id="seven" className="wrapper spotlight alt style6">
+          <section id="seven" className="wrapper spotlight alt style4">
             <div className="inner">
             <div className="content textLeft">
                 <h2 className="major left">Car Classes</h2>
@@ -336,7 +336,7 @@ const IndexPage = () => (
             <div className="inner">
             <div className="content">
                 <h2 className="major left">Reference</h2>
-                <ul class="alt flexend">
+                <ul class="alt flexend left">
                   <li><span class="time">SCCA Official</span><a href="https://www.scca.com/pages/what-is-autocross">What is Autocross?</a></li>
                   <li><span class="time">SCCA Official</span><a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download">2019 Helmet Certification Label Chart</a></li>
                   <li><span class="time">SCCA Official</span><a href="https://www.scca.com/pages/solo-cars-and-rules">2019 SCCA® National Solo® Rules</a></li>

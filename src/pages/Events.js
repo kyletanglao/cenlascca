@@ -11,6 +11,7 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Events</h2>
+          <p>Monthly meetings are on the second Tuesday of every month at the Rotolo's on Ben Hur.</p>
         </div>
       </header>
       <section id="wrapper">
@@ -51,51 +52,7 @@ const IndexPage = () => (
             </div>
           </section>
       </section>
-          <section id="three" className="wrapper spotlight style3">
-          <div className="inner">
-          <h2 className="major">Season Results Archive</h2>
-
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">2018-2019 Season</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">2018 Spring Series</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">2017 Rotolos Fall Series</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>     
-            </div>       
-          </section>
+          
     </section>
     
   </Layout>
