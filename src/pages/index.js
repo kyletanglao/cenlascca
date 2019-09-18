@@ -18,8 +18,9 @@ const IndexPage = () => (
           {/* <p>{config.subHeading}</p> */} <br></br>
           <a href="http://msreg.com/september2019" target="_blank" rel="noopener noreferrer" className="calltoaction button primary fit">Register for our Sept 22 Event</a>
 					<ul className="actions grid navGrid">
+            <li><a href="http://cenla-scca.org/live/results_live.htm" target="_blank" rel="noopener noreferrer" className="button button-light">Live timing</a></li>
             <li><a href="/draft/Guide" className="button button-light">Autocross Guide</a></li>
-            <li><a href="http://cenla-scca.org/live/results_live.htm" className="button button-light">Live timing</a></li>
+            <li><a href="/draft/Spectate" className="button button-light">Spectate</a></li>            
             <li><a href="/draft/Results" className="button button-light">Results</a></li>
             <li><a href="/draft/Events" className="button button-light">Events</a></li>
             <li><a href="/draft/Calendar" className="button button-light">Calendar</a></li>

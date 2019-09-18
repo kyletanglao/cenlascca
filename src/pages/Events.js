@@ -18,8 +18,8 @@ const IndexPage = () => (
             <div className="content">
               <h2 className="major">2019 Fall Sprint</h2>
               <ul className="actions">
-                <li><a href="http://msreg.com/september2019" className="button fit">Sep 22</a></li>
-                <li><a href="http://msreg.com/october2019" className="button fit">Oct 27</a></li>
+                <li><a href="http://msreg.com/september2019" target="_blank" rel="noopener noreferrer" className="button fit">Sep 22</a></li>
+                <li><a href="http://msreg.com/october2019" target="_blank" rel="noopener noreferrer" className="button fit">Oct 27</a></li>
                 <li><span class="button disabled">Nov 02</span></li>
                 <li><span class="button disabled">Dec 15</span></li>
               </ul>

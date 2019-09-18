@@ -26,7 +26,17 @@ export default function Nav({ onMenuToggle = () => {} }) {
             >
               Autocross Guide
             </Link>
-          </li>        
+          </li>   
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/Spectate"
+            >
+              Spectate
+            </Link>
+          </li>                  
           <li>
             <a href="http://cenla-scca.org/live/results_live.htm">
               Live Timing
