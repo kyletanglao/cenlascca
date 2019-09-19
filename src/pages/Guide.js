@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import cones from '../assets/img/cones.png';
 import dnf from '../assets/img/DNF.png';
-import signals from '../assets/img/signals.png';
+import signals from '../assets/img/signals2.png';
 
 
 const IndexPage = () => (
