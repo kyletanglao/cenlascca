@@ -172,6 +172,10 @@ const IndexPage = () => (
               <div className="content">
                 <h2 className="major left">Driving the course</h2>
                 <div class="left">
+                <h3>Driving Coaches</h3>      
+                  <p>At CENLA, we assign the previous event's winners as Driving Coaches for their worker station. All you have to do is leave your hazards on in grid and they will hop in and ride with you before you go out on your run.</p>            
+
+
                   <h3>Pointer Cones</h3>      
                   <p>The cones that are lying down are directional cones or, "pointers." They act as arrows to tell you which side of the cone to go on. If you happen to go on the wrong side of these pointer cones the penalty applied is considered a "Did Not Finish" (DNF). Your time will still display but does not count for the competition.</p>            
 

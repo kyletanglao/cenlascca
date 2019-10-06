@@ -22,17 +22,17 @@ const IndexPage = () => (
                 <div class="table-wrapper">
                   <table class="left lessBottom"> 
                     <thead>
-                      <tr><th>Role</th><th>Name</th><th>Email</th><th>Car</th></tr>
+                      <tr><th>Role</th><th>Name</th><th>Email</th></tr>
                     </thead>
                     <tbody>
-                      <tr><td><b>Regional Executive</b></td><td>Mike Blazek</td><td>mblazek@bellsouth.net</td><td class="breakme">TBA</td></tr>
-                      <tr><td><b>Assistant Regional Executive / Activities Chairman</b></td><td>Kyle Tanglao</td><td class="breakme">kyletanglao@gmail.com</td><td>TBA</td></tr>                      
-                      <tr><td><b>Secretary</b></td><td>Vacant</td><td class="breakme">Vacant</td><td>Vacant</td></tr>
-                      <tr><td><b>Treasurer</b></td><td>Jeff Hoffmann</td><td class="breakme">jeffkh@aol.com</td><td>TBA</td></tr>                      
-                      <tr><td><b>Member at large</b></td><td>Alan Merkle</td><td class="breakme">Merkledesigns@Gmail.com</td><td>TBA</td></tr>
-                      <tr><td><b>Member at large</b></td><td>Michael Holmes (Jimmy Radiator)</td><td class="breakme">michael.holmes1@cox.net</td><td>TBA</td></tr>
-                      <tr><td><b>Member at large</b></td><td>Quinlan Pellicciotti</td><td class="breakme">quinpell@gmail.com</td><td>TBA</td></tr>
-                      <tr><td><b>Member at large</b></td><td>Barrett Broussard</td><td class="breakme">Barrettbrou@gmail.com</td><td>TBA</td></tr>
+                      <tr><td><b>Regional Executive</b></td><td>Mike Blazek</td><td>mblazek@bellsouth.net</td></tr>
+                      <tr><td><b>Assistant Regional Executive / Activities Chairman</b></td><td>Kyle Tanglao</td><td class="breakme">kyletanglao@gmail.com</td></tr>                      
+                      <tr><td><b>Secretary</b></td><td>Vacant</td><td class="breakme">Vacant</td></tr>
+                      <tr><td><b>Treasurer</b></td><td>Jeff Hoffmann</td><td class="breakme">jeffkh@aol.com</td></tr>                      
+                      <tr><td><b>Member at large</b></td><td>Alan Merkle</td><td class="breakme">Merkledesigns@Gmail.com</td></tr>
+                      <tr><td><b>Member at large</b></td><td>Michael Holmes (Jimmy Radiator)</td><td class="breakme">michael.holmes1@cox.net</td></tr>
+                      <tr><td><b>Member at large</b></td><td>Quinlan Pellicciotti</td><td class="breakme">quinpell@gmail.com</td></tr>
+                      <tr><td><b>Member at large</b></td><td>Barrett Broussard</td><td class="breakme">Barrettbrou@gmail.com</td></tr>
 
 
                      </tbody>
