@@ -22,6 +22,28 @@ import Nov17 from '../assets/maps/Nov2017_Map.png';
 import Oct17 from '../assets/maps/Oct2017_Map.png';
 import Sep17 from '../assets/maps/Sep2017_Map.png';
 
+import May17 from '../assets/maps/May2017_Map.png';
+import Apr17 from '../assets/maps/Apr2017_Map.png';
+import Mar17 from '../assets/maps/Mar2017_Map.jpg';
+import Feb17 from '../assets/maps/Feb2017_Map.png';
+import Jan17 from '../assets/maps/Jan2017_Map.png';
+
+import Dec16 from '../assets/maps/Dec2016_Map.png';
+import Nov16 from '../assets/maps/Nov2016_Map.png';
+import Oct16 from '../assets/maps/Oct2016_Map.png';
+// import Oct16D from '../assets/maps/Oct2016_Delta_Map.jpg';
+
+import May16 from '../assets/maps/May2016_Map.jpg';
+import Apr16 from '../assets/maps/Apr2016_Map.png';
+import Apr16A from '../assets/maps/Apr2016_Map1.jpg'
+import Mar16 from '../assets/maps/Mar2016_Map.png';
+import Feb16 from '../assets/maps/Feb2016_Map.jpg';
+import Jan16 from '../assets/maps/Jan2016_Map.jpg';
+
+import Dec15 from '../assets/maps/Dec2015_Map.jpg';
+import Nov15 from '../assets/maps/Nov2015_Map.png';
+import Oct15 from '../assets/maps/Oct2015_Map.jpg';
+
 import May19L from '../assets/maps/May2019_Map.png';
 // import May19L from '../assets/maps/May2019_Map.png';
 import Apr19L from '../assets/maps/April2019_Map.jpg';
@@ -34,22 +56,38 @@ const IndexPage = () => (
         <div className="inner">
           <h2>Results</h2>
           <ul className="actions grid navGrid">
-            <li><a href="#one" className="button button-light">2019 Fall</a></li>
-            <li><a href="#two" className="button button-light">2018-2019 Season</a></li>
-            <li><a href="#three" className="button button-light">2018 Spring Sprint</a></li>
-            <li><a href="#four" className="button button-light">2017 Fall Sprint</a></li>       
+            {/* <li><a href="#2019F" className="button button-light">2019 Fall</a></li>
+            <li><a href="#201819" className="button button-light">2018-2019 Season</a></li>
+            <li><a href="#2018S" className="button button-light">2018 Spring Sprint</a></li>
+            <li><a href="#2017F" className="button button-light">2017 Fall Sprint</a></li>   
+            <li><a href="#2017" className="button button-light">2017</a></li>       
+            <li><a href="#2016" className="button button-light">2016</a></li>       
+            <li><a href="#2015" className="button button-light">2015</a></li>       
+            <li><a href="#2013" className="button button-light">2013</a></li>       
+            <li><a href="#2012" className="button button-light">2012</a></li>       
+            <li><a href="#2011" className="button button-light">2011</a></li>       
+            <li><a href="#2010" className="button button-light">2010</a></li>       
+            <li><a href="#2009" className="button button-light">2009</a></li>       
+            <li><a href="#2008" className="button button-light">2008</a></li>       
+            <li><a href="#2007" className="button button-light">2007</a></li>       
+            <li><a href="#2006" className="button button-light">2006</a></li>       
+            <li><a href="#2005" className="button button-light">2005</a></li>       
+            <li><a href="#2004" className="button button-light">2004</a></li>       
+            <li><a href="#2003" className="button button-light">2003</a></li>       
+            <li><a href="#undated" className="button button-light">undated</a></li>        */}
+
 					</ul>
         </div>
       </header>
       <section id="wrapper">
 
 
-      <section id="one" className="wrapper spotlight style1">
+      <section id="2019F" className="wrapper spotlight style1">
         <div className="inner">
           <div className="content left">
               <h2 className="major">2019 Fall</h2>
 
-<h4>TBA</h4>
+<h4>TBAs</h4>
 
               {/* <div class="grid left">
                 <div class="grid-item">
@@ -63,7 +101,7 @@ const IndexPage = () => (
       </section>
 
 
-      <section id="two" className="wrapper alt spotlight style2 ">
+      <section id="201819" className="wrapper alt spotlight style2 ">
         <div className="inner">
           <div className="content left winnersection">
               <h2 className="major">2018-2019 Season</h2>
@@ -75,7 +113,7 @@ const IndexPage = () => (
               <div class="grid">
                 {/* Grid Item */}
                 <div class="grid-item">
-                  <a href={May19L}>
+                  <a href={May19L} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={May19} alt=""></img>
                     </div>
@@ -198,7 +236,7 @@ const IndexPage = () => (
                 </div>
                 {/* Grid Item */}
                 <div class="grid-item">
-                  <a href={Apr19L}>                  
+                  <a href={Apr19L} target="_blank" rel="noopener noreferrer">                  
                   <div class="map">
                     <img src={Apr19} alt=""></img>
                   </div>
@@ -1155,7 +1193,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="three" className="wrapper spotlight style3">
+      <section id="2018S" className="wrapper spotlight style3">
         <div className="inner">
           <div className="content left winnersection">
               <h2 className="major">2018 Spring Sprint</h2>
@@ -1167,7 +1205,7 @@ const IndexPage = () => (
               <div class="grid">
                 {/* Grid Item */}
                 <div class="grid-item">
-                  <a href={May18}>
+                  <a href={May18} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={May18} alt=""></img>
                     </div>
@@ -1292,7 +1330,7 @@ const IndexPage = () => (
 
  {/* Grid Item */}
  <div class="grid-item">
-                  <a href={Apr18}>
+                  <a href={Apr18} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={Apr18} alt=""></img>
                     </div>
@@ -1418,7 +1456,7 @@ const IndexPage = () => (
 
  {/* Grid Item */}
  <div class="grid-item">
-                  <a href={Mar18}>
+                  <a href={Mar18} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={Mar18} alt=""></img>
                     </div>
@@ -1549,7 +1587,7 @@ const IndexPage = () => (
 
 {/* Grid Item */}
  <div class="grid-item">
-                  <a href={Feb18}>
+                  <a href={Feb18} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={Feb18} alt=""></img>
                     </div>
@@ -1674,7 +1712,7 @@ const IndexPage = () => (
 
 {/* Grid Item */}
                  <div class="grid-item">
-                  <a href={Jan18}>
+                  <a href={Jan18} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={Jan18} alt=""></img>
                     </div>
@@ -1803,7 +1841,7 @@ const IndexPage = () => (
       </section>
 
 
-      <section id="four" className="wrapper alt spotlight style4">
+      <section id="2017F" className="wrapper alt spotlight style4">
         <div className="inner">
           <div className="content left winnersection">
               <h2 className="major">2017 Fall Sprint</h2>
@@ -1815,7 +1853,7 @@ const IndexPage = () => (
               <div class="grid">
                 {/* Grid Item */}
                 <div class="grid-item">
-                  <a href={Dec17}>
+                  <a href={Dec17} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={Dec17} alt=""></img>
                     </div>
@@ -1940,7 +1978,7 @@ const IndexPage = () => (
 
  {/* Grid Item */}
  <div class="grid-item">
-                  <a href={Nov17}>
+                  <a href={Nov17} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={Nov17} alt=""></img>
                     </div>
@@ -2066,7 +2104,7 @@ const IndexPage = () => (
 
  {/* Grid Item */}
  <div class="grid-item">
-                  <a href={Oct17}>
+                  <a href={Oct17} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={Oct17} alt=""></img>
                     </div>
@@ -2198,7 +2236,7 @@ const IndexPage = () => (
 
 {/* Grid Item */}
  <div class="grid-item">
-                  <a href={Sep17}>
+                  <a href={Sep17} target="_blank" rel="noopener noreferrer">
                     <div class="map">
                     <img src={Sep17} alt=""></img>
                     </div>
@@ -2325,7 +2363,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="three" className="wrapper spotlight style5">
+      <section id="2017" className="wrapper spotlight style5">
         <div className="inner">
           <div className="content left winnersection">
               <h2 className="major">2017</h2>
@@ -2334,9 +2372,9 @@ const IndexPage = () => (
 
 {/* Grid Item */}
               <div class="grid-item">
-                  <a href={Sep17}>
+                  <a href={May17} target="_blank" rel="noopener noreferrer">
                     <div class="map">
-                    <img src={Sep17} alt=""></img>
+                    <img src={May17} alt=""></img>
                     </div>
                   </a>
                   <div class="results">
@@ -2347,57 +2385,57 @@ const IndexPage = () => (
                           <tbody>
                             <tr>
                               <td class="category"><b>Raw</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
+                              <td class="best">38.801</td>
+                              <td class="car">44 DP</td>
+                              <td class="driver">J. Jumonville</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Pax</b></td>
-                              <td class="best">32.317</td>
-                              <td class="car">9 STX</td>
-                              <td class="driver">M. Bales</td>
+                              <td class="best">31.852</td>
+                              <td class="car">90 DSX</td>
+                              <td class="driver">Z. Lemoine</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street</b></td>
-                              <td class="best">41.095</td>
-                              <td class="car">17 GS</td>
-                              <td class="driver">C. Wooster</td>
+                              <td class="best">39.874</td>
+                              <td class="car">26 CS</td>
+                              <td class="driver">J. Wanamaker</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Touring</b></td>
-                              <td class="best">39.067</td>
-                              <td class="car">0 STR</td>
-                              <td class="driver">W. Burk</td>
+                              <td class="best">39.846</td>
+                              <td class="car">7 STX</td>
+                              <td class="driver">B. ODeay</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street Prepared</b></td>
-                              <td class="best">41.573</td>
-                              <td class="car">24 CSP</td>
-                              <td class="driver">K. Duplantis</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Classic American</b></td>
-                              <td class="best">44.555</td>
-                              <td class="car">11 CAM</td>
-                              <td class="driver">T. Neuville</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Prepared</b></td>
-                              <td class="best">38.339</td>
-                              <td class="car">32 XP</td>
+                              <td class="best">41.073</td>
+                              <td class="car">32 CSP</td>
                               <td class="driver">C. Meaux</td>
                             </tr>
                             <tr>
+                              <td class="category"><b>Classic American</b></td>
+                              <td class="best">40.110</td>
+                              <td class="car">41 CAMC</td>
+                              <td class="driver">C. Kluczkowski</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">38.801</td>
+                              <td class="car">44 DP</td>
+                              <td class="driver">J. Jumonville</td>
+                            </tr>
+                            <tr>
                               <td class="category"><b>Street Modified</b></td>
-                              <td class="best">41.506</td>
-                              <td class="car">10 SMF</td>
-                              <td class="driver">L. Villemarette</td>
+                              <td class="best">39.903</td>
+                              <td class="car">24 SM</td>
+                              <td class="driver">G. Liu</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Modified</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
+                              <td class="best">47.369</td>
+                              <td class="car">111 AM</td>
+                              <td class="driver">L. Griffith</td>
                             </tr>
                           </tbody>
                         </table>
@@ -2417,7 +2455,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/5-13/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2429,7 +2467,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/5-13/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2441,7 +2479,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/5-13/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring shape">
@@ -2461,70 +2499,64 @@ const IndexPage = () => (
 
 {/* Grid Item */}
               <div class="grid-item">
-                  <a href={Sep17}>
+                  <a href={Apr17} target="_blank" rel="noopener noreferrer">
                     <div class="map">
-                    <img src={Sep17} alt=""></img>
+                    <img src={Apr17} alt=""></img>
                     </div>
                   </a>
                   <div class="results">
-                    <div class="date">April 13, 2017</div>
+                    <div class="date">April 2, 2017</div>
                     <div class="winners">
                       <div class="table-wrapper">
                         <table class="eventWinners">
                           <tbody>
                             <tr>
                               <td class="category"><b>Raw</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
+                              <td class="best">49.014</td>
+                              <td class="car">197 STR</td>
+                              <td class="driver">K. Coughlin</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Pax</b></td>
-                              <td class="best">32.317</td>
-                              <td class="car">9 STX</td>
-                              <td class="driver">M. Bales</td>
+                              <td class="best">40.681</td>
+                              <td class="car">197 STR</td>
+                              <td class="driver">K. Coughlin</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street</b></td>
-                              <td class="best">41.095</td>
-                              <td class="car">17 GS</td>
-                              <td class="driver">C. Wooster</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Touring</b></td>
-                              <td class="best">39.067</td>
-                              <td class="car">0 STR</td>
+                              <td class="best">51.397</td>
+                              <td class="car">0 BS</td>
                               <td class="driver">W. Burk</td>
                             </tr>
                             <tr>
-                              <td class="category"><b>Street Prepared</b></td>
-                              <td class="best">41.573</td>
-                              <td class="car">24 CSP</td>
-                              <td class="driver">K. Duplantis</td>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">49.014</td>
+                              <td class="car">197 STR</td>
+                              <td class="driver">K. Coughlin</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Classic American</b></td>
-                              <td class="best">44.555</td>
-                              <td class="car">11 CAM</td>
-                              <td class="driver">T. Neuville</td>
+                              <td class="best">50.919</td>
+                              <td class="car">30 CAMS</td>
+                              <td class="driver">A. Merkle</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Prepared</b></td>
-                              <td class="best">38.339</td>
-                              <td class="car">32 XP</td>
-                              <td class="driver">C. Meaux</td>
+                              <td class="best">52.395</td>
+                              <td class="car">81 CP</td>
+                              <td class="driver">G. Hebert</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street Modified</b></td>
-                              <td class="best">41.506</td>
-                              <td class="car">10 SMF</td>
-                              <td class="driver">L. Villemarette</td>
+                              <td class="best">52.875</td>
+                              <td class="car">4 SM</td>
+                              <td class="driver">G. Liu</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Modified</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
+                              <td class="best">60.052</td>
+                              <td class="car">111 AM</td>
+                              <td class="driver">L. Griffith</td>
                             </tr>
                           </tbody>
                         </table>
@@ -2532,7 +2564,7 @@ const IndexPage = () => (
                     </div>
 
                     <div class="categories">
-                      <a href="http://www.cenla-scca.org/results/2017/5-13/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/4-2/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2544,7 +2576,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/4-2/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2556,7 +2588,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/4-2/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2568,7 +2600,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/4-2/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring shape">
@@ -2588,70 +2620,64 @@ const IndexPage = () => (
 
 {/* Grid Item */}
               <div class="grid-item">
-                  <a href={Sep17}>
+                  <a href={Mar17} target="_blank" rel="noopener noreferrer">
                     <div class="map">
-                    <img src={Sep17} alt=""></img>
+                    <img src={Mar17} alt=""></img>
                     </div>
                   </a>
                   <div class="results">
-                    <div class="date">March 13, 2017</div>
+                    <div class="date">March 5, 2017</div>
                     <div class="winners">
                       <div class="table-wrapper">
                         <table class="eventWinners">
                           <tbody>
                             <tr>
                               <td class="category"><b>Raw</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
+                              <td class="best">36.492</td>
+                              <td class="car">8 BSP</td>
+                              <td class="driver">B. Pierce</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Pax</b></td>
-                              <td class="best">32.317</td>
-                              <td class="car">9 STX</td>
-                              <td class="driver">M. Bales</td>
+                              <td class="best">30.196</td>
+                              <td class="car">113 DS</td>
+                              <td class="driver">M. Holmes</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street</b></td>
-                              <td class="best">41.095</td>
-                              <td class="car">17 GS</td>
-                              <td class="driver">C. Wooster</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Touring</b></td>
-                              <td class="best">39.067</td>
-                              <td class="car">0 STR</td>
+                              <td class="best">37.435</td>
+                              <td class="car">0 BS</td>
                               <td class="driver">W. Burk</td>
                             </tr>
                             <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">38.092</td>
+                              <td class="car">37 STU</td>
+                              <td class="driver">A. Daniel</td>
+                            </tr>
+                            <tr>
                               <td class="category"><b>Street Prepared</b></td>
-                              <td class="best">41.573</td>
-                              <td class="car">24 CSP</td>
-                              <td class="driver">K. Duplantis</td>
+                              <td class="best">36.492</td>
+                              <td class="car">8 BSP</td>
+                              <td class="driver">B. Pierce</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Classic American</b></td>
-                              <td class="best">44.555</td>
-                              <td class="car">11 CAM</td>
-                              <td class="driver">T. Neuville</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Prepared</b></td>
-                              <td class="best">38.339</td>
-                              <td class="car">32 XP</td>
-                              <td class="driver">C. Meaux</td>
+                              <td class="best">37.211</td>
+                              <td class="car">30 CAMS</td>
+                              <td class="driver">A. Merkle</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street Modified</b></td>
-                              <td class="best">41.506</td>
-                              <td class="car">10 SMF</td>
-                              <td class="driver">L. Villemarette</td>
+                              <td class="best">39.899</td>
+                              <td class="car">86 SMF</td>
+                              <td class="driver">M. Trinh</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Modified</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
+                              <td class="best">44.972</td>
+                              <td class="car">111 AM</td>
+                              <td class="driver">L. Griffith</td>
                             </tr>
                           </tbody>
                         </table>
@@ -2659,7 +2685,7 @@ const IndexPage = () => (
                     </div>
 
                     <div class="categories">
-                      <a href="http://www.cenla-scca.org/results/2017/5-13/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/3-5/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2671,7 +2697,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/3-5/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2683,7 +2709,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/3-5/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2695,7 +2721,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/3-5/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring shape">
@@ -2714,70 +2740,70 @@ const IndexPage = () => (
 
 {/* Grid Item */}
               <div class="grid-item">
-                  <a href={Sep17}>
+                  <a href={Feb17} target="_blank" rel="noopener noreferrer">
                     <div class="map">
-                    <img src={Sep17} alt=""></img>
+                    <img src={Feb17} alt=""></img>
                     </div>
                   </a>
                   <div class="results">
-                    <div class="date">February 13, 2017</div>
+                    <div class="date">February 5, 2017</div>
                     <div class="winners">
                       <div class="table-wrapper">
                         <table class="eventWinners">
                           <tbody>
                             <tr>
                               <td class="category"><b>Raw</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
+                              <td class="best">38.398</td>
+                              <td class="car">130 CAMS</td>
+                              <td class="driver">B. Guillot</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Pax</b></td>
-                              <td class="best">32.317</td>
-                              <td class="car">9 STX</td>
-                              <td class="driver">M. Bales</td>
+                              <td class="best">31.360</td>
+                              <td class="car">113 DS</td>
+                              <td class="driver">M. Holmes</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street</b></td>
-                              <td class="best">41.095</td>
-                              <td class="car">17 GS</td>
-                              <td class="driver">C. Wooster</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Touring</b></td>
-                              <td class="best">39.067</td>
-                              <td class="car">0 STR</td>
+                              <td class="best">39.111</td>
+                              <td class="car">0 BS</td>
                               <td class="driver">W. Burk</td>
                             </tr>
                             <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">38.996</td>
+                              <td class="car">7 STX</td>
+                              <td class="driver">B. ODeay</td>
+                            </tr>
+                            <tr>
                               <td class="category"><b>Street Prepared</b></td>
-                              <td class="best">41.573</td>
-                              <td class="car">24 CSP</td>
-                              <td class="driver">K. Duplantis</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Classic American</b></td>
-                              <td class="best">44.555</td>
-                              <td class="car">11 CAM</td>
-                              <td class="driver">T. Neuville</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Prepared</b></td>
-                              <td class="best">38.339</td>
-                              <td class="car">32 XP</td>
+                              <td class="best">38.974</td>
+                              <td class="car">32 CSP</td>
                               <td class="driver">C. Meaux</td>
                             </tr>
                             <tr>
+                              <td class="category"><b>Classic American</b></td>
+                              <td class="best">38.398</td>
+                              <td class="car">130 CAMS</td>
+                              <td class="driver">B. Guillot</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">42.375</td>
+                              <td class="car">81 XP</td>
+                              <td class="driver">G. Hebert</td>
+                            </tr>                            
+                            <tr>
                               <td class="category"><b>Street Modified</b></td>
-                              <td class="best">41.506</td>
-                              <td class="car">10 SMF</td>
-                              <td class="driver">L. Villemarette</td>
+                              <td class="best">38.464</td>
+                              <td class="car">11 SSM</td>
+                              <td class="driver">J. Goodick</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Modified</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
+                              <td class="best">48.275</td>
+                              <td class="car">110 AM</td>
+                              <td class="driver">B. Fitzgerald</td>
                             </tr>
                           </tbody>
                         </table>
@@ -2785,7 +2811,7 @@ const IndexPage = () => (
                     </div>
 
                     <div class="categories">
-                      <a href="http://www.cenla-scca.org/results/2017/5-13/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/2-5/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2797,7 +2823,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/2-5/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2809,7 +2835,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/2-5/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2821,7 +2847,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/2-5/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring shape">
@@ -2841,70 +2867,58 @@ const IndexPage = () => (
 
 {/* Grid Item */}
               <div class="grid-item">
-                  <a href={Sep17}>
+                  <a href={Jan17} target="_blank" rel="noopener noreferrer">
                     <div class="map">
-                    <img src={Sep17} alt=""></img>
+                    <img src={Jan17} alt=""></img>
                     </div>
                   </a>
                   <div class="results">
-                    <div class="date">January 13, 2017</div>
+                    <div class="date">January 8, 2017</div>
                     <div class="winners">
                       <div class="table-wrapper">
                         <table class="eventWinners">
                           <tbody>
                             <tr>
                               <td class="category"><b>Raw</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Pax</b></td>
-                              <td class="best">32.317</td>
-                              <td class="car">9 STX</td>
-                              <td class="driver">M. Bales</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Street</b></td>
-                              <td class="best">41.095</td>
-                              <td class="car">17 GS</td>
-                              <td class="driver">C. Wooster</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Touring</b></td>
-                              <td class="best">39.067</td>
-                              <td class="car">0 STR</td>
+                              <td class="best">35.714</td>
+                              <td class="car">0 BS</td>
                               <td class="driver">W. Burk</td>
                             </tr>
                             <tr>
-                              <td class="category"><b>Street Prepared</b></td>
-                              <td class="best">41.573</td>
-                              <td class="car">24 CSP</td>
-                              <td class="driver">K. Duplantis</td>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">29.035</td>
+                              <td class="car">0 BS</td>
+                              <td class="driver">W. Burk</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">35.714</td>
+                              <td class="car">0 BS</td>
+                              <td class="driver">W. Burk</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">36.614</td>
+                              <td class="car">37 STU</td>
+                              <td class="driver">A. Daniel</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Classic American</b></td>
-                              <td class="best">44.555</td>
-                              <td class="car">11 CAM</td>
+                              <td class="best">36.672</td>
+                              <td class="car">12 CAMC</td>
                               <td class="driver">T. Neuville</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Prepared</b></td>
-                              <td class="best">38.339</td>
-                              <td class="car">32 XP</td>
-                              <td class="driver">C. Meaux</td>
+                              <td class="best">39.781</td>
+                              <td class="car">18 XP</td>
+                              <td class="driver">I. Chandra</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street Modified</b></td>
-                              <td class="best">41.506</td>
-                              <td class="car">10 SMF</td>
-                              <td class="driver">L. Villemarette</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Modified</b></td>
-                              <td class="best">34.988</td>
-                              <td class="car">99 KM</td>
-                              <td class="driver">J. Ricard</td>
+                              <td class="best">40.216</td>
+                              <td class="car">207 SM</td>
+                              <td class="driver">D. Dang</td>
                             </tr>
                           </tbody>
                         </table>
@@ -2912,7 +2926,7 @@ const IndexPage = () => (
                     </div>
 
                     <div class="categories">
-                      <a href="http://www.cenla-scca.org/results/2017/5-13/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/1-8/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2924,7 +2938,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/1-8/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2936,7 +2950,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/1-8/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -2948,7 +2962,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/results/2017/9-17/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2017/1-8/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring shape">
@@ -2964,7 +2978,739 @@ const IndexPage = () => (
                   </div>
                 </div>
 
+                </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="2016" className="wrapper spotlight style3 alt">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2016</h2>
+              <div class="grid">
+              {/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Dec16} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Dec16} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">December 11, 2016</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2016/12-11/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/12-11/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/12-11/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/12-11/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Nov16} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Nov16} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">November 27, 2016</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2016/11-27/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/11-27/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/11-27/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/11-27/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Oct16} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Oct16} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">October 2, 2016</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2016/10-2/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/10-2/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/10-2/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={May16} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={May16} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">May 15, 2016</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2016/5-15/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/5-15/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/5-15/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/5-15/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Apr16} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Apr16A} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">April 17, 2016 - Splitcross</div>
+                    <div class="categories">
+                    <a href="http://www.cenla-scca.org/results/2016/4-17/PAX-Multi-Morning-1.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax 1</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>  
+                      <a href="http://www.cenla-scca.org/results/2016/4-17/PAX-Total-Afternoon.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax 2</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>                          
+                      <a href="http://www.cenla-scca.org/results/2016/4-17/FTD-Multi-Morning.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw 1</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/4-17/FTD-Multi-Afternoon.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw 2</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>      
+
+                    </div>
+                    <div class="categories">
+                    <a href="http://www.cenla-scca.org/results/2016/4-17/Class-Total-Morning.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">All 1</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>      
+                      <a href="http://www.cenla-scca.org/results/2016/4-17/Class-Total-Afternoon.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">All 2</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>      
+                      </div>
+                  </div>
+                </div>
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Mar16} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Mar16} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">March 20, 2016</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2016/3-20/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/3-20/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/3-20/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/3-20/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Feb16} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Feb16} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">February 21, 2016 - Endurocross</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2016/2-21/Total-PAX.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax 1</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>  
+                      <a href="http://www.cenla-scca.org/results/2016/2-21/Single-PAX.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax 2</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a> 
+                      <a href="http://www.cenla-scca.org/results/2016/2-21/Total-RAW.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw 1</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a> 
+                      <a href="http://www.cenla-scca.org/results/2016/2-21/Singl-raw.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw 2</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>                                                                                       
+                    </div>                    
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2016/2-21/Class-Final.xlsx" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>                      
+                    </div>
+                  </div>
+                </div>
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Jan16} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Jan16} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">January 17, 2016</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2016/1-17/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/1-17/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/1-17/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2016/1-17/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="2015" className="wrapper spotlight style2">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2015</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Dec15} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Dec15} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">December 13, 2015</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2015/12-13/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2015/12-13/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2015/12-13/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2015/12-13/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Nov15} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Nov15} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">November 8, 2015</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2015/11-8/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2015/11-8/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2015/11-8/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2015/11-8/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <a href={Oct15} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Oct15} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">October 25, 2015</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2015/10-25/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2015/10-25/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2015/10-25/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2015/10-25/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
 
                 </div>
@@ -2972,6 +3718,2500 @@ const IndexPage = () => (
         </div>
       </section>
 
+
+      <section id="2013" className="wrapper spotlight style1 alt">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2013</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">June 30, 2013 TLAC 2</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/Pax_Time_Results-TLAC2_06-30-2013.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/Final_Results_TLAC2_06-30-2013.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">January 20, 2013</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/jan_20_2013_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/jan_20_2013_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>                
+
+
+                </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="2012" className="wrapper spotlight style2">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2012</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">December 9, 2012</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/december%209th_2012_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/december%209th_2012_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>    
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">February 26, 2012</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/feb26th2012_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/feb26th2012_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+                </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="2012" className="wrapper spotlight style3 alt">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2011</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">October 23, 2011</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/october%2023rd_2011_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/october_23rd_2011_raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/october_23rd_2011_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>                      
+                    </div>
+                  </div>
+                </div>   
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">September 25, 2011</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/september_25th_2011_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/september_25th_2011_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">July 23, 2011</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/july%2031st2011_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/july%2031st2011_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">June 19, 2011</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/june%2019th_2011_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/june%2019th_2011_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">May 29, 2011</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/may29th_2011_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/may29th_2011_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">April 9, 2011</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/april_4-9-2011_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/april_4-9-2011_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">March 26, 2011</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/march_20th_2011_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/march_20th_2011_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">January 30, 2011</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2011/january_30th_2011_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2011/january_30th_2011_raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>                      
+                      <a href="http://www.cenla-scca.org/results/2011/january_30th_2011_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="2010" className="wrapper spotlight style4">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2010</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">July 31, 2010</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/july%2031st_2010pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/july%2031st-2010_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">May 16, 2010</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/May%2016th2010_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/May%2016th2010_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">April 11, 2010</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/4-11-2010_no_de_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/4-11-2010_no_de_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">February 21, 2010</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/Feb%2021st_2010_pax_no_de.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/Feb%2021st_2010_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">January 24, 2010</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/Jan%2024th_2010_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/Jan%2024th_2010_raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="2009" className="wrapper spotlight style5 alt">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2009</h2>
+              <div class="grid">
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">November 22, 2009</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/gobble%20gobble%20autox_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/gobble%20gobble%20autox_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">October 18, 2009</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/oktobercross_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/oktobercross_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">July 18, 2009</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/July%2018th%202009_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/July%2018th%202009_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">June 20, 2009</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/june%2020th2009_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/june%2020th2009_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>     
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">March 15, 2009</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/march%2015th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/march%2015th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">February 15, 2009</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/15feb_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/15feb_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>                               
+
+              </div>
+          </div>
+        </div>
+      </section>      
+
+      <section id="2008" className="wrapper spotlight style4">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2008</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">December 7, 2008</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/dec%207th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/dec%207th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">TLAC 4 2008</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/tlac4_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/tlac4_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">August 16, 2008</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/August%2016th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/August%2016th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>                   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">July 19, 2008</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/Jul%2019th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/Jul%2019th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">April 19, 2008</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/sowdiv1_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/sowdiv1_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>            
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">March 30, 2008</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/Mar%2030th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/Mar%2030th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>                          
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">February 17, 2008</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/February%2017th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/February%2017th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>     
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">January 20, 2008</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/January%2020th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/January%2020th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+              </div>
+          </div>
+        </div>
+      </section>  
+
+      <section id="2007" className="wrapper spotlight style3 alt">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2007</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">December 2, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/December%202nd_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/December%202nd_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">November 18, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/November%2018th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/November%2018th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">September 3, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/September%203rd_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/September%203rd_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">August 18, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/August%2018th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/August%2018th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">July 21, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/july%2021st_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/july%2021st_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">June 23, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/June%2023rd_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/June%2023rd_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">May 27, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/May%2027th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/May%2027th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">March 25, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/Mar%2025_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/Mar%2025_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">February 18, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/feb_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/feb_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">January 21, 2007</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/January%2021st_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/January%2021st_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+              </div>
+          </div>
+        </div>
+      </section>  
+
+      <section id="2006" className="wrapper spotlight style2">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2006</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">December 10, 2006</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/December%2010th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/December%2010th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">November 19, 2006</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/nov19th2006_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/nov19th2006_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">September 4, 2006</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/labor%20day%20autox_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/labor%20day%20autox_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">August 5, 2006</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/aug%205%202006_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/aug%205%202006_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">July 8, 2006</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/july%208th%202006_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/july%208th%202006_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">May 21, 2006</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/may212006_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/may212006_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">March 12, 2006</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/st%20pattys_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/st%20pattys_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">February 12, 2006</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/Feb12_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/Feb12_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">January 22, 2006</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/January%2022nd_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/January%2022nd_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+              </div>
+          </div>
+        </div>
+      </section>  
+
+      <section id="2005" className="wrapper spotlight style1 alt">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2005</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">December 18, 2005</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/Dec%2018th%202005_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/dec%2018th%202005_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">November 20, 2005</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/nov%2020th_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/nov%2020th_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">October 9, 2005</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/hurriav_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/hurriav_sum.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">August 20, 2005</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/nightmaneuvers3_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/nightmaneuvers3_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">July 16, 2005</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/nightmaneuvers2pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/nightmaneuvers_fin2.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">June 18, 2005</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/nightmaneuvers_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/night%20maneuvers_sumofficial.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">February 20, 2005</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/feb2005_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/feb2005_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+                
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">January 30, 2005</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/jan2005_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/jan2005_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+
+              </div>
+          </div>
+        </div>
+      </section>  
+      
+      <section id="2004" className="wrapper spotlight style2">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2004</h2>
+              <div class="grid">
+
+
+                
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">November 21, 2004</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/novpaxresults.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/novclassresults.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+                
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">October 10, 2004</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/OktoberfastPAX.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/OktoberfastClasses.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+                
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">September 6, 2004</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/LaborDayPax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/LaborDayFinal.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+                
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">July 24, 2004</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/July24Resultspax.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/July24resultsbyclass.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+                
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">June 24, 2004</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/June27resultspax.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/July24resultsbyclass.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+                
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">May 23, 2004</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/May23paxresults.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/May23results.pdf" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+                
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">March 14, 2004</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/March14PaxResults.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/March14ClassResults.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">January 11, 2004</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/Jan11PaxResults.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/Jan11ClassResults.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+              </div>
+          </div>
+        </div>
+      </section>  
+
+      <section id="2003" className="wrapper spotlight style3 alt">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">2003</h2>
+              <div class="grid">
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">October 26, 2003</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/oct03.html" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">September 1, 2003</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/sept03.html" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">August 17, 2003</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/aug03.html" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">July 20, 2003</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/july03.html" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">June 15, 2003</div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/june03.html" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+
+              </div>
+          </div>
+        </div>
+      </section>        
+
+      <section id="undated" className="wrapper spotlight style4">
+        <div className="inner">
+          <div className="content left winnersection">
+              <h2 className="major">Undated</h2>
+              <div class="grid">
+{/* Grid Item */}
+              <div class="grid-item">
+                  <div class="results">
+                    <div class="date">Rabbit Run</div>
+                    <div class="categories">
+                    <a href="http://www.cenla-scca.org/results/Rabbit%20Run_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>                      
+                      <a href="http://www.cenla-scca.org/results/Rabbit%20Run_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+          </div>
+        </div>
+      </section>  
 
       </section>
     </section>
