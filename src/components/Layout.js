@@ -7,6 +7,9 @@ import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
 
+import metaImage from '../assets/images/meta.jpg';
+
+
 class Layout extends Component {
   constructor(props) {
     super(props);
@@ -47,7 +50,16 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               meta={[
                 { name: 'description', content: 'Central Louisiana Region of SCCA' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'keywords', content: 'autocross, cars, cones, baton rouge, louisiana' },
+                { name: 'og:title', content: 'CENLA SCCA'},   
+                { name: 'og:description', content: 'Central Louisiana Region for Sports Car Club of America' },                
+                { name: 'og:image', content: {metaImage} },
+                { name: 'og:url', content: 'http://cenla-scca.org' },
+                { name: 'twitter:title', content: 'CENLA SCCA' },    
+                { name: 'twitter:description', content: 'Central Louisiana Region for Sports Car Club of America' },                
+                { name: 'twitter:image', content: {metaImage} },
+                { name: 'twitter:card', content: 'summary_large_image' },                
+
               ]}
             >
               <html lang="en" />

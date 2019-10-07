@@ -53,7 +53,7 @@ const IndexPage = () => (
               <h2 className="major left">Photography</h2>
               <h3>Photographers are allowed provided they:</h3>
                 <ul class="">
-                  <li>  either stay in the spectating area or are assigned a spotter (on request);</li>
+                  <li>  either stay in the spectating area or are assigned a spotter (available on request);</li>
                   <li> post their photos on our <u><a href="https://www.facebook.com/groups/cenlascca/" target="_blank" rel="noopener noreferrer" > official Facebook group</a></u> for drivers to enjoy;</li>
                   </ul>     
           </div>

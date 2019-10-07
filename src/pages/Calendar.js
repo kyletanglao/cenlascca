@@ -25,12 +25,6 @@ const IndexPage = () => (
                       <tr><th>Date</th><th>Region</th><th>Site</th><th>Link</th></tr>
                     </thead>
                     <tbody>
-                      <tr><td><b>09/22/19</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="http://msreg.com/september2019" class="breakme">http://msreg.com/september019</a></td></tr>
-                      <tr><td><b>09/28/19</b></td><td>MSS</td><td>Grenada Airport</td><td><a href="http://msreg.com/GrenadaSeptAutox" class="breakme">http://msreg.com/GrenadaSeptAutox</a></td></tr>
-                      <tr><td><b>09/29/19</b></td><td>MSS</td><td>Grenada Airport</td><td><a href="http://msreg.com/GrenadaSeptAutox" class="breakme">http://msreg.com/GrenadaSeptAutox</a></td></tr>
-                      <tr><td><b>10/5/19</b></td><td>HOUSTON</td><td>Houston Police Academy (Rookie School)</td><td><a href="https://www.dlbracing.com/Event/7059" class="breakme">https://www.dlbracing.com/Event/7059</a></td></tr>
-                      <tr><td><b>10/6/19</b></td><td>HOUSTON</td><td>Houston Police Academy</td><td><a href="https://www.dlbracing.com/Event/7055" class="breakme">https://www.dlbracing.com/Event/7055</a></td></tr>
-                      <tr><td><b>10/6/19</b></td><td>RED RIVER</td><td>Ike Hamilton Expo Center</td><td>TBA</td></tr>
                       <tr><td><b>10/12/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td><a href="https://www.dlbracing.com/Event/7068" class="breakme">https://www.dlbracing.com/Event/7068</a></td></tr>
                       <tr><td><b>10/13/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td><a href="https://www.dlbracing.com/Event/7068" class="breakme">https://www.dlbracing.com/Event/7068</a></td></tr>
                       <tr><td><b>10/20/19</b></td><td>RED RIVER</td><td>Ike Hamilton Expo Center</td><td>TBA</td></tr>                      

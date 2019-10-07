@@ -2,12 +2,14 @@ module.exports = {
   siteTitle: 'CENLA SCCA', // <title>
   manifestName: 'CENLA SCCA',
   manifestShortName: 'CENLA', // max 12 characters
-  manifestStartUrl: '/draft/',
+  manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon-pelican.png',
-  pathPrefix: `/draft/`, // This path is subpath of your hosting https://domain/portfolio
+  nextEventDate: 'October 27',
+  nextEventLink: 'http://msreg.com/october2019',
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'CENLA SCCA',
   subHeading: 'Central Louisiana Region for Sports Car Club of America',
   // social

@@ -44,10 +44,17 @@ import Dec15 from '../assets/maps/Dec2015_Map.jpg';
 import Nov15 from '../assets/maps/Nov2015_Map.png';
 import Oct15 from '../assets/maps/Oct2015_Map.jpg';
 
+import Sep19L from '../assets/maps/Sep2019_Map.jpg';
+import Sep19 from '../assets/maps/Sep2019_Map_s.jpg';
+
+
 import May19L from '../assets/maps/May2019_Map.png';
-// import May19L from '../assets/maps/May2019_Map.png';
-import Apr19L from '../assets/maps/April2019_Map.jpg';
-// import Mar19L from '../assets/maps/March2019_Map.png';
+import Apr19L from '../assets/maps/Apr2019_Map.jpg';
+import Mar19L from '../assets/maps/Mar2019_Map.jpg';
+import Feb19L from '../assets/maps/Feb2019_Map.jpg';
+import Jan19L from '../assets/maps/Jan2019_Map.jpg';
+import Dec18L from '../assets/maps/Dec2018_Map.jpg';
+
 // import Feb19L from '../assets/maps/Feb2019_Map.png';
 const IndexPage = () => (
   <Layout fullMenu>
@@ -87,14 +94,137 @@ const IndexPage = () => (
           <div className="content left">
               <h2 className="major">2019 Fall</h2>
 
-<h4>TBAs</h4>
-
-              {/* <div class="grid left">
-                <div class="grid-item">
-  TBA
-
-
-                </div></div> */}
+ <div class="grid left">
+ <div class="grid-item">
+                  <a href={Sep19L} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Sep19} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">September 22, 2019</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">38.455</td>
+                              <td class="car">78 FSAE</td>
+                              <td class="driver">B. Leonard</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">34.471</td>
+                              <td class="car">89 CS</td>
+                              <td class="driver">J. Wanamaker</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">42.610</td>
+                              <td class="car">89 CS</td>
+                              <td class="driver">J. Wanamaker</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">42.323</td>
+                              <td class="car">181 STR</td>
+                              <td class="driver">K. Tanglao</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Prepared</b></td>
+                              <td class="best">49.322</td>
+                              <td class="car">86 DSP</td>
+                              <td class="driver">M. Trinh</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Classic American</b></td>
+                              <td class="best">43.462</td>
+                              <td class="car">118 CAMT</td>
+                              <td class="driver">D. Roddy</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">50.140</td>
+                              <td class="car">113 XP</td>
+                              <td class="driver">E. Williams</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Modified</b></td>
+                              <td class="best">41.794</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Modified</b></td>
+                              <td class="best">47.640</td>
+                              <td class="car">247 DM</td>
+                              <td class="driver">D. Yoes</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Formula</b></td>
+                              <td class="best">38.455</td>
+                              <td class="car">78 FSAE</td>
+                              <td class="driver">B. Leonard</td>
+                            </tr>                            
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2019/9-22/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/9-22/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/9-22/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/9-22/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+</div>
           
         </div>
         </div>
@@ -353,9 +483,11 @@ const IndexPage = () => (
                 </div>
                 {/* Grid Item */}
                 <div class="grid-item">
+                <a href={Mar19L} target="_blank" rel="noopener noreferrer">
                   <div class="map">
                     <img src={Mar19} alt=""></img>
                   </div>
+                </a>
                   <div class="results">
                     <div class="date">March 31, 2019</div>
                     <div class="winners">
@@ -469,9 +601,11 @@ const IndexPage = () => (
                   </div>
                 </div>
                 <div class="grid-item">
+                <a href={Feb19L} target="_blank" rel="noopener noreferrer">
                   <div class="map">
                     <img src={Feb19} alt=""></img>
                   </div>
+                  </a>
                   <div class="results">
                     <div class="date">February 24, 2019</div>
                     <div class="winners">
@@ -584,9 +718,12 @@ const IndexPage = () => (
                 </div>
                 {/* Grid Item */}
                 <div class="grid-item">
+                <a href={Jan19L} target="_blank" rel="noopener noreferrer">
+
                   <div class="map">
                     <img src={Jan19} alt=""></img>
                   </div>
+                  </a>
                   <div class="results">
                     <div class="date">January 27, 2019</div>
                     <div class="winners">
@@ -700,9 +837,11 @@ const IndexPage = () => (
                   </div>
                 </div>
                 <div class="grid-item">
+                <a href={Dec18L} target="_blank" rel="noopener noreferrer">
                   <div class="map">
                     <img src={Dec18} alt=""></img>
                   </div>
+                  </a>
                   <div class="results">
                     <div class="date">December 2, 2018</div>
                     <div class="winners">
@@ -815,9 +954,12 @@ const IndexPage = () => (
                 </div>
                 {/* Grid Item */}
                 <div class="grid-item">
+                <a href={Nov18} target="_blank" rel="noopener noreferrer">
+
                   <div class="map">
                     <img src={Nov18} alt=""></img>
                   </div>
+                  </a>
                   <div class="results">
                     <div class="date">November 18, 2018</div>
                     <div class="winners">
@@ -938,9 +1080,11 @@ const IndexPage = () => (
 
 {/* Grid Item */}
                 <div class="grid-item">
+                <a href={Oct18} target="_blank" rel="noopener noreferrer">
                   <div class="map">
                     <img src={Oct18} alt=""></img>
                   </div>
+                </a>
                   <div class="results">
                     <div class="date">October 27, 2018</div>
                     <div class="winners">
@@ -1068,9 +1212,11 @@ const IndexPage = () => (
 
 {/* Grid Item */}
                 <div class="grid-item">
+                  <a href={Sep18} target="_blank" rel="noopener noreferrer">
                   <div class="map">
                     <img src={Sep18} alt=""></img>
                   </div>
+                  </a>
                   <div class="results">
                     <div class="date">September 9, 2018</div>
                     <div class="winners">
