@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
+import logoPlainRed from '../assets/img/logoPlainRed.png';
+
+
 import { Link } from 'gatsby';
 export default function SideBar({ fullMenu }) {
   const [headerOpen, toggleHeader] = useState(false);
@@ -7,7 +10,10 @@ export default function SideBar({ fullMenu }) {
     <>
       <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
         <h1>
-          <Link to="/">Solid State</Link>
+          <div class="homeMenu">
+          <img src={logoPlainRed} alt="" class="menuLogo"></img>
+          <Link to="/">CENLA SCCA</Link>
+          </div>
         </h1>
 
         <nav>

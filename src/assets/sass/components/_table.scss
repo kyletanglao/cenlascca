@@ -6,11 +6,31 @@
 
 /* Table */
 
+.width100{
+	width:100%;
+}
+
+.breakme {
+    word-break: break-all;
+}
+
+.category{
+	padding-top: 13px;
+
+color: #888;
+}
+	.lessBottom{
+		margin-bottom: 10px;
+	}
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
 
+	.left{
+		text-align: left;
+	}
 	table {
 		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
@@ -77,5 +97,12 @@
 			tfoot {
 				border-top: 0;
 			}
+		}
+	}
+
+	
+	@include breakpoint('<=xsmall') {
+		table{
+			font-size: 0.8em;
 		}
 	}

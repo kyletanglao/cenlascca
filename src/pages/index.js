@@ -1,27 +1,32 @@
 import React from 'react';
+import config from '../../config';
 
 import Layout from '../components/Layout';
+import camaro from '../assets/images/camaro.jpg';
+import Zcar from '../assets/images/240.jpg';
+import glory from '../assets/images/glory.jpg';
+import logoRed from '../assets/img/logoRed_s.png';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-
-import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
-      <div className="inner">
+      <div className="inner logoTop">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <img src={logoRed} alt=""></img>
         </div>
         <div className="bannerText">
-          <h2>{config.heading}</h2>
-          <p>{config.subHeading}</p>
-          <a href="/#" class="button fit">Get started with autocross</a>
+          <h2 class="headliner">Your car was meant for more than just coffee meets. It's time to drive it.</h2>
+          {/* <p>{config.subHeading}</p> */} <br></br>
+          <a href={config.nextEventLink} target="_blank" rel="noopener noreferrer" className="calltoaction button primary fit">Register for {config.nextEventDate}</a>
+					<ul className="actions grid navGrid">
+            <li><a href="http://cenla-scca.org/live/results_live.htm" target="_blank" rel="noopener noreferrer" className="button button-light">Live timing</a></li>
+            <li><a href="/Guide" className="button button-light">Autocross Guide</a></li>
+            <li><a href="/Spectate" className="button button-light">Spectate</a></li>            
+            <li><a href="/Results" className="button button-light">Results</a></li>
+            <li><a href="/Events" className="button button-light">Events</a></li>
+            <li><a href="/Calendar" className="button button-light">Calendar</a></li>
+            <li><a href="/Contact" className="button button-light">Contact Us</a></li>
+      		</ul>
         </div>
       </div>
     </section>
@@ -29,37 +34,36 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic1} alt="" />
-          </a>
+          <div className="image">
+            <img src={camaro} alt="" />
+          </div>
           <div className="content">
             <h2 className="major">Compete with your car in a safe environment</h2>
             <p>
             “Solo®” is the brand name for SCCA® Autocrossing and on paper it seems very simple – use traffic cones to make a mini-roadcourse in a large parking lot or unused airport tarmac and see who can drive it the quickest without hitting any cones or going off course.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+            <a href="/Guide" className="special">
+              Read our autocross guide
+            </a>            
           </div>
         </div>
       </section>
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic2} alt="" />
-          </a>
+          <div className="image">
+            <img src={Zcar} alt="" />
+          </div>
           <div className="content">
-            <h2 className="major">Compete with your car</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            <a href="/#" className="special">
-              Learn more
+            <h2 className="major">Motorsport has never been so affordable</h2>
+            <ul class="alt">
+              <li>Member Event: $30</li>
+              <li>Member Event Double Runs: $60</li>
+              <li>Non-member Event: $40</li>
+              <li>Penalty for On-Site Registration: $10</li>
+            </ul>
+            <a href="/Events" className="special">
+              Find the next event
             </a>
           </div>
         </div>
@@ -67,97 +71,21 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="" />
-          </a>
+          <div className="image">
+            <img src={glory} alt="" />
+          </div>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Find your glory</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+            SCCA autocross events can be found all over the country. Many of our drivers go beyond the local level and challenge other regions or even compete at National SCCA events.
             </p>
-            <a href="/#" className="special">
-              Learn more
+            <a href="/Calendar" className="special">
+              See the calendar
             </a>
           </div>
         </div>
       </section>
 
-      <section id="four" className="wrapper alt style1">
-        <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">Sed feugiat lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-          </section>
-          <ul className="actions">
-            <li>
-              <a href="/#" className="button">
-                Browse All
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
     </section>
   </Layout>
 );

@@ -24,19 +24,22 @@
       width: calc(50% - #{_size(section-spacing, large) * 0.5});
     }
 
+    .footerLogo{
+      width: 150px;
+    }
     .contact {
       width: calc(50% - #{_size(section-spacing, large) * 0.5});
     }
 
     .copyright {
-      border-top: solid 2px _palette(border);
+      border-top: solid 2px _palette(border-light);
       list-style: none;
       margin: (_size(element-margin) * 2) 0 _size(element-margin) 0;
       padding: _size(element-margin) 0 0 0;
       width: 100%;
 
       li {
-        border-left: solid 2px _palette(border);
+        border-left: solid 2px _palette(border-light);
         color: _palette(fg-light);
         display: inline-block;
         font-size: 0.9em;

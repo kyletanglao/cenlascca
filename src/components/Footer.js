@@ -1,15 +1,15 @@
 import React from 'react';
-import config from '../../config';
+// import config from '../../config';
+import SCCALogo from '../assets/img/SCCAlogotype_Negative.png';
+
+
 export default function Footer() {
   return (
     <section id="footer">
       <div className="inner">
-        <h2 className="major">Get in touch</h2>
+        {/* <h2 className="major">Get in touch</h2>
         <p>
-          Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-          Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-          egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-          tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+          Have a question or comment? Fill out the form below and we will get back to you as soon as we can.
         </p>
         <form method="post" action="/#">
           <div className="fields">
@@ -22,6 +22,16 @@ export default function Footer() {
               <input type="email" name="email" id="email" />
             </div>
             <div className="field">
+              <label htmlFor="demo-category">Category</label>
+              <select name="demo-category" id="demo-category">
+                <option value="">-</option>
+                <option value="1">First Timer</option>
+                <option value="1">Event Critique</option>
+                <option value="1">Suggestions</option>
+                <option value="1">Comment</option>                    
+              </select>
+            </div>            
+          <div className="field">
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
@@ -33,24 +43,18 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-          <li className="fa-home">{config.address}</li>
+          {/* <li className="fa-home">{config.address}</li>
+          <li className="fa-phone">{config.phone}</li> */}
 
-          <li className="fa-phone">{config.phone}</li>
 
-          {config.socialLinks.map(social => {
-            const { icon, url } = social;
-            return (
-              <li className={`${icon}`} key={url}>
-                <a href={url}>{url}</a>
-              </li>
-            );
-          })}
-        </ul>
         <ul className="copyright">
-          <li>&copy; Solid State. All rights reserved.</li>
-          <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
+          <li><a href="https://scca.org"><img class="footerLogo" src={SCCALogo} alt=""></img></a></li>
+          <li>&copy; CENLA SCCA. All rights reserved.</li>
+          <li><a href="/Contact">Contact Us</a></li>
+          <li><a href="http://cenla-scca.org/bylaws/bylaws-revision-2018.pdf">CENLA Bylaws</a></li>
+          <li><a href="https://www.facebook.com/groups/cenlascca/">Facebook Group</a></li>
+
+
         </ul>
       </div>
     </section>

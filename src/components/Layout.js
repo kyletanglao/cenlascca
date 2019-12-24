@@ -46,8 +46,17 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Solid State' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Central Louisiana Region of SCCA' },
+                { name: 'keywords', content: 'autocross, cars, cones, baton rouge, louisiana' },
+                { name: 'og:title', content: 'CENLA SCCA'},   
+                { name: 'og:description', content: 'Central Louisiana Region for Sports Car Club of America' },                
+                { name: 'og:image', content: 'http://www.cenla-scca.org/images/meta.jpg' },
+                { name: 'og:url', content: 'http://cenla-scca.org' },
+                { name: 'twitter:title', content: 'CENLA SCCA' },    
+                { name: 'twitter:description', content: 'Central Louisiana Region for Sports Car Club of America' },                
+                { name: 'twitter:image', content: 'http://www.cenla-scca.org/images/meta.jpg' },
+                { name: 'twitter:card', content: 'summary_large_image' },                
+
               ]}
             >
               <html lang="en" />

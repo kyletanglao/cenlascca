@@ -22,17 +22,32 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/Guide"
             >
-              Get Started
+              Autocross Guide
             </Link>
-          </li>
+          </li>   
           <li>
             <Link
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/Spectate"
+            >
+              Spectate
+            </Link>
+          </li>                  
+          <li>
+            <a href="http://cenla-scca.org/live/results_live.htm">
+              Live Timing
+            </a>
+          </li>             
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/Events"
             >
               Events
             </Link>
@@ -42,21 +57,31 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/Results"
             >
               Results 
             </Link>
-          </li>                  
+          </li>            
           <li>
             <Link
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Elements"
+              to="/Calendar"
             >
-              Elements
+              Calendar
             </Link>
-          </li>
+          </li>   
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/Contact"
+            >
+              Contact Us
+            </Link>
+          </li>                       
         </ul>
         <a
           className="close"

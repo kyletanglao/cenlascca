@@ -6,26 +6,19 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
+  manifestIcon: 'src/assets/img/website-icon-pelican.png',
+  nextEventDate: 'January 19',
+  nextEventLink: 'http://msreg.com/january19',
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'CENLA SCCA',
-  subHeading: 'compete with your car for as little as $30',
+  subHeading: 'Central Louisiana Region for Sports Car Club of America',
   // social
   socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
+
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.facebook.com/groups/cenlascca/',
     },
     {
       icon: 'fa-envelope-o',
@@ -33,6 +26,6 @@ module.exports = {
       url: 'mailto:anubhav.srivastava00@gmail.com',
     },
   ],
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+
 };
+

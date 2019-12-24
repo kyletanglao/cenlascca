@@ -5,3 +5,13 @@
  */
 
 // You can delete this file if you're not using it
+// Code below disables building of the maps
+exports.onCreateWebpackConfig = ({ actions, stage }) => {
+    // If production JavaScript and CSS build
+    if (stage === 'build-javascript') {
+      // Turn off source maps
+      actions.setWebpackConfig({
+        devtool: false,
+      })
+    }
+  };

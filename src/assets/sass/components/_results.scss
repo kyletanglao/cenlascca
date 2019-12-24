@@ -1,0 +1,312 @@
+/* Results */
+.grid{
+margin: 0px !important;
+justify-content: flex-start !important;
+}
+
+.winners {
+    .table-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+  
+  .results {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .map {
+    display: block;
+    margin-bottom: -7px;
+  }
+  
+  .category {
+    text-align: right;
+    padding-right: 1.4em !important;
+  }
+  
+  .best {
+    padding-right: 0.5em !important;
+  }
+  
+  .car {
+    padding-right: 0.5em !important;
+  }
+  
+  .best,
+  .driver,
+  .car {
+    text-align: left;
+    color: #808080;
+  }
+  
+  .grid-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #c9c9c978 5px 5px 10px;
+    border: 1px solid #c9c9c978;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6em;
+    width: calc(33% - 11px);
+    padding: 0px !important;
+    margin: 0px 20px 20px 0px;    
+
+    .categories{
+      display: flex;
+      padding: 20px;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  }
+
+  .grid-item:nth-child(3n){
+    margin-right: 0px;
+  }
+  
+  .grid-item:nth-child(1n + 2), .grid-item:nth-child(1){
+    margin-left: 0px;
+  }
+
+  div.map img {
+    width:100%;
+  }
+  
+  .eventWinners {
+    width: 100%;
+    margin-bottom: 5px;    
+    tr {
+      border: 0px;
+      background-color: transparent !important;
+      line-height: 1.2em;
+    }
+    td {
+      padding: 0px;
+    }
+  }
+  
+  .date {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 20px;
+    border-bottom: 1px solid #dcdcdc;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #5d5d5d;
+    font-size: 1.2em;
+  }
+  
+  // Ring
+  .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+  }
+  
+.lds-ring:hover div:not(.ringText){
+      animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+      opacity: 1;
+      box-sizing: border-box;
+      display: block;
+      position: absolute;
+      width: 51px;
+      height: 51px;
+      margin: 6px;
+      border: 6px solid rgb(31, 136, 189);
+      border-radius: 50%;
+      border-color: rgb(31, 136, 189) transparent transparent transparent;  
+
+  }
+  
+  .ring {
+    position: relative;
+  }
+  .static-ring{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    position: absolute;
+    border: 6px solid #ddd;
+    top: 6px;
+    left: 6px;
+    opacity: 1;
+  }
+  .ringText{
+    z-index: 1;
+    position: absolute;
+    -webkit-transform: rotate(-45deg) !important;
+    transform: rotate(-45deg) !important;
+    background: #f9f9f9;
+    left: 19px !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    top: -5px !important;
+    border-radius: 5px;
+    padding-right: 10px;
+    opacity: 1 !important;
+    border: 0 !important;
+    height: 23px !important;
+    width: 50px !important;
+    text-align: left !important;
+  }
+  .lds-ring div{
+    opacity: 0;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid rgb(31, 136, 189);
+    border-radius: 50%;
+    border-color: rgb(31, 136, 189) transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(4) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .map{
+    position: relative;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    
+  }
+
+  .grid.left {
+    justify-content: flex-start;
+}
+
+  .map::before{
+    position: absolute;
+    content: 'View Map';
+    width: 100%;
+    height: 100%;
+    background-color: #0000009c;
+    opacity: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.3em;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    margin-bottom: -7px;
+
+
+  }
+  .map:hover::before{
+      opacity: 1;
+      transition: opacity 0.3s;
+      -webkit-transition: opacity 0.3s;
+    }
+
+.winnersection .fit{
+  margin-bottom:10px;
+}
+
+.winnersection .grid a{
+padding-right:0px !important;
+}
+
+  .winner {
+
+    display: flex;
+    width: 160px;
+    margin: 10px 0px;
+    overflow: hidden;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    background: #f9f9f9;
+    box-shadow: #c9c9c978 5px 5px 10px;
+    border: 1px solid #c9c9c978;
+    flex-direction: column;
+    .car {
+      padding: 0px !important;
+
+      img{
+        width:100%;
+      }
+    }    
+    .class {
+      position: absolute;
+      background: #ed383f;
+      color: white;
+      font-weight: bold;
+      letter-spacing: 2px;
+      padding: 0px 10px;
+      border-radius: 5px;
+      top: 4px;
+      left: 4px;
+      }
+      .driver{
+      padding: 0px 10px;
+      font-weight: bold;
+      }
+
+}
+
+.bright{
+  filter: brightness(130%);  
+}
+
+  @include breakpoint("<=xlarge") {
+    .grid-item{
+      font-size: 0.67em;
+    }
+  }
+  
+  @include breakpoint("<=large") {
+    .grid-item{
+      
+    }    
+  }
+  @include breakpoint("<=medium") {
+    .grid-item{
+    width: calc(50% - 10px);
+    font-size: 0.7em;
+    max-width: 700px;
+    }
+    .grid-item:nth-child(3n), .grid-item:nth-child(1n + 2),{
+    margin:0px;
+    margin-bottom: 20px;
+    }
+
+    .grid-item:nth-child(odd){
+    margin-right:20px;
+    }    
+    
+
+  }
+  @include breakpoint("<=small") {
+    .grid-item{
+      width: 100%;
+      font-size: 0.9em;      
+      margin: 0px 0px 20px 0px !important;
+    }    
+
+
+  }

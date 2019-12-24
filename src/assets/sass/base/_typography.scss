@@ -36,13 +36,12 @@
 
 	a {
 		@include vendor('transition', 'color #{_duration(transition)} ease-in-out, border-bottom-color #{_duration(transition)} ease-in-out');
-		border-bottom: dotted 1px _palette(fg-light);
 		color: _palette(fg-bold);
 		text-decoration: none;
 
-		&:hover {
+		&:hover :not(ul.links){
 			border-bottom-color: transparent;
-			color: _palette(fg-bold) !important;
+			color: _palette(fg-bold-light) !important;
 		}
 
 		&.special:not(.button) {
