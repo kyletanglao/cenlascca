@@ -17,7 +17,7 @@ const IndexPage = () => (
         <div className="bannerText">
           <h2 class="headliner">Your car was meant for more than just coffee meets. It's time to drive it.</h2>
           {/* <p>{config.subHeading}</p> */} <br></br>
-          <a href={config.nextEventLink} target="_blank" rel="noopener noreferrer" className="calltoaction button primary fit">Register for our {config.nextEventDate} Event</a>
+          <a href={config.nextEventLink} target="_blank" rel="noopener noreferrer" className="calltoaction button primary fit">Register for {config.nextEventDate}</a>
 					<ul className="actions grid navGrid">
             <li><a href="http://cenla-scca.org/live/results_live.htm" target="_blank" rel="noopener noreferrer" className="button button-light">Live timing</a></li>
             <li><a href="/Guide" className="button button-light">Autocross Guide</a></li>
@@ -58,8 +58,8 @@ const IndexPage = () => (
             <h2 className="major">Motorsport has never been so affordable</h2>
             <ul class="alt">
               <li>Member Event: $30</li>
-              <li>Member Event Double Runs: $60*</li>
-              <li>Non-member Event Price: $40</li>
+              <li>Member Event Double Runs: $60</li>
+              <li>Non-member Event: $40</li>
               <li>Penalty for On-Site Registration: $10</li>
             </ul>
             <a href="/Events" className="special">
@@ -77,7 +77,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Find your glory</h2>
             <p>
-            SCCA autocross events can be found all over the country. Many of our drivers go beyond the local level and challenge other regions or even compete at the national SCCA events.
+            SCCA autocross events can be found all over the country. Many of our drivers go beyond the local level and challenge other regions or even compete at National SCCA events.
             </p>
             <a href="/Calendar" className="special">
               See the calendar

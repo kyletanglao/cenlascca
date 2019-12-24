@@ -2,6 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import cones from '../assets/img/cones.png';
+import numbers from '../assets/img/numbers.png';
+
 import dnf from '../assets/img/DNF.png';
 import signals from '../assets/img/signals2.png';
 
@@ -57,6 +59,10 @@ const IndexPage = () => (
                     <div class="checkIcon">R</div>
                     <div class="checkText">Closed Toe Shoes</div>
                   </div>                     
+                  <div className="checkItem required">
+                    <div class="checkIcon">R</div>
+                    <div class="checkText">Numbers/Tape</div>
+                  </div>                     
                   <div className="checkItem">
                     <div class="checkIcon">O</div>
                     <div class="checkText">Helmet*</div>
@@ -64,11 +70,7 @@ const IndexPage = () => (
                   <div className="checkItem">
                     <div class="checkIcon">O</div>
                     <div class="checkText">Tire Gauge</div>
-                  </div>
-                  <div className="checkItem">
-                    <div class="checkIcon">O</div>
-                    <div class="checkText">Numbers/Tape</div>
-                  </div>      
+                  </div>  
                   <div className="checkItem">
                     <div class="checkIcon">O</div>
                     <div class="checkText">Sunscreen</div>
@@ -83,6 +85,7 @@ const IndexPage = () => (
                   </div>                 
                 </div>    
                 <br></br><div class="tooltip">*Please see <a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download" class=""><b>2019 Helmet Certification Label Chart</b></a> for qualifying helmets. Helmets are required; if you do not bring a qualifying helmet, we provide loaner helmets.</div>
+             
               </div>
             </div>
           </section>        
@@ -128,11 +131,11 @@ const IndexPage = () => (
                   <div className="checkItem required">
                     <div class="checkIcon">R</div>
                     <div class="checkText">No fluid leaks</div>
-                  </div>          
-                  <div className="checkItem">
-                    <div class="checkIcon">O</div>
-                    <div class="checkText">40+ PSI in tires</div>
-                  </div>        
+                  </div>      
+                  <div className="checkItem required">
+                    <div class="checkIcon">R</div>
+                    <div class="checkText">Numbers and Class</div>
+                  </div>                          
                   <div className="checkItem">
                     <div class="checkIcon">O</div>
                     <div class="checkText">Securely mounted action camera</div>
@@ -142,6 +145,10 @@ const IndexPage = () => (
                     <div class="checkText">Clean windshield</div>
                   </div>                            
                 </div> 
+                <br></br><br></br>
+                    <img src={numbers} alt="" class="imagefit"></img>
+                  <br></br><br></br> <br></br><br></br>
+
                 <br></br>
               </div>
             </div>

@@ -9,30 +9,30 @@ const IndexPage = () => (
           <h2>Spectate</h2>
           <p>CENLA SCCA events are open and free to the general public.</p>
           <ul className="actions grid navGrid">
-            <li><a href="#one" className="button button-light">Spectating Areas</a></li>
-            <li><a href="#two" className="button button-light">Ride Alongs</a></li>
-            <li><a href="#three" className="button button-light">Photography</a></li>           
+            <li><a href="#spectators" className="button button-light">Spectators</a></li>
+            <li><a href="#rides" className="button button-light">Ride Alongs</a></li>
+            <li><a href="#photos" className="button button-light">Photography</a></li>           
 		  </ul>        
         </div>
       </header>
       <section id="wrapper">
-      <section id="one" className="wrapper spotlight style1">
+      <section id="spectators" className="wrapper spotlight style1">
         <div className="inner">
           <div className="content left">
-              <h2 className="major left">Spectating Areas</h2>
-                <p class="left">Cenla provides a dedicated spectating area for those who wish to watch the event. We do not provide any seating, so feel free to bring a folding chair.</p>
-                <h3>Spectator Policies</h3>
+              <h2 className="major left">Spectators</h2>
+                <p class="left">CENLA provides a dedicated spectating area for those who wish to watch the event. We do not provide any seating, so feel free to bring a folding chair.</p>
+                <h3>All spectators must abide the following policies:</h3>
                 <ul class="">
-                  <li>  Do not leave any trash</li>
-                  <li>  Do not distract drivers on the course</li>
+                  <li> Sign the waiver located at the registration table</li>
+                  <li> Wear an SCCA wristband received from signing above waiver</li>                
+                  <li> Avoid leaving any trash</li>
+                  <li> Avoid distracting drivers on the course</li>
                   <li> Ensure all your belongings are secure and cannot travel into the course</li>
-                </ul>  
-
-          
+                </ul>            
           </div>
         </div>
       </section>
-      <section id="two" className="wrapper spotlight alt style2">
+      <section id="rides" className="wrapper spotlight alt style2">
         <div className="inner">
           <div className="content">
               <h2 className="major left">Ride Alongs</h2>
@@ -47,7 +47,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>     
-      <section id="two" className="wrapper spotlight style3">
+      <section id="photos" className="wrapper spotlight style3">
         <div className="inner">
           <div className="content left">
               <h2 className="major left">Photography</h2>

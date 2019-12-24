@@ -13,38 +13,25 @@ const IndexPage = () => (
         </div>
       </header>
       <section id="wrapper">
-        <section id="one" className="wrapper spotlight style1">
-          <div className="inner">
-            <div className="content">
-              <h2 className="major">2019 Fall</h2>
-              <ul className="actions">
-                <li><span class="button disabled">Sep 22</span></li>
-                <li><a href="http://msreg.com/october2019" target="_blank" rel="noopener noreferrer" className="button fit">Oct 27</a></li>
-                <li><span class="button disabled">Nov</span></li>
-                <li><span class="button disabled">Dec 15</span></li>
-              </ul>
-            </div>
-          </div>
-        </section>
           <section id="two" className="wrapper alt spotlight style2">
             <div className="inner">
               <div className="content">
                 <h2 className="major">2020 Season</h2>
-                <h4>2020 Season Rules</h4>
+                {/* <h4>2020 Season Rules</h4>
                 <ul className="Alt">
-                  <li>Drivers must complete 5 out of 9 events to qualify for a trophy</li>
+                  <li>Drivers must complete 7 out of 9 events to qualify for a trophy</li>
                   <li>Slowest two events will be dropped</li>
-                </ul>
+                </ul> */}
                 <ul className="actions fit">
-                <li><span class="button fit disabled">Jan</span></li>
-                <li><span class="button fit disabled">Feb</span></li>
-                <li><span class="button fit disabled">Mar</span></li>
-                <li><span class="button fit disabled">Apr</span></li>
-                <li><span class="button fit disabled">May</span></li>
-                <li><span class="button fit disabled">Sep</span></li>
-                <li><span class="button fit disabled">Oct</span></li>
-                <li><span class="button fit disabled">Nov</span></li>
-                <li><span class="button fit disabled">Dec</span></li>
+                <li><a href="http://msreg.com/january19"><span class="button fit">Jan 19</span></a></li>
+                <li><a href="http://msreg.com/february23"><span class="button fit">Feb 23</span></a></li>
+                <li><a href="http://msreg.com/march29th"><span class="button fit">Mar 29</span></a></li>
+                <li><span class="button fit disabled">Apr 26</span></li>
+                <li><span class="button fit disabled">May 9</span></li>
+                <li><span class="button fit disabled">Sep 27</span></li>
+                <li><span class="button fit disabled">Oct 25</span></li>
+                <li><span class="button fit disabled">Nov 22</span></li>
+                <li><span class="button fit disabled">Dec 6</span></li>
               </ul>
               </div>
             </div>

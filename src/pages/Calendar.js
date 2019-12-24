@@ -16,28 +16,20 @@ const IndexPage = () => (
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
             <div className="content">
-              <h2 className="major left">2019 Calendar</h2>
-              
+              <h2 className="major left">2020 Calendar</h2>
                 <div class="">
                 <div class="table-wrapper">
                   <table class="left lessBottom"> 
                     <thead>
                       <tr><th>Date</th><th>Region</th><th>Site</th><th>Link</th></tr>
                     </thead>
-                    <tbody>
-                      <tr><td><b>10/12/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td><a href="https://www.dlbracing.com/Event/7068" class="breakme">https://www.dlbracing.com/Event/7068</a></td></tr>
-                      <tr><td><b>10/13/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td><a href="https://www.dlbracing.com/Event/7068" class="breakme">https://www.dlbracing.com/Event/7068</a></td></tr>
-                      <tr><td><b>10/20/19</b></td><td>RED RIVER</td><td>Ike Hamilton Expo Center</td><td>TBA</td></tr>                      
-                      <tr><td><b>10/22/19</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="http://msreg.com/october2019" class="breakme">http://msreg.com/october2019</a></td></tr>                      
-                      <tr><td><b>11/19</b></td><td>CENLA</td><td>TBA</td><td>TBA</td></tr>
-                      <tr><td><b>11/02/19</b></td><td>HOUSTON</td><td>Houston Police Academy</td><td><a href="https://www.dlbracing.com/Event/7056">https://www.dlbracing.com/Event/7056</a></td></tr>
-                      <tr><td><b>11/03/19</b></td><td>HOUSTON</td><td>Houston Police Academy</td><td><a href="https://www.dlbracing.com/Event/7057">https://www.dlbracing.com/Event/7057</a></td></tr>
-                      <tr><td><b>11/10/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td>TBA</td></tr>
-                      <tr><td><b>11/16/19</b></td><td>RED RIVER</td><td>Ike Hamilton Expo Center</td><td>TBA</td></tr>
-                      <tr><td><b>11/17/19</b></td><td>RED RIVER</td><td>Ike Hamilton Expo Center</td><td>TBA</td></tr>                      
-                      <tr><td><b>12/01/19</b></td><td>DELTA</td><td>Nola Motorsports</td><td>TBA</td></tr>
-                      <tr><td><b>12/08/19</b></td><td>HOUSTON</td><td>Grandsport Speedway,</td><td>TBA</td></tr>                      
-                      <tr><td><b>12/15/19</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td>TBA</td></tr>
+                    <tbody>                                          
+                      <tr><td><b>01/05/20</b></td><td>HOUSCCA</td><td>Houston Police Academy</td><td><a href="http://msreg.com/HOUSCCA-2020-1" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Jan 5 &nbsp;</a></td></tr>  
+                      <tr><td><b>01/19/20</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="http://msreg.com/january19" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Jan 19 &nbsp;</a></td></tr>  
+                      <tr><td><b>02/09/20</b></td><td>HOUSCCA</td><td>Gulf Greyhound Park</td><td><a href="http://msreg.com/HOUSCCA-2020-2" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Feb 9 &nbsp;</a></td></tr>  
+                      <tr><td><b>02/23/20</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="http://msreg.com/february23"target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Feb 23 &nbsp;</a></td></tr>  
+                      <tr><td><b>03/07/20</b></td><td>HOUSCCA</td><td>Houston Police Academy</td><td><a href="http://msreg.com/HOUSCCA-2020-3" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Mar 7 &nbsp;</a></td></tr>  
+                      <tr><td><b>03/29/20</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="http://msreg.com/march29th"target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Mar 29 &nbsp;</a></td></tr>  
                      </tbody>
                   </table>
                   </div>       

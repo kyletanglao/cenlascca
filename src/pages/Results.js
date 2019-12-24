@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+
+import Oct19 from '../assets/maps/Oct2019_Map.jpg'
 import May19 from '../assets/maps/small/May2019_Map_s.png';
 import Apr19 from '../assets/maps/small/Apr2019_Map_s.png';
 import Mar19 from '../assets/maps/small/Mar2019_Map_s.png';
@@ -45,7 +47,7 @@ import Nov15 from '../assets/maps/Nov2015_Map.png';
 import Oct15 from '../assets/maps/Oct2015_Map.jpg';
 
 import Sep19L from '../assets/maps/Sep2019_Map.jpg';
-import Sep19 from '../assets/maps/Sep2019_Map_s.jpg';
+import Sep19 from '../assets/maps/Sep2019_MapL.jpg';
 
 
 import May19L from '../assets/maps/May2019_Map.png';
@@ -54,7 +56,10 @@ import Mar19L from '../assets/maps/Mar2019_Map.jpg';
 import Feb19L from '../assets/maps/Feb2019_Map.jpg';
 import Jan19L from '../assets/maps/Jan2019_Map.jpg';
 import Dec18L from '../assets/maps/Dec2018_Map.jpg';
-
+import Nov19L from '../assets/maps/Nov2019_MapL.jpg';
+import Nov19 from '../assets/maps/Nov2019_Map.jpg';
+import Dec19L from '../assets/maps/Dec2019_MapL.jpg';
+import Dec19 from '../assets/maps/Dec2019_Map.jpg';
 // import Feb19L from '../assets/maps/Feb2019_Map.png';
 const IndexPage = () => (
   <Layout fullMenu>
@@ -95,6 +100,358 @@ const IndexPage = () => (
               <h2 className="major">2019 Fall</h2>
 
  <div class="grid left">
+
+ <div class="grid-item">
+                  <a href={Dec19L} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Dec19} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">December 15, 2019</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">32.512</td>
+                              <td class="car">87 FP</td>
+                              <td class="driver">K. Coughlin</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">28.057</td>
+                              <td class="car">87 FP</td>
+                              <td class="driver">K. Coughlin</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">34.597</td>
+                              <td class="car">3 AS</td>
+                              <td class="driver">T. Neuville</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">34.174</td>
+                              <td class="car">105 STU</td>
+                              <td class="driver">J. Pierce</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Prepared</b></td>
+                              <td class="best">35.871</td>
+                              <td class="car">626 BSP</td>
+                              <td class="driver">D. Curtiss</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Classic American</b></td>
+                              <td class="best">35.897</td>
+                              <td class="car">118 CAMT</td>
+                              <td class="driver">R. Duke</td>
+                            </tr>                            
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">32.512</td>
+                              <td class="car">87 FP</td>
+                              <td class="driver">K. Coughlin</td>
+                            </tr>  
+                            <tr>
+                              <td class="category"><b>Kart</b></td>
+                              <td class="best">32.859</td>
+                              <td class="car">99 KM</td>
+                              <td class="driver">J. Ricard</td>
+                            </tr>                                            
+                            <tr>
+                              <td class="category"><b>Junior Kart</b></td>
+                              <td class="best">38.630</td>
+                              <td class="car">98 JA</td>
+                              <td class="driver">D. Coughlin</td>
+                            </tr>                                              
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2019/12-15/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/12-15/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/12-15/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/12-15/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+ <div class="grid-item">
+                  <a href={Nov19L} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Nov19} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">November 24, 2019</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">45.990</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">37.483</td>
+                              <td class="car">87 ES</td>
+                              <td class="driver">K. Coughlin</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">46.868</td>
+                              <td class="car">66 CS</td>
+                              <td class="driver">D. Toups</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">46.882</td>
+                              <td class="car">24 STH</td>
+                              <td class="driver">K. Duplantis</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Classic American</b></td>
+                              <td class="best">52.678</td>
+                              <td class="car">2 CAMT</td>
+                              <td class="driver">D. Neuville</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">50.679</td>
+                              <td class="car">18 DP</td>
+                              <td class="driver">P. Awbrey</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Modified</b></td>
+                              <td class="best">45.990</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>           
+                            <tr>
+                              <td class="category"><b>Junior Kart</b></td>
+                              <td class="best">53.464</td>
+                              <td class="car">98 JA</td>
+                              <td class="driver">D. Coughlin</td>
+                            </tr>                                              
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2019/11-24/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/11-24/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/11-24/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/11-24/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+ <div class="grid-item">
+                  <a href={Oct19} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Oct19} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">October 27, 2019</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">33.691</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">27.385</td>
+                              <td class="car">87 GS</td>
+                              <td class="driver">K. Coughlin</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">34.234</td>
+                              <td class="car">3 AS</td>
+                              <td class="driver">T. Neuville</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">34.625</td>
+                              <td class="car">0 STR</td>
+                              <td class="driver">W. Burk</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Classic American</b></td>
+                              <td class="best">35.387</td>
+                              <td class="car">118 CAMT</td>
+                              <td class="driver">D. Roddy</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">37.156</td>
+                              <td class="car">18 DP</td>
+                              <td class="driver">P. Awbrey</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Modified</b></td>
+                              <td class="best">33.691</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>                         
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2019/10-27/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/10-27/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/10-27/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2019/10-27/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
  <div class="grid-item">
                   <a href={Sep19L} target="_blank" rel="noopener noreferrer">
                     <div class="map">
@@ -268,7 +625,7 @@ const IndexPage = () => (
                             </tr>
                             <tr>
                               <td class="category"><b>Street</b></td>
-                              <td class="best">34.081</td>
+                              <td class="best">43.251</td>
                               <td class="car">9 GS</td>
                               <td class="driver">M. Bales</td>
                             </tr>
@@ -514,7 +871,7 @@ const IndexPage = () => (
                             </tr>
                             <tr>
                               <td class="category"><b>Touring</b></td>
-                              <td class="best">34.414</td>
+                              <td class="best">42.330</td>
                               <td class="car">24 STH</td>
                               <td class="driver">K. Duplantis</td>
                             </tr>
@@ -547,7 +904,7 @@ const IndexPage = () => (
                       </div>
                     </div>
                     <div class="categories">
-                      <a href="http://www.cenla-scca.org/wp-content/uploads/2019/04/march-31st_fin.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2019/3-31/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -559,7 +916,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/wp-content/uploads/2019/04/march-31st_raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2019/3-31/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -571,7 +928,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/wp-content/uploads/2019/04/march-31st_pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2019/3-31/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring">
@@ -583,7 +940,7 @@ const IndexPage = () => (
                           </div>
                         </div>
                       </a>
-                      <a href="http://www.cenla-scca.org/wp-content/uploads/2019/04/march-31st_sum.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                      <a href="http://www.cenla-scca.org/results/2019/3-31/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
                         <div class="ring">
                           <div class="static-ring"></div>
                           <div class="lds-ring shape">
