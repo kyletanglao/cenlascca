@@ -15,14 +15,14 @@ const IndexPage = () => (
       <section id="wrapper">
           <section id="two" className="wrapper alt spotlight style2">
             <div className="inner">
-              <div className="content">
+              <div className="content left">
                 <h2 className="major">2020 Season</h2>
-                {/* <h4>2020 Season Rules</h4>
+                <h4>2020 Season Rules</h4>
                 <ul className="Alt">
-                  <li>Drivers must complete 7 out of 9 events to qualify for a trophy</li>
-                  <li>Slowest two events will be dropped</li>
-                </ul> */}
-                <ul className="actions fit">
+                  <li>Drivers must complete 6 out of 9 events to qualify for a trophy</li>
+                  <li>Best 6 events will count towards overall Pax championship</li>
+                </ul>
+                <ul className="actions grid events">
                 <li><a href="http://msreg.com/january19"><span class="button fit">Jan 19</span></a></li>
                 <li><a href="http://msreg.com/february23"><span class="button fit">Feb 23</span></a></li>
                 <li><a href="http://msreg.com/march29th"><span class="button fit">Mar 29</span></a></li>
