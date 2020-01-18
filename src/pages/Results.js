@@ -60,6 +60,9 @@ import Nov19L from '../assets/maps/Nov2019_MapL.jpg';
 import Nov19 from '../assets/maps/Nov2019_Map.jpg';
 import Dec19L from '../assets/maps/Dec2019_MapL.jpg';
 import Dec19 from '../assets/maps/Dec2019_Map.jpg';
+
+import Jan20 from '../assets/maps/Jan2020_Map.jpg';
+import Jan20L from '../assets/maps/Jan2020_MapL.jpg';
 // import Feb19L from '../assets/maps/Feb2019_Map.png';
 const IndexPage = () => (
   <Layout fullMenu>
@@ -92,6 +95,136 @@ const IndexPage = () => (
         </div>
       </header>
       <section id="wrapper">
+
+      <section id="2020" className="wrapper alt spotlight style2">
+        <div className="inner">
+          <div className="content left">
+              <h2 className="major">2020 Season</h2>
+
+ <div class="grid left">
+
+ <div class="grid-item">
+                  <a href={Jan20L} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Jan20} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">January 19, 2020</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">00 AA</td>
+                              <td class="driver">A. Ghost</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">00 AA</td>
+                              <td class="driver">A. Ghost</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">00 AA</td>
+                              <td class="driver">A. Ghost</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">00 AA</td>
+                              <td class="driver">A. Ghost</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Prepared</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">00 AA</td>
+                              <td class="driver">A. Ghost</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Classic American</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">00 AA</td>
+                              <td class="driver">A. Ghost</td>
+                            </tr>                            
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">00 AA</td>
+                              <td class="driver">A. Ghost</td>
+                            </tr>                                           
+                            <tr>
+                              <td class="category"><b>Junior Kart</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">00 AA</td>
+                              <td class="driver">A. Ghost</td>
+                            </tr>                                              
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2020/1-19/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/1-19/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/1-19/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/1-19/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+          
+          </div>
+          </div>
+        </section>
 
 
       <section id="2019F" className="wrapper spotlight style1">
