@@ -117,51 +117,63 @@ const IndexPage = () => (
                           <tbody>
                             <tr>
                               <td class="category"><b>Raw</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">00 AA</td>
-                              <td class="driver">A. Ghost</td>
+                              <td class="best">41.353</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Pax</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">00 AA</td>
-                              <td class="driver">A. Ghost</td>
+                              <td class="best">32.769</td>
+                              <td class="car">9 GS</td>
+                              <td class="driver">M. Bales</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">00 AA</td>
-                              <td class="driver">A. Ghost</td>
+                              <td class="best">41.376</td>
+                              <td class="car">9 GS</td>
+                              <td class="driver">M. Bales</td>
                             </tr>
                             <tr>
+                              <td class="category"><b>Solo Spec Coupe</b></td>
+                              <td class="best">45.850</td>
+                              <td class="car">1 SSC</td>
+                              <td class="driver">J. Scalfano</td>
+                            </tr>                            
+                            <tr>
                               <td class="category"><b>Touring</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">00 AA</td>
-                              <td class="driver">A. Ghost</td>
+                              <td class="best">41.421</td>
+                              <td class="car">24 STH</td>
+                              <td class="driver">K. Duplantis</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street Prepared</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">00 AA</td>
-                              <td class="driver">A. Ghost</td>
+                              <td class="best">47.547</td>
+                              <td class="car">21 FSP</td>
+                              <td class="driver">J. Forte</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Classic American</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">00 AA</td>
-                              <td class="driver">A. Ghost</td>
+                              <td class="best">43.777</td>
+                              <td class="car">118 CAMT</td>
+                              <td class="driver">D. Roddy</td>
                             </tr>                            
                             <tr>
                               <td class="category"><b>Prepared</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">00 AA</td>
-                              <td class="driver">A. Ghost</td>
-                            </tr>                                           
+                              <td class="best">49.083</td>
+                              <td class="car">113 XP</td>
+                              <td class="driver">M. Williams</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Modified</b></td>
+                              <td class="best">41.353</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>                                                                       
                             <tr>
                               <td class="category"><b>Junior Kart</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">00 AA</td>
-                              <td class="driver">A. Ghost</td>
+                              <td class="best">46.171</td>
+                              <td class="car">98 JA</td>
+                              <td class="driver">D. Coughlin</td>
                             </tr>                                              
                           </tbody>
                         </table>

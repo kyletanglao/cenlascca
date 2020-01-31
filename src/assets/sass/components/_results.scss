@@ -1,3 +1,76 @@
+/* Interview Styles */
+
+.white{
+  color: white;
+  letter-spacing: 2px;
+}
+
+.intRun {
+
+  display: flex;
+  border: 2px solid  white;
+  margin-right: 20px;
+  margin-bottom: 20px;
+min-width: 110px;
+}
+
+.intRuns {
+
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0px;
+  font-size: 10px;
+  text-transform: uppercase;
+
+}
+
+.runTime {
+
+  font-weight: bold;
+  padding: 0px 10px;
+  color:  white;
+
+}
+
+.runNumber {
+
+  background:  white;
+  font-weight: bold;
+  padding: 0px 10px;
+
+}
+
+.intResults {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-left: 5px solid #FFCB6B;
+  padding-left: 10px;
+  line-height: 1.2em;
+  span{
+    color: white;
+  }
+  .car{
+    font-weight: bold;
+  }
+  .best {
+    color: #FFCB6B;
+    font-weight: bold;
+  }
+}
+
+
+.bestRun {
+
+  border: 2px solid #FFCB6B;
+  .runNumber{
+    background: #FFCB6B;
+  } 
+  .runTime{
+    color: #FFCB6B;
+  }
+
+}
 /* Results */
 .grid{
 margin: 0px !important;

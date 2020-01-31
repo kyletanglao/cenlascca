@@ -24,8 +24,7 @@ const IndexPage = () => (
                       <tr><th>Date</th><th>Region</th><th>Site</th><th>Link</th></tr>
                     </thead>
                     <tbody>                                          
-                      <tr><td><b>01/19/20</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="http://msreg.com/january19" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Jan 19 &nbsp;</a></td></tr>  
-                      <tr><td><b>02/02/20</b></td><td>DELTA</td><td>Nola Motorsports Park</td><td><a target="_blank" rel="noopener noreferrer" className="button disabled fit">&nbsp; Feb 2 &nbsp;</a></td></tr>  
+                      <tr><td><b>02/02/20</b></td><td>DELTA</td><td>Nola Motorsports Park</td><td><a href="https://www.dlbracing.com/Event/7127" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Feb 2 &nbsp;</a></td></tr>  
                       <tr><td><b>02/09/20</b></td><td>HOUSCCA</td><td>Gulf Greyhound Park</td><td><a href="http://msreg.com/HOUSCCA-2020-2" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Feb 9 &nbsp;</a></td></tr>  
                       <tr><td><b>02/23/20</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="http://msreg.com/february23"target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Feb 23 &nbsp;</a></td></tr>  
                       <tr><td><b>03/07/20</b></td><td>HOUSCCA</td><td>Houston Police Academy</td><td><a href="http://msreg.com/HOUSCCA-2020-3" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Mar 7 &nbsp;</a></td></tr>  
