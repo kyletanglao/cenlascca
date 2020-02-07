@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import spotlight from '../assets/images/spotlights/HKnight.jpg';
 
-
 const IndexPage = () => (
   <Layout fullMenu>    
     <section id="wrapper">
