@@ -62,8 +62,13 @@ import Dec19L from '../assets/maps/Dec2019_MapL.jpg';
 import Dec19 from '../assets/maps/Dec2019_Map.jpg';
 
 import Jan20 from '../assets/maps/Jan2020_Map.jpg';
+import Feb20 from '../assets/maps/Feb2020_Map.jpg';
+
 import Jan20L from '../assets/maps/Jan2020_MapL.jpg';
+import Sep20 from '../assets/maps/Sep2020_Map.jpg'
 // import Feb19L from '../assets/maps/Feb2019_Map.png';
+import Nov20 from '../assets/maps/Nov2020_Map.jpg'
+
 const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
@@ -102,6 +107,489 @@ const IndexPage = () => (
               <h2 className="major">2020 Season</h2>
 
  <div class="grid left">
+
+ <div class="grid-item">
+                  <a href={Nov20} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Nov20} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">November 22, 2020</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">0 AA</td>
+                              <td class="driver">A. Placeholder</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">0 AA</td>
+                              <td class="driver">A. Placeholder</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">0 AA</td>
+                              <td class="driver">A. Placeholder</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Solo Spec Coupe</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">0 AA</td>
+                              <td class="driver">A. Placeholder</td>
+                            </tr>                            
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">0 AA</td>
+                              <td class="driver">A. Placeholder</td>
+                            </tr>
+                            <tr>
+                            <td class="category"><b>Classic American</b></td>
+                            <td class="best">00.000</td>
+                              <td class="car">0 AA</td>
+                              <td class="driver">A. Placeholder</td>
+                            </tr>                         
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">0 AA</td>
+                              <td class="driver">A. Placeholder</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Modified</b></td>
+                              <td class="best">00.000</td>
+                              <td class="car">0 AA</td>
+                              <td class="driver">A. Placeholder</td>
+                            </tr>                                                                       
+                                    
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2020/11-22/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/11-22/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/11-22/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/11-22/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+ <div class="grid-item">
+                  <a href={Oct19} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Oct19} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">October 25, 2020</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">37.523</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">30.941</td>
+                              <td class="car">3 AS</td>
+                              <td class="driver">T. Neuville</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">37.780</td>
+                              <td class="car">3 AS</td>
+                              <td class="driver">T. Neuville</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Solo Spec Coupe</b></td>
+                              <td class="best">39.932</td>
+                              <td class="car">10 SSC</td>
+                              <td class="driver">B. Brevata</td>
+                            </tr>                            
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">39.094</td>
+                              <td class="car">1 STU</td>
+                              <td class="driver">B. ODeay</td>
+                            </tr>
+                            <tr>
+                            <td class="category"><b>Classic American</b></td>
+                              <td class="best">42.028</td>
+                              <td class="car">269 CAMS</td>
+                              <td class="driver">J. Harding</td>
+                            </tr>                         
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">39.220</td>
+                              <td class="car">99 FP</td>
+                              <td class="driver">B. Vizina</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Modified</b></td>
+                              <td class="best">37.523</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>                                                                       
+                                    
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2020/10-25/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/10-25/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/10-25/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/10-25/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+ <div class="grid-item">
+                  <a href={Sep20} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Sep20} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">September 27, 2020</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">45.809</td>
+                              <td class="car">5 SSC</td>
+                              <td class="driver">K. Tanglao</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">36.744</td>
+                              <td class="car">187 GS</td>
+                              <td class="driver">K. Coughlin</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">46.395</td>
+                              <td class="car">187 GS</td>
+                              <td class="driver">K. Coughlin</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Solo Spec Coupe</b></td>
+                              <td class="best">45.809</td>
+                              <td class="car">5 SSC</td>
+                              <td class="driver">K. Tanglao</td>
+                            </tr>                            
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">46.757</td>
+                              <td class="car">24 STH</td>
+                              <td class="driver">K. Duplantis</td>
+                            </tr>
+                            <tr>
+                            <td class="category"><b>Classic American</b></td>
+                              <td class="best">47.879</td>
+                              <td class="car">18 CAMT</td>
+                              <td class="driver">D. Roddy</td>
+                            </tr>                         
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">47.865</td>
+                              <td class="car">99 FP</td>
+                              <td class="driver">B. Vizina</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Modified</b></td>
+                              <td class="best">46.348</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>                                                                       
+                                    
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2020/9-26/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/9-26/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/9-26/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/9-26/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+ <div class="grid-item">
+                  <a href={Feb20} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Feb20} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">February 23, 2020</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">42.311</td>
+                              <td class="car">99 KM</td>
+                              <td class="driver">J. Ricard</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">36.753</td>
+                              <td class="car">87 ES</td>
+                              <td class="driver">K. Coughlin</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">46.079</td>
+                              <td class="car">66 CS</td>
+                              <td class="driver">D. Toups</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Solo Spec Coupe</b></td>
+                              <td class="best">49.297</td>
+                              <td class="car">10 SSC</td>
+                              <td class="driver">J. Scalfano</td>
+                            </tr>                            
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">46.262</td>
+                              <td class="car">24 STH</td>
+                              <td class="driver">K. Duplantis</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Prepared</b></td>
+                              <td class="best">50.446</td>
+                              <td class="car">77 CSP</td>
+                              <td class="driver">R. McKinney</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Classic American</b></td>
+                              <td class="best">48.437</td>
+                              <td class="car">118 CAMT</td>
+                              <td class="driver">D. Roddy</td>
+                            </tr>                            
+                            <tr>
+                              <td class="category"><b>Prepared</b></td>
+                              <td class="best">53.037</td>
+                              <td class="car">113 XP</td>
+                              <td class="driver">M. Williams</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street Modified</b></td>
+                              <td class="best">46.212</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>                                                                       
+                            <tr>
+                              <td class="category"><b>Junior Kart</b></td>
+                              <td class="best">50.140</td>
+                              <td class="car">98 JA</td>
+                              <td class="driver">D. Coughlin</td>
+                            </tr>                                              
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2020/2-23/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/2-23/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/2-23/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/2-23/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
  <div class="grid-item">
                   <a href={Jan20L} target="_blank" rel="noopener noreferrer">

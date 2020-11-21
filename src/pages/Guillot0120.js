@@ -52,7 +52,7 @@ const IndexPage = () => (
             <div className="content">
             <a href={spotlight}><img class="imagefit" src={spotlight} alt=""></img></a>
                 <div class="left"><i>
-                Daniel Guillot had his first autocross just one year ago right here at Lamar-Dixon. Largely uncontested, but always striving to find more speed, Dan won HS Champion for the 2018-2019 Cenla season, as well as Delta 2018. Nominated for Rookie of the Year at Delta region, Dan has certainly made an impression with his dark blue Corolla.
+                Daniel Guillot had his first autocross just one year ago right here at Lamar-Dixon. Largely uncontested, but always striving to find more speed, Dan won HS Champion for the 2018-2019 Cenla season, as well as Delta 2019. Nominated for Rookie of the Year at Delta region, Dan has certainly made an impression with his dark blue Corolla.
                 <br></br><br></br>
                 With his last three autocross events, Dan has jumped from mid-pack (Cenla Nov) to top third (Delta Jan) and now to top ten in his H Street Toyota Corolla. Was the breakthrough in the development of the car or the driver? How high can he go with the humble Corolla?
                 </i></div>                  
