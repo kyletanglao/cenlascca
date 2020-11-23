@@ -19,7 +19,7 @@ const IndexPage = () => (
           {/* <p>{config.subHeading}</p> */} <br></br>
           <a href={config.nextEventLink} target="_blank" rel="noopener noreferrer" className="calltoaction button primary fit">Register for {config.nextEventDate}</a>
 					<ul className="actions grid navGrid">
-            <li><a href="http://cenla-scca.org/live/results_live.htm" target="_blank" rel="noopener noreferrer" className="button button-light">Live timing</a></li>
+            <li><a href="http://swamp.gotdns.com:5555/LiveTiming/cenla/results_live.htm" target="_blank" rel="noopener noreferrer" className="button button-light">Live timing</a></li>
             <li><a href="/Guide" className="button button-light">Autocross Guide</a></li>
             <li><a href="/Spectate" className="button button-light">Spectate</a></li>            
             <li><a href="/Results" className="button button-light">Results</a></li>

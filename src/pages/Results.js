@@ -122,51 +122,39 @@ const IndexPage = () => (
                           <tbody>
                             <tr>
                               <td class="category"><b>Raw</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">0 AA</td>
-                              <td class="driver">A. Placeholder</td>
+                              <td class="best">46.837</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Pax</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">0 AA</td>
-                              <td class="driver">A. Placeholder</td>
+                              <td class="best">38.568</td>
+                              <td class="car">66 DS</td>
+                              <td class="driver">D. Toups</td>
                             </tr>
                             <tr>
                               <td class="category"><b>Street</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">0 AA</td>
-                              <td class="driver">A. Placeholder</td>
-                            </tr>
-                            <tr>
-                              <td class="category"><b>Solo Spec Coupe</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">0 AA</td>
-                              <td class="driver">A. Placeholder</td>
-                            </tr>                            
+                              <td class="best">47.852</td>
+                              <td class="car">66 DS</td>
+                              <td class="driver">D. Toups</td>
+                            </tr>                         
                             <tr>
                               <td class="category"><b>Touring</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">0 AA</td>
-                              <td class="driver">A. Placeholder</td>
+                              <td class="best">47.733</td>
+                              <td class="car">24 STH</td>
+                              <td class="driver">K. Duplantis</td>
                             </tr>
                             <tr>
                             <td class="category"><b>Classic American</b></td>
-                            <td class="best">00.000</td>
-                              <td class="car">0 AA</td>
-                              <td class="driver">A. Placeholder</td>
+                            <td class="best">51.569</td>
+                              <td class="car">17 CAMT</td>
+                              <td class="driver">R. Thompson</td>
                             </tr>                         
                             <tr>
-                              <td class="category"><b>Prepared</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">0 AA</td>
-                              <td class="driver">A. Placeholder</td>
-                            </tr>
-                            <tr>
                               <td class="category"><b>Street Modified</b></td>
-                              <td class="best">00.000</td>
-                              <td class="car">0 AA</td>
-                              <td class="driver">A. Placeholder</td>
+                              <td class="best">46.837</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
                             </tr>                                                                       
                                     
                           </tbody>

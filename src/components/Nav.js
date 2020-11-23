@@ -38,7 +38,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
             </Link>
           </li>                  
           <li>
-            <a href="http://cenla-scca.org/live/results_live.htm">
+            <a href="http://swamp.gotdns.com:5555/LiveTiming/cenla/results_live.htm">
               Live Timing
             </a>
           </li>             
