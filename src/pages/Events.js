@@ -24,15 +24,11 @@ const IndexPage = () => (
                   <li>Season points are no longer active this year due to Covid cancellations</li>
                 </ul>
                 <ul className="actions grid events">
-                <li><a href="http://msreg.com/january19"><span class="button fit">Jan 19</span></a></li>
-                <li><a href="http://msreg.com/february23"><span class="button fit">Feb 23</span></a></li>
-                <li><a href="http://msreg.com/march29th"><span class="button fit">Mar 29</span></a></li>
-                <li><span class="button fit disabled">Apr 26</span></li>
-                <li><span class="button fit disabled">May 9</span></li>
-                <li><a href="http://msreg.com/september27th"><span class="button fit">Sep 27</span></a></li>
-                <li><a href="http://msreg.com/october25th"><span class="button fit">Oct 25</span></a></li>
-                <li><a href="http://msreg.com/november22nd"><span class="button fit">Nov 22</span></a></li>
-                <li><span class="button fit">Dec 6</span></li>
+                <li><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana"><span class="button fit">Jan 31</span></a></li>
+                <li><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana"><span class="button fit">Feb 28</span></a></li>
+                <li><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana"><span class="button fit">Mar 28</span></a></li>
+                <li><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana"><span class="button fit">Apr 25</span></a></li>
+                <li><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana"><span class="button fit">May 30</span></a></li>
               </ul>
               </div>
             </div>

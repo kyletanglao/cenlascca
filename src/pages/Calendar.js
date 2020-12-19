@@ -24,9 +24,13 @@ const IndexPage = () => (
                       <tr><th>Date</th><th>Region</th><th>Site</th><th>Link</th></tr>
                     </thead>
                     <tbody>                                          
-                      <tr><td><b>03/08/20</b></td><td>CENLA</td><td>JESTC Evo Center</td><td><a href="http://msreg.com/september27th" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Sep 27 &nbsp;</a></td></tr>  
-                      <tr><td><b>10/10/20</b></td><td>DELTA</td><td>Nola Motorsports Park</td><td><a href="https://delta-scca.org/aec_events/october-2020-delta-vs-world-autocross-event/" target="_blank" rel="noopener noreferrer" className="button disabled fit">&nbsp; Oct 10 &nbsp;</a></td></tr>  
-                      <tr><td><b>10/11/20</b></td><td>DELTA</td><td>Nola Motorsports Park</td><td><a href="https://delta-scca.org/aec_events/october-2020-delta-vs-world-autocross-event/" target="_blank" rel="noopener noreferrer" className="button disabled fit">&nbsp; Oct 11 &nbsp;</a></td></tr>  
+                      <tr><td><b>01/31/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Jan 31 &nbsp;</a></td></tr>  
+                      <tr><td><b>02/28/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Feb 28 &nbsp;</a></td></tr>  
+                      <tr><td><b>03/28/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Mar 28 &nbsp;</a></td></tr>  
+                      <tr><td><b>04/25/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Apr 25 &nbsp;</a></td></tr>  
+                      <tr><td><b>05/30/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; May 30 &nbsp;</a></td></tr>  
+
+
                      </tbody>
                   </table>
                   </div>       

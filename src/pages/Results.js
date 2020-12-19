@@ -68,6 +68,7 @@ import Jan20L from '../assets/maps/Jan2020_MapL.jpg';
 import Sep20 from '../assets/maps/Sep2020_Map.jpg'
 // import Feb19L from '../assets/maps/Feb2019_Map.png';
 import Nov20 from '../assets/maps/Nov2020_Map.jpg'
+import Dec20 from '../assets/maps/Dec2020_Map.jpg'
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -107,6 +108,118 @@ const IndexPage = () => (
               <h2 className="major">2020 Season</h2>
 
  <div class="grid left">
+
+ <div class="grid-item">
+                  <a href={Dec20} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Dec20} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">December 13, 2020</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">46.188</td>
+                              <td class="car">181 STR</td>
+                              <td class="driver">K. Tanglao</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">37.225</td>
+                              <td class="car">8 ES</td>
+                              <td class="driver">C. Coughlin</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">46.942</td>
+                              <td class="car">8 ES</td>
+                              <td class="driver">C. Coughlin</td>
+                            </tr>       
+                            <tr>
+                              <td class="category"><b>Solo Spec Coupe</b></td>
+                              <td class="best">47.338</td>
+                              <td class="car">10 SSC</td>
+                              <td class="driver">M. Holmes</td>
+                            </tr>                  
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">46.188</td>
+                              <td class="car">181 STR</td>
+                              <td class="driver">K. Tanglao</td>
+                            </tr>
+                            <tr>
+                            <td class="category"><b>Classic American</b></td>
+                            <td class="best">51.975</td>
+                              <td class="car">17 CAMT</td>
+                              <td class="driver">R. Thompson</td>
+                            </tr>                         
+                            <tr>
+                              <td class="category"><b>Street Modified</b></td>
+                              <td class="best">46.586</td>
+                              <td class="car">3 SM</td>
+                              <td class="driver">H. Bell</td>
+                            </tr>                                                                       
+                                    
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2020/12-13/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/12-13/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/12-13/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2020/12-13/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
  <div class="grid-item">
                   <a href={Nov20} target="_blank" rel="noopener noreferrer">
