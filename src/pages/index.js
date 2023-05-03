@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import camaro from '../assets/images/camaro.jpg';
 import Zcar from '../assets/images/240.jpg';
 import glory from '../assets/images/glory.jpg';
-import logoRed from '../assets/img/logoRed_s.png';
+import logoRed from '../assets/images/LogoSmall.png';
 
 const IndexPage = () => (
   <Layout>
@@ -19,12 +19,12 @@ const IndexPage = () => (
           {/* <p>{config.subHeading}</p> */} <br></br>
           <a href={config.nextEventLink} target="_blank" rel="noopener noreferrer" className="calltoaction button primary fit">Register for {config.nextEventDate}</a>
 					<ul className="actions grid navGrid">
-            <li><a href="http://swamp.gotdns.com:5555/LiveTiming/cenla/results_live.htm" target="_blank" rel="noopener noreferrer" className="button button-light">Live timing</a></li>
-            <li><a href="/Guide" className="button button-light">Autocross Guide</a></li>
-            <li><a href="/Spectate" className="button button-light">Spectate</a></li>            
+            <li><a href="http://swamp.gotdns.com:5555/LiveTiming/cenla/results_live.htm" target="_blank" rel="noopener noreferrer" className="button button-light liveTimingButton">Live timing</a></li>     
             <li><a href="/Results" className="button button-light">Results</a></li>
-            <li><a href="/Events" className="button button-light">Events</a></li>
             <li><a href="/Calendar" className="button button-light">Calendar</a></li>
+            <li><a href="/Guide" className="button button-light">Guide</a></li>
+            <li><a href="/Spectate" className="button button-light">Spectate</a></li>      
+            <li><a href="/Downloads" className="button button-light">Downloads</a></li> 
             <li><a href="/Contact" className="button button-light">Contact Us</a></li>
       		</ul>
         </div>
@@ -57,12 +57,14 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Motorsport has never been so affordable</h2>
             <ul class="alt">
-              <li>Member Event: $30</li>
-              <li>Member Event Double Runs: $60</li>
-              <li>Non-member Event: $40</li>
+              <li>Member Event: $35</li>
+              <li>JESTC EVOC Event: $50</li>
+              <li>Member Event Double Runs: $70</li>
+              <li>Non-member Event: $45</li>
+              <li>Non-member EVOC Event: $60</li>
               <li>Penalty for On-Site Registration: $10</li>
             </ul>
-            <a href="/Events" className="special">
+            <a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" className="special">
               Find the next event
             </a>
           </div>

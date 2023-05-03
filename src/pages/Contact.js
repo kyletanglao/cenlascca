@@ -1,8 +1,5 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
-
 const IndexPage = () => (
   <Layout fullMenu>    
     <section id="wrapper">
@@ -17,7 +14,6 @@ const IndexPage = () => (
           <div className="inner">
             <div className="content">
               <h2 className="major left">Directory</h2>
-              
                 <div class="">
                 <div class="table-wrapper">
                   <table class="left lessBottom"> 
@@ -29,13 +25,11 @@ const IndexPage = () => (
                       <tr><td><b>Assistant Regional Executive</b></td><td>Alan Merkle</td><td class="breakme">Merkledesigns@Gmail.com</td></tr>                      
                       <tr><td><b>Secretary</b></td><td>Julie Martin</td><td class="breakme"></td></tr>
                       <tr><td><b>Treasurer</b></td><td>Jeff Hoffmann</td><td class="breakme">jeffkh@aol.com</td></tr>                 
-                      <tr><td><b>Webmaster</b></td><td>Henry Bell</td><td class="breakme"></td></tr>     
                       <tr><td><b>Member at large</b></td><td>Bill (JJ Shifty)</td><td class="breakme">Merkledesigns@Gmail.com</td></tr>
                       <tr><td><b>Member at large</b></td><td>Michael Holmes (Jimmy Radiator)</td><td class="breakme">michael.holmes1@cox.net</td></tr>
                       <tr><td><b>Member at large</b></td><td>Quinlan Pellicciotti</td><td class="breakme">quinpell@gmail.com</td></tr>
                       <tr><td><b>Member at large</b></td><td>Barrett Broussard</td><td class="breakme">Barrettbrou@gmail.com</td></tr>
-
-
+                      <tr><td><b>Member at large</b></td><td>Henry Bell (Hanks RS)</td><td class="breakme">info@engineeredwebsites.com</td></tr>
                      </tbody>
                   </table>
                   </div>       

@@ -36,6 +36,48 @@ span.time{
     margin-right: 20px;
 }
 
+span.time.small{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: keep-all;
+}
+
+span.time2{
+    @extend span.time;
+    background: #a7a7ea;
+}
+
+span.time3{
+    @extend span.time;
+    background: #ff5370;
+}
+
+span.time4{
+    @extend span.time;
+    background: #39ADB5;
+}
+
+.texastour{
+    span.time, span.time2, span.time3, span.time4{
+        border-radius: 0px;
+    }
+    span.time2 + .small{
+        border: 3px solid #a7a7ea;
+        border-top: 0px;
+    }
+    span.time3 + .small{
+        border: 3px solid #ff5370;
+        border-top: 0px;
+    }
+    span.time4 + .small{
+        border: 3px solid #39ADB5;
+        border-top: 0px;
+    }
+
+}
+
 ul.flexend > li{
     flex-direction: row;
     justify-content: flex-start;
@@ -67,9 +109,14 @@ ul.flexend{
         font-size: 12px;
     }
 
+    span.time.small{
+        height: 20px;
+
+    }
+
     span.time{
-        width: 86px;
-        font-size: 11px;
+        width: 46px;
+        font-size: 8px;
         display: flex;
         justify-content: center;
         align-items: center;

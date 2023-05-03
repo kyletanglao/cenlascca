@@ -16,12 +16,11 @@ const IndexPage = () => (
           <section id="two" className="wrapper alt spotlight style2">
             <div className="inner">
               <div className="content left">
-                <h2 className="major">2020 Season</h2>
-                <h4>2020 Season Rules</h4>
+                <h2 className="major">2021 Season</h2>
+                <h4>2021 Season Rules</h4>
                 <ul className="Alt">
-                  <li><s>Drivers must complete 6 out of 9 events to qualify for a trophy</s></li>
-                  <li><s>Best 6 events will count towards overall Pax championship</s></li>
-                  <li>Season points are no longer active this year due to Covid cancellations</li>
+                  <li>Drivers must complete 6 out of 9 events to qualify for a trophy</li>
+                  <li>Best 6 events will count towards overall Pax championship</li>
                 </ul>
                 <ul className="actions grid events">
                 <li><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana"><span class="button fit">Jan 31</span></a></li>

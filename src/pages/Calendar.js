@@ -9,14 +9,13 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Calendar</h2>
-          <p>A listing of SCCA Solo events within 5 hours of Baton Rouge</p>
         </div>
       </header>
       <section id="wrapper">
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
             <div className="content">
-              <h2 className="major left">2020 Calendar</h2>
+              <h2 className="major left">2023 Calendar</h2>
                 <div class="">
                 <div class="table-wrapper">
                   <table class="left lessBottom"> 
@@ -24,13 +23,18 @@ const IndexPage = () => (
                       <tr><th>Date</th><th>Region</th><th>Site</th><th>Link</th></tr>
                     </thead>
                     <tbody>                                          
-                      <tr><td><b>01/31/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Jan 31 &nbsp;</a></td></tr>  
-                      <tr><td><b>02/28/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Feb 28 &nbsp;</a></td></tr>  
-                      <tr><td><b>03/28/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Mar 28 &nbsp;</a></td></tr>  
-                      <tr><td><b>04/25/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Apr 25 &nbsp;</a></td></tr>  
-                      <tr><td><b>05/30/21</b></td><td>CENLA</td><td>Lamar-Dixon Expo Center</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; May 30 &nbsp;</a></td></tr>  
+                      <tr><td><b>2/19/23</b></td><td>CENLA</td><td>JESTC EVOC</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Feb 19 &nbsp;</a></td></tr>  
+                      <tr><td><b>3/19/23</b></td><td>CENLA</td><td>JESTC EVOC</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Mar 19 &nbsp;</a></td></tr>  
+                      <tr><td><b>4/30/23</b></td><td>CENLA</td><td>Lamar-Dixon</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Apr 19 &nbsp;</a></td></tr>  
+                      <tr><td><b>5/14/23</b></td><td>CENLA</td><td>Lamar-Dixon</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; May 19 &nbsp;</a></td></tr>  
+                      <tr><td><b>9/24/23</b></td><td>CENLA</td><td>Lamar-Dixon</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Sep 19 &nbsp;</a></td></tr>  
+                      <tr><td><b>10/22/23</b></td><td>CENLA</td><td>Lamar-Dixon</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Oct 19 &nbsp;</a></td></tr>  
+                      <tr><td><b>11/19/23</b></td><td>CENLA</td><td>Lamar-Dixon</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Nov 19 &nbsp;</a></td></tr>  
+                      <tr><td><b>12/17/23</b></td><td>CENLA</td><td>JESTC EVOC</td><td><a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noopener noreferrer" className="button fit">&nbsp; Dec 19 &nbsp;</a></td></tr>  
 
-
+                     
+                     
+                     
                      </tbody>
                   </table>
                   </div>       
