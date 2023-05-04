@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon-pelican.png',
-  nextEventDate: 'December 13 (Coming Soon)',
+  nextEventDate: 'Apr 30',
   nextEventLink: 'https://www.motorsportreg.com/orgs/scca/central-louisiana',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'CENLA SCCA',
@@ -23,7 +23,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:mblazek@bellsouth.net',
     },
   ],
 

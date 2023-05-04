@@ -18,6 +18,31 @@ export default function Nav({ onMenuToggle = () => {} }) {
             </Link>
           </li>
           <li>
+            <a href="http://swamp.gotdns.com:5555/LiveTiming/cenla/results_live.htm">
+              Live Timing
+            </a>
+          </li>   
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/Results"
+            >
+              Results 
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/Calendar"
+            >
+              Calendar
+            </Link>
+          </li>  
+          <li>
             <Link
               onClick={e => {
                 onMenuToggle();
@@ -36,42 +61,17 @@ export default function Nav({ onMenuToggle = () => {} }) {
             >
               Spectate
             </Link>
-          </li>                  
-          <li>
-            <a href="http://swamp.gotdns.com:5555/LiveTiming/cenla/results_live.htm">
-              Live Timing
-            </a>
-          </li>             
+          </li>                            
           <li>
             <Link
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Events"
+              to="/Downloads"
             >
-              Events
+              Downloads
             </Link>
-          </li>    
-          <li>
-            <Link
-              onClick={e => {
-                onMenuToggle();
-              }}
-              to="/Results"
-            >
-              Results 
-            </Link>
-          </li>            
-          <li>
-            <Link
-              onClick={e => {
-                onMenuToggle();
-              }}
-              to="/Calendar"
-            >
-              Calendar
-            </Link>
-          </li>   
+          </li>                 
           <li>
             <Link
               onClick={e => {
