@@ -84,7 +84,7 @@ const IndexPage = () => (
                     <div class="checkText">Air Compressor</div>
                   </div>                 
                 </div>    
-                <br></br><div class="tooltip">*Please see <a href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download" class=""><b>2019 Helmet Certification Label Chart</b></a> for qualifying helmets. Helmets are required; if you do not bring a qualifying helmet, we provide loaner helmets.</div>
+                <br></br><div class="tooltip">*Please see <a href="https://www.scca.com/downloads/66138-2023-0109-helmet-certs-solo-final/download" class=""><b>Helmet Certification Label Chart</b></a> for qualifying helmets. Helmets are required; if you do not bring a qualifying helmet, we provide loaner helmets.</div>
              
               </div>
             </div>
@@ -159,17 +159,19 @@ const IndexPage = () => (
                 <h2 className="major left">Event Itinerary</h2>
                 <ul class="alt flexend">
                   <li><span class="time">4 days prior</span> Map posted</li>
-                  <li><span class="time">1 day prior</span> Online registration closes</li>
-                  <li><span class="time">6:45 AM</span> Set up site</li>
-                  <li><span class="time">8:00 AM</span> Check-in & Tech Opens</li>
-                  <li><span class="time">9:15 AM</span> Check-in & Tech Closes</li>
-                  <li><span class="time">9:20 AM</span> Novice Walk</li>
-                  <li><span class="time">10:15AM</span> Group A Drives | Group B Works</li>
-                  <li><span class="time">TBA</span> Group B Drives | Group A Works</li>
-                  <li><span class="time">TBA</span> 1 hour lunch break</li>                  
-                  <li><span class="time">TBA</span> Group A Drives | Group B Works</li>
-                  <li><span class="time">TBA</span> Group B Drives | Group A Works</li>
-                  <li><span class="time">~3:30 PM</span> Results Posted</li>
+                  <li><span class="time">-</span> Day of Event</li>
+                  <li><span class="time">7:30 AM</span> Event Setup Begins</li>
+                  <li><span class="time">8:00 AM</span> Online Registration Closes</li>
+                  <li><span class="time">8:00 AM</span> On-Site Registration, Check-in & Tech Opens</li>
+                  <li><span class="time">-</span> <b>(All Participants are Required to Check-In)</b></li>
+                  <li><span class="time">9:00 AM</span> On-Site Registration, Check-in & Tech Closes</li>
+                  <li><span class="time">9:15 AM</span> Novice Course Walk</li>
+                  <li><span class="time">9:45 AM</span> Safety Steward Course Walk</li>
+                  <li><span class="time">10:00 AM</span> Driver's Meeting</li>
+                  <li><span class="time">-</span> <b>(All Drivers Must Attend)</b></li>                  
+                  <li><span class="time">10:15 AM</span> Cars to Grid & Workers to Stations</li>
+                  <li><span class="time">10:30 AM</span> First Car On Course</li>
+                  <li><span class="time">~3:30 PM</span> Last Car Out</li>
                 </ul>
               </div>
             </div>
@@ -180,7 +182,7 @@ const IndexPage = () => (
                 <h2 className="major left">Driving the course</h2>
                 <div class="left">
                 <h3>Driving Coaches</h3>      
-                  <p>At CENLA, we assign the previous event's winners as Driving Coaches for their worker station. All you have to do is leave your hazards on in grid and they will hop in and ride with you before you go out on your run.</p>            
+                  <p>At CENLA, we have a number of experienced drivers to assist as Driving Coaches. All you have to do is leave your hazards on in grid and they will hop in and ride with you before you go out on your run.</p>            
 
 
                   <h3>Pointer Cones</h3>      
@@ -281,11 +283,11 @@ const IndexPage = () => (
                 <h2 className="major left">Car Classes</h2>
                 <h3>Finding a class for your lightly modified vehicle</h3>      
                 <p class="lessBottom">For stock or lightly modified cars, your car will likely fall into Street or Street Touring class. Car classes are listed on page 184 of the 2019 Solo National Solo Rules.</p>
-                <a href="https://www.scca.com/downloads/47209-2019-09-02-solo-rules-book-1-complete-reduced/download" class="button fit linkfit">2019 SCCA® National Solo® Rules</a>        
+                <a href="https://www.scca.com/pages/solo-cars-and-rules" class="button fit linkfit">SCCA® National Solo® Rules</a>        
                 <br></br><br></br><br></br>
                 <h3>Finding a class for your modified vehicle</h3>      
                 <p class="lessBottom">For modified cars, you will fall into a certain class based on the magnitude of the changes. Check the cheat sheet below for an approximate classing. Refer to the official rules above for specifics.</p>                
-                <a href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download" class="button fit linkfit">2019 Category Allowances "Cheat Sheet" </a>&nbsp;&nbsp;        
+                <a href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download" class="button fit linkfit">Category Allowances "Cheat Sheet" </a>&nbsp;&nbsp;        
                 <br></br><br></br>
                 <h3>Understanding PAX values</h3>
                 <p>PAX is an index system designed to equalize participants running cars from different SCCA Solo classes in the same local regional class. The PAX value is a multiplier used on the entrant's time, and then compared directly with other class competitors and their PAX multiplied time. PAX values are updated yearly taking data from 500+ national SCCA Solo events.</p>
@@ -347,9 +349,9 @@ const IndexPage = () => (
                 <ul class="alt flexend left reference">
                   <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/autocross-faq">Autocross FAQ</a></li>
                   <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/what-is-autocross">What is Autocross?</a></li>
-                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/downloads/44726-2019-03-20-solo-helmet-cert-decals/download">2019 Helmet Certification Label Chart</a></li>
-                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/solo-cars-and-rules">2019 SCCA® National Solo® Rules</a></li>
-                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download">2019 Category Allowances "Cheat Sheet" </a></li>
+                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/downloads/66138-2023-0109-helmet-certs-solo-final/download">Helmet Certification Label Chart</a></li>
+                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/pages/solo-cars-and-rules">SCCA® National Solo® Rules</a></li>
+                  <li><span class="time">SCCA</span><a target="_blank" rel="noopener noreferrer" href="https://www.scca.com/downloads/44544-2019-03-08-quick-reference-of-category-allowances/download">Category Allowances "Cheat Sheet" </a></li>
                 </ul>
                 <br></br><br></br>
               </div>

@@ -22,14 +22,14 @@ const IndexPage = () => (
                     </thead>
                     <tbody>
                       <tr><td><b>Regional Executive</b></td><td>Mike Blazek</td><td>mblazek@bellsouth.net</td></tr>
-                      <tr><td><b>Assistant Regional Executive</b></td><td>Alan Merkle</td><td class="breakme">Merkledesigns@Gmail.com</td></tr>                      
-                      <tr><td><b>Secretary</b></td><td>Julie Martin</td><td class="breakme"></td></tr>
+                      <tr><td><b>Assistant Regional Executive</b></td><td>Chris Evanco</td><td class="breakme">jcevanco@gmail.com</td></tr>                      
+                      <tr><td><b>Secretary</b></td><td>Julie Martin</td><td class="breakme">projectoctane@gmail.com</td></tr>
                       <tr><td><b>Treasurer</b></td><td>Jeff Hoffmann</td><td class="breakme">jeffkh@aol.com</td></tr>                 
-                      <tr><td><b>Member at large</b></td><td>Bill (JJ Shifty)</td><td class="breakme">Merkledesigns@Gmail.com</td></tr>
-                      <tr><td><b>Member at large</b></td><td>Michael Holmes (Jimmy Radiator)</td><td class="breakme">michael.holmes1@cox.net</td></tr>
+                      <tr><td><b>Member at large</b></td><td>Michael Holmes (Jimmy Radiator)</td><td class="breakme">holmesbr2@gmail.com</td></tr>
                       <tr><td><b>Member at large</b></td><td>Quinlan Pellicciotti</td><td class="breakme">quinpell@gmail.com</td></tr>
-                      <tr><td><b>Member at large</b></td><td>Barrett Broussard</td><td class="breakme">Barrettbrou@gmail.com</td></tr>
                       <tr><td><b>Member at large</b></td><td>Henry Bell (Hanks RS)</td><td class="breakme">info@engineeredwebsites.com</td></tr>
+                      <tr><td><b>Member at large</b></td><td>Hunter Knight</td><td class="breakme">hunterpknight@gmail.com</td></tr>
+                      <tr><td><b>Member at large</b></td><td>Justin Pham</td><td class="breakme">phamruns247@gmail.com</td></tr>
                      </tbody>
                   </table>
                   </div>       
