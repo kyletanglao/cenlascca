@@ -90,6 +90,9 @@ import Dec22 from '../assets/maps/Dec2022_Map.jpg';
 import Feb23 from '../assets/maps/Feb2023_Map_s.jpg';
 import Feb23L from '../assets/maps/Feb2023_Map.jpg';
 import Mar23 from '../assets/maps/Mar2023_Map.jpg';
+import Apr23 from '../assets/maps/Apr2023_Map.jpg';
+
+
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -128,6 +131,117 @@ const IndexPage = () => (
           <div className="content left winnersection">
               <h2 className="major">2023 Season</h2>
               <div class="grid left">
+
+              <div class="grid-item">
+                  <a href={Apr23} target="_blank" rel="noopener noreferrer">
+                    <div class="map">
+                    <img src={Apr23} alt=""></img>
+                    </div>
+                  </a>
+                  <div class="results">
+                    <div class="date">April 30, 2023</div>
+                    <div class="winners">
+                      <div class="table-wrapper">
+                        <table class="eventWinners">
+                          <tbody>
+                            <tr>
+                              <td class="category"><b>Raw</b></td>
+                              <td class="best">42.709</td>
+                              <td class="car">123 CAMC</td>
+                              <td class="driver">T. Neuville</td>
+                            </tr>
+                            <tr>
+                              <td class="category"><b>Pax</b></td>
+                              <td class="best">35.148</td>
+                              <td class="car">50 HS</td>
+                              <td class="driver">L. Green</td>
+                            </tr>                            
+                            <tr>
+                              <td class="category"><b>Street</b></td>
+                              <td class="best">43.278</td>
+                              <td class="car">461 BS</td>
+                              <td class="driver">J. Jumonville</td>
+                            </tr>                
+                            <tr>
+                              <td class="category"><b>Touring</b></td>
+                              <td class="best">43.738</td>
+                              <td class="car">14 STX</td>
+                              <td class="driver">T. Coffin</td>
+                            </tr>      
+                            <tr>
+                            <td class="category"><b>Street Prepared</b></td>
+                            <td class="best">45.825</td>
+                              <td class="car">57 CSP</td>
+                              <td class="driver">J. Jumonville</td>
+                            </tr>                                                                                                         
+                            <tr>
+                            <td class="category"><b>Classic American</b></td>
+                            <td class="best">42.709</td>
+                              <td class="car">123 CAMC</td>
+                              <td class="driver">T. Neuville</td>
+                            </tr>                                                                                                                              
+                            <tr>
+                            <td class="category"><b>Street Modified</b></td>
+                            <td class="best">45.472</td>
+                              <td class="car">28 SSM</td>
+                              <td class="driver">H. Johnston</td>
+                            </tr>                                                                                                             
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="categories">
+                      <a href="http://www.cenla-scca.org/results/2023/4-30/final.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Final</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2023/4-30/raw.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Raw</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2023/4-30/pax.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring">
+                            <div class="ringText">Pax</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="http://www.cenla-scca.org/results/2023/4-30/summary.htm" class="resultRing" target="_blank" rel="noopener noreferrer">
+                        <div class="ring">
+                          <div class="static-ring"></div>
+                          <div class="lds-ring shape">
+                            <div class="ringText">Class</div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>   
 
               <div class="grid-item">
                   <a href={Mar23} target="_blank" rel="noopener noreferrer">
