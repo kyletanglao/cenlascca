@@ -282,7 +282,7 @@ const IndexPage = () => (
             <div className="content textLeft">
                 <h2 className="major left">Car Classes</h2>
                 <h3>Finding a class for your lightly modified vehicle</h3>      
-                <p class="lessBottom">For stock or lightly modified cars, your car will likely fall into Street or Street Touring class. Car classes are listed on page 184 of the 2019 Solo National Solo Rules.</p>
+                <p class="lessBottom">For stock or lightly modified cars, your car will likely fall into Street or Street Touring class. Car classes are listed in Appendix A of the SCCA® National Solo® Rules.</p>
                 <a href="https://www.scca.com/pages/solo-cars-and-rules" class="button fit linkfit">SCCA® National Solo® Rules</a>        
                 <br></br><br></br><br></br>
                 <h3>Finding a class for your modified vehicle</h3>      

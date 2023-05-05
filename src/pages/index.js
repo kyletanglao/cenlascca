@@ -64,7 +64,7 @@ const IndexPage = () => (
               <li>Non-member EVOC Event: $60</li>
               <li>Penalty for On-Site Registration: $10</li>
             </ul>
-            <a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" className="special">
+            <a href="https://www.motorsportreg.com/orgs/scca/central-louisiana" target="_blank" rel="noreferrer" className="special">
               Find the next event
             </a>
           </div>

@@ -50,7 +50,7 @@ const IndexPage = () => (
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
             <div className="content">
-            <a href={spotlight}><img class="imagefit" src={spotlight} alt=""></img></a>
+            <a href={spotlight}><img class="imagefit" src={spotlight} alt="-"></img></a>
                 <div class="left"><i>
                 One of the region’s most talented drivers, Khai Duplantis is known for surprising the uninitiated crowd with his red Ford Fiesta ST;  a car that we regulars have learned not to underestimate when Khai is behind the wheel. His driving skills have not only netted him significant season points, but he has also been recently headhunted to drive another competitor’s Porsche 911 at the Nola Motorsports Park big track - simply for educational purposes.                            
                 <br></br><br></br>

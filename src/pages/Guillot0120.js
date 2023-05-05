@@ -50,7 +50,7 @@ const IndexPage = () => (
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
             <div className="content">
-            <a href={spotlight}><img class="imagefit" src={spotlight} alt=""></img></a>
+            <a href={spotlight}><img class="imagefit" src={spotlight} alt="-"></img></a>
                 <div class="left"><i>
                 Daniel Guillot had his first autocross just one year ago right here at Lamar-Dixon. Largely uncontested, but always striving to find more speed, Dan won HS Champion for the 2018-2019 Cenla season, as well as Delta 2019. Nominated for Rookie of the Year at Delta region, Dan has certainly made an impression with his dark blue Corolla.
                 <br></br><br></br>

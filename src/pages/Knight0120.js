@@ -50,7 +50,7 @@ const IndexPage = () => (
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
             <div className="content">
-            <a href={spotlight}><img class="imagefit" src={spotlight} alt=""></img></a>
+            <a href={spotlight}><img class="imagefit" src={spotlight} alt="-"></img></a>
                 <div class="left"><i>
                 Hunter Knight has an extensive background in drag racing, most notably his successes in bracket racing with his 1967 Chevrolet Camaro. His other racing experience includes several seasons of online sim racing, first in iRacing and now in Gran Turismo Sport. <br></br><br></br>Hunter’s autocross journey has put him behind the wheel of several cars including the Toyota Corolla, Ford Fiesta ST, Scion FRS, a couple of Mazda Miatas, and of course his own Pontiac Grand Prix GTP.  This event was Hunter’s personal best overall pax finish, sitting pretty in the #6 slot with Carl Meaux’s ‘94 Mazda Miata R-Package.
                 </i></div>                  
